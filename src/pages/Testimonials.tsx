@@ -17,7 +17,7 @@ const Testimonials = () => {
         <div className="container-x">
           <div className="grid gap-10 md:grid-cols-12 md:items-end">
             <div className="md:col-span-7">
-              <SectionHeading eyebrow="WHAT OUR CLIENTS SAY">
+              <SectionHeading eyebrow="WHAT OUR CLIENTS SAY" accent>
                 What clients say about working with us.
               </SectionHeading>
             </div>
