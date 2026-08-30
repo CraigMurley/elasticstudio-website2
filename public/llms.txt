@@ -1,0 +1,15 @@
+# Elastic Studio
+
+> Boutique brand strategy and design studio for founders who refuse to be ordinary. Based in Budapest, London, and Zug.
+
+Elastic Studio partners with founders and teams on brand strategy, identity, naming, voice, and launch-ready design systems.
+
+## Pages
+
+- [About](/about): Studio philosophy, founder, and how we work.
+- [Services](/services): Brand Launch, Brand Evolution, and Brand Refresh offerings.
+- [Work](/portfolio): Selected case studies across tech, biotech, consumer, and architecture.
+- [Articles](/articles): Essays on brand strategy, identity, and design discipline.
+- [Testimonials](/testimonials): What founders and creative directors say.
+- [Awards](/awards): Recognition and festival selections.
+- [Contact](/contact): Start a conversation about your brand.
