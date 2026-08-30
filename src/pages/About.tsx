@@ -74,13 +74,15 @@ const About = () => (
           </Reveal>
           <Reveal delay={160}>
             <blockquote className="border-l-2 border-primary pl-6 font-display text-2xl font-light italic leading-snug text-primary md:text-3xl">
-              "Strategy without craft is a deck. Craft without strategy is decoration. The work lives where they meet."
+              "Strategy without craft is a pitch-deck.
+Craft without strategy is decoration.
+Our work lives where they meet."
             </blockquote>
           </Reveal>
           <Reveal delay={200}>
             <h3 className="font-display text-xl font-medium text-foreground">What drives the work</h3>
             <p className="mt-3 max-w-2xl text-muted-foreground">
-              Confidence over noise. Restraint over decoration. Warmth over distance. We make brands that founders are proud to put their name on, that customers remember, and that hold up at every scale.
+              Signal over noise. We make brands that founders are proud to put their name on, that customers remember, and that hold up at every scale.
             </p>
           </Reveal>
         </div>
