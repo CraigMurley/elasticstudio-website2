@@ -29,7 +29,7 @@ const About = () => (
   <>
     <Seo
       title="About Elastic Studio — Craig Murley, Founder"
-      description="30 years, three continents, 33 awards. Meet Craig Murley and the studio behind Elastic — boutique brand strategy and design."
+      description="30 years, three continents, 33 awards. Meet Craig Murley and the studio behind Elastic — brand strategy and design."
       path="/about"
     />
     <section className="bg-background py-24">
