@@ -70,7 +70,7 @@ const Index = () => {
     <>
       <Seo
         title="Elastic Studio — Brand Strategy & Design for Founders"
-        description="Boutique brand strategy and design for founders who refuse to be ordinary. Budapest · London · Zug."
+        description="Boutique brand strategy and design that turns ambitious founders into category leaders. Budapest · London · Zug."
         path="/"
       />
       {/* HERO */}
