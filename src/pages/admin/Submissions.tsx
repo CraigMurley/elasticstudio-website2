@@ -29,12 +29,20 @@ const Submissions = () => {
         navigate("/auth", { replace: true });
         return;
       }
-      const { data: roles } = await supabase
-        .from("user_roles")
-        .select("role")
-        .eq("user_id", user.id)
-        .eq("role", "admin")
-        .maybeSingle();
+      const fetchRole = async () =>
+        (await supabase
+          .from("user_roles")
+          .select("role")
+          .eq("user_id", user.id)
+          .eq("role", "admin")
+          .maybeSingle()).data;
+
+      let roles = await fetchRole();
+      if (!roles) {
+        // Studio owner bootstraps their own admin role (server-side email check).
+        await supabase.rpc("claim_admin");
+        roles = await fetchRole();
+      }
       if (!roles) {
         if (active) {
           setAuthorized(false);
