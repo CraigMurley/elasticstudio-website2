@@ -89,7 +89,7 @@ export const cases: CaseItem[] = [
     slug: "client-c", 
     name: "Dad & Daughter", 
     industry: "Consumer Brand", 
-    outcome: "A complete rebrand for an American home services brand that owns a unique family positioning.", 
+    outcome: "A complete rebrand for a family owned American home services company.", 
     challenge: "The client came to us with a strong challenge: \"I want this to be recognizable from the moon.\" He also wanted to have the feeling of a team, as his aim is to build a business that will help to turn his technicians into wealthy people. We also had two very strong competitors in his service area, and we needed to find a way to be distinct. ",
     approach: [
       "We started, as we always do, by listening. Discovery sessions with leadership and the advertising agency. The strategy of the family-owned business was already in place but needed the brand and logo designed to communicate this.",
