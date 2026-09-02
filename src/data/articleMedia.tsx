@@ -16,7 +16,7 @@ import merlinBrand from "@/assets/brand-universe-merlin-pictures-group-1-page-br
 import orangeJacketsBrand from "@/assets/brand-universe-orange-jackets-1-page-brand-universe.jpg.asset.json";
 import perceptionBrand from "@/assets/brand-universe-perception-predict-1-page-brand-universe.jpg.asset.json";
 import pregistryBrand from "@/assets/brand-universe-pregistry-1-page-brand-universe-2022.jpg.asset.json";
-import aiBrandStrategyHero from "@/assets/article-ai-brand-strategy.png.asset.json";
+import aiBrandStrategyHero from "@/assets/article-ai-brand-strategy.png";
 
 const logoVsBrandSlides: string[] = [
   apsBrand.url,
@@ -32,7 +32,7 @@ const logoVsBrandSlides: string[] = [
 ];
 
 const overrides: Record<string, WorkMedia> = {
-  "ai-brand-strategy-90-seconds": { type: "image", src: aiBrandStrategyHero.url },
+  "ai-brand-strategy-90-seconds": { type: "image", src: aiBrandStrategyHero },
   "lessons-from-33-briefs": logosBriefsCard,
   "your-website-is-your-brand": { type: "video", src: websiteBrandVideo },
   "founder-voice": founderVoiceImage,
