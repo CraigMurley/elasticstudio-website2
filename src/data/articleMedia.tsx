@@ -16,6 +16,7 @@ import merlinBrand from "@/assets/brand-universe-merlin-pictures-group-1-page-br
 import orangeJacketsBrand from "@/assets/brand-universe-orange-jackets-1-page-brand-universe.jpg.asset.json";
 import perceptionBrand from "@/assets/brand-universe-perception-predict-1-page-brand-universe.jpg.asset.json";
 import pregistryBrand from "@/assets/brand-universe-pregistry-1-page-brand-universe-2022.jpg.asset.json";
+import aiBrandStrategyHero from "@/assets/article-ai-brand-strategy.png.asset.json";
 
 const logoVsBrandSlides: string[] = [
   apsBrand.url,
