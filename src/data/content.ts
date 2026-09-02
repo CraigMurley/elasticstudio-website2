@@ -19,7 +19,7 @@ import ingeniaAgriculture from "@/assets/ingenia/enhancing-agriculture.png";
 export type WorkMedia =
   | string
   | { type: "image"; src: string; fit?: "cover" | "contain" }
-  | { type: "video"; src: string; poster?: string; hasAudio?: boolean };
+  | { type: "video"; src: string; poster?: string; hasAudio?: boolean; title?: string };
 
 type CaseItem = {
   slug: string;

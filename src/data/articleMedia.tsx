@@ -55,6 +55,20 @@ export const renderArticleMedia = (slug: string, className: string, alt = "") =>
   const src = typeof media === "string" ? media : media.src;
   const isVideo = typeof media !== "string" && media.type === "video";
   if (isVideo) {
+    const vimeoId = src.match(/vimeo\.com\/(?:video\/)?(\d+)/)?.[1];
+    if (vimeoId) {
+      const embedSrc = `https://player.vimeo.com/video/${vimeoId}?autoplay=1&muted=1&loop=1&background=1&dnt=1&title=0&byline=0&portrait=0`;
+      const mediaTitle = typeof media !== "string" && media.type === "video" ? media.title : undefined;
+      return (
+        <iframe
+          src={embedSrc}
+          title={mediaTitle || alt || "Project video"}
+          allow="autoplay; fullscreen; picture-in-picture"
+          allowFullScreen
+          className={className}
+        />
+      );
+    }
     return (
       <video
         src={src}
