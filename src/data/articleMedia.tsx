@@ -5,30 +5,30 @@ import logosBriefsCard from "@/assets/article-33-briefs-logos-card.jpg";
 import websiteBrandVideo from "@/assets/article-website-brand-hero.mp4";
 import founderVoiceImage from "@/assets/article-founder-voice.jpg";
 import dadDaughterHero from "@/assets/dad-daughter-hero.mp4";
-import logoVsBrandVideo from "@/assets/whohire-logo-vs-brand.mp4.asset.json";
-import apsBrand from "@/assets/brand-universe-aps-intelligence-1-page-brand-universe-2025.jpg.asset.json";
-import garethBrand from "@/assets/brand-universe-gareth-james-1-page-brand-universe.jpg.asset.json";
-import helpCatsBrand from "@/assets/brand-universe-help-with-cats-1-page-brand-universe.jpg.asset.json";
-import highGroundBrand from "@/assets/brand-universe-high-ground-1-page-brand-universe.jpg.asset.json";
-import justacBrand from "@/assets/brand-universe-justac-1-page-brand-universe.jpg.asset.json";
-import mcbBrand from "@/assets/brand-universe-mcb-tour-championship-1-page-brand-universe.jpg.asset.json";
-import merlinBrand from "@/assets/brand-universe-merlin-pictures-group-1-page-brand-universe.jpg.asset.json";
-import orangeJacketsBrand from "@/assets/brand-universe-orange-jackets-1-page-brand-universe.jpg.asset.json";
-import perceptionBrand from "@/assets/brand-universe-perception-predict-1-page-brand-universe.jpg.asset.json";
-import pregistryBrand from "@/assets/brand-universe-pregistry-1-page-brand-universe-2022.jpg.asset.json";
+import logoVsBrandVideo from "@/assets/whohire-logo-vs-brand.mp4";
+import apsBrand from "@/assets/brand-universe-aps-intelligence-1-page-brand-universe-2025.jpg";
+import garethBrand from "@/assets/brand-universe-gareth-james-1-page-brand-universe.jpg";
+import helpCatsBrand from "@/assets/brand-universe-help-with-cats-1-page-brand-universe.jpg";
+import highGroundBrand from "@/assets/brand-universe-high-ground-1-page-brand-universe.jpg";
+import justacBrand from "@/assets/brand-universe-justac-1-page-brand-universe.jpg";
+import mcbBrand from "@/assets/brand-universe-mcb-tour-championship-1-page-brand-universe.jpg";
+import merlinBrand from "@/assets/brand-universe-merlin-pictures-group-1-page-brand-universe.jpg";
+import orangeJacketsBrand from "@/assets/brand-universe-orange-jackets-1-page-brand-universe.jpg";
+import perceptionBrand from "@/assets/brand-universe-perception-predict-1-page-brand-universe.jpg";
+import pregistryBrand from "@/assets/brand-universe-pregistry-1-page-brand-universe-2022.jpg";
 import aiBrandStrategyHero from "@/assets/article-ai-brand-strategy.png";
 
 const logoVsBrandSlides: string[] = [
-  apsBrand.url,
-  garethBrand.url,
-  helpCatsBrand.url,
-  highGroundBrand.url,
-  justacBrand.url,
-  mcbBrand.url,
-  merlinBrand.url,
-  orangeJacketsBrand.url,
-  perceptionBrand.url,
-  pregistryBrand.url,
+  apsBrand,
+  garethBrand,
+  helpCatsBrand,
+  highGroundBrand,
+  justacBrand,
+  mcbBrand,
+  merlinBrand,
+  orangeJacketsBrand,
+  perceptionBrand,
+  pregistryBrand,
 ];
 
 const overrides: Record<string, WorkMedia> = {
@@ -37,7 +37,7 @@ const overrides: Record<string, WorkMedia> = {
   "your-website-is-your-brand": { type: "video", src: websiteBrandVideo },
   "founder-voice": founderVoiceImage,
   "dad-and-daughter-rebrand": { type: "video", src: dadDaughterHero },
-  "logo-vs-brand": { type: "video", src: logoVsBrandVideo.url },
+  "logo-vs-brand": { type: "video", src: logoVsBrandVideo },
 };
 
 export const getArticleMedia = (slug: string): WorkMedia => {

@@ -6,15 +6,15 @@ import { articles } from "@/data/content";
 import Seo from "@/components/site/Seo";
 import SpokeWheel from "@/components/site/SpokeWheel";
 import { renderArticleMedia } from "@/data/articleMedia";
-import competitorsAsset from "@/assets/dad-daughter-competitors.jpg.asset.json";
-import colourSpaceAsset from "@/assets/dad-daughter-colour-space.jpg.asset.json";
-import originalBrandAsset from "@/assets/original-brand-cornerstone.jpg.asset.json";
-import brandUniverseAsset from "@/assets/dad-daughter-brand-universe.jpg.asset.json";
-import brandDesignAsset from "@/assets/dad-daughter-brand-design.jpg.asset.json";
-import stickersAsset from "@/assets/dad-daughter-stickers.jpg.asset.json";
-import uniformsAsset from "@/assets/dad-daughter-uniforms.jpg.asset.json";
-import primaryLogoAsset from "@/assets/dad-daughter-primary-logo.jpg.asset.json";
-import secondaryLogosAsset from "@/assets/dad-daughter-secondary-logos.jpg.asset.json";
+import competitorsAsset from "@/assets/dad-daughter-competitors.jpg";
+import colourSpaceAsset from "@/assets/dad-daughter-colour-space.jpg";
+import originalBrandAsset from "@/assets/original-brand-cornerstone.jpg";
+import brandUniverseAsset from "@/assets/dad-daughter-brand-universe.jpg";
+import brandDesignAsset from "@/assets/dad-daughter-brand-design.jpg";
+import stickersAsset from "@/assets/dad-daughter-stickers.jpg";
+import uniformsAsset from "@/assets/dad-daughter-uniforms.jpg";
+import primaryLogoAsset from "@/assets/dad-daughter-primary-logo.jpg";
+import secondaryLogosAsset from "@/assets/dad-daughter-secondary-logos.jpg";
 
 const Article = () => {
   const { slug } = useParams();
@@ -119,12 +119,12 @@ const Article = () => {
               <figure className="!my-10">
                 <button
                   type="button"
-                  onClick={() => setLightbox({ src: originalBrandAsset.url, alt: "Original Cornerstone Garage Doors brand" })}
+                  onClick={() => setLightbox({ src: originalBrandAsset, alt: "Original Cornerstone Garage Doors brand" })}
                   className="block w-full overflow-hidden rounded-[8px] focus:outline-none focus-visible:ring-2 focus-visible:ring-primary"
                   aria-label="Open image: Original Cornerstone brand"
                 >
                   <img
-                    src={originalBrandAsset.url}
+                    src={originalBrandAsset}
                     alt="Original Cornerstone Garage Doors brand"
                     className="w-full rounded-[8px] cursor-zoom-in transition-transform duration-300 hover:scale-[1.02]"
                     loading="lazy"
@@ -156,12 +156,12 @@ const Article = () => {
                 <figure className="!my-0">
                   <button
                     type="button"
-                    onClick={() => setLightbox({ src: competitorsAsset.url, alt: "Competitor brands A1 Garage Door Service and Precision Garage Door Service — websites and vehicle livery" })}
+                    onClick={() => setLightbox({ src: competitorsAsset, alt: "Competitor brands A1 Garage Door Service and Precision Garage Door Service — websites and vehicle livery" })}
                     className="block w-full overflow-hidden rounded-[8px] focus:outline-none focus-visible:ring-2 focus-visible:ring-primary"
                     aria-label="Open image: Direct Competitors"
                   >
                     <img
-                      src={competitorsAsset.url}
+                      src={competitorsAsset}
                       alt="Competitor brands A1 Garage Door Service and Precision Garage Door Service — websites and vehicle livery"
                       className="w-full rounded-[8px] cursor-zoom-in transition-transform duration-300 hover:scale-[1.02]"
                       loading="lazy"
@@ -172,12 +172,12 @@ const Article = () => {
                 <figure className="!my-0">
                   <button
                     type="button"
-                    onClick={() => setLightbox({ src: colourSpaceAsset.url, alt: "Dad & Daughter colour space — colour wheel showing existing competitor brand colours to avoid" })}
+                    onClick={() => setLightbox({ src: colourSpaceAsset, alt: "Dad & Daughter colour space — colour wheel showing existing competitor brand colours to avoid" })}
                     className="block w-full overflow-hidden rounded-[8px] focus:outline-none focus-visible:ring-2 focus-visible:ring-primary"
                     aria-label="Open image: Existing brands — colour spaces to avoid"
                   >
                     <img
-                      src={colourSpaceAsset.url}
+                      src={colourSpaceAsset}
                       alt="Dad & Daughter colour space — colour wheel showing existing competitor brand colours to avoid"
                       className="w-full rounded-[8px] cursor-zoom-in transition-transform duration-300 hover:scale-[1.02]"
                       loading="lazy"
@@ -197,12 +197,12 @@ const Article = () => {
                 <figure className="!my-0">
                   <button
                     type="button"
-                    onClick={() => setLightbox({ src: primaryLogoAsset.url, alt: "Dad & Daughter primary logo design" })}
+                    onClick={() => setLightbox({ src: primaryLogoAsset, alt: "Dad & Daughter primary logo design" })}
                     className="block w-full overflow-hidden rounded-[8px] focus:outline-none focus-visible:ring-2 focus-visible:ring-primary"
                     aria-label="Open image: Primary logo design"
                   >
                     <img
-                      src={primaryLogoAsset.url}
+                      src={primaryLogoAsset}
                       alt="Dad & Daughter primary logo design"
                       className="w-full rounded-[8px] cursor-zoom-in transition-transform duration-300 hover:scale-[1.02]"
                       loading="lazy"
@@ -213,12 +213,12 @@ const Article = () => {
                 <figure className="!my-0">
                   <button
                     type="button"
-                    onClick={() => setLightbox({ src: secondaryLogosAsset.url, alt: "Dad & Daughter secondary logos — badge, label, logotype, icon, and avatar variants" })}
+                    onClick={() => setLightbox({ src: secondaryLogosAsset, alt: "Dad & Daughter secondary logos — badge, label, logotype, icon, and avatar variants" })}
                     className="block w-full overflow-hidden rounded-[8px] focus:outline-none focus-visible:ring-2 focus-visible:ring-primary"
                     aria-label="Open image: Secondary logos"
                   >
                     <img
-                      src={secondaryLogosAsset.url}
+                      src={secondaryLogosAsset}
                       alt="Dad & Daughter secondary logos — badge, label, logotype, icon, and avatar variants"
                       className="w-full rounded-[8px] cursor-zoom-in transition-transform duration-300 hover:scale-[1.02]"
                       loading="lazy"
@@ -238,12 +238,12 @@ const Article = () => {
                 <figure className="!my-0">
                   <button
                     type="button"
-                    onClick={() => setLightbox({ src: brandUniverseAsset.url, alt: "Dad & Daughter 1-page brand universe" })}
+                    onClick={() => setLightbox({ src: brandUniverseAsset, alt: "Dad & Daughter 1-page brand universe" })}
                     className="block w-full overflow-hidden rounded-[8px] focus:outline-none focus-visible:ring-2 focus-visible:ring-primary"
                     aria-label="Open image: Brand universe"
                   >
                     <img
-                      src={brandUniverseAsset.url}
+                      src={brandUniverseAsset}
                       alt="Dad & Daughter 1-page brand universe"
                       className="w-full rounded-[8px] cursor-zoom-in transition-transform duration-300 hover:scale-[1.02]"
                       loading="lazy"
@@ -254,12 +254,12 @@ const Article = () => {
                 <figure className="!my-0">
                   <button
                     type="button"
-                    onClick={() => setLightbox({ src: brandDesignAsset.url, alt: "Dad & Daughter brand design — logo, livery, and collateral" })}
+                    onClick={() => setLightbox({ src: brandDesignAsset, alt: "Dad & Daughter brand design — logo, livery, and collateral" })}
                     className="block w-full overflow-hidden rounded-[8px] focus:outline-none focus-visible:ring-2 focus-visible:ring-primary"
                     aria-label="Open image: Brand design"
                   >
                     <img
-                      src={brandDesignAsset.url}
+                      src={brandDesignAsset}
                       alt="Dad & Daughter brand design — logo, livery, and collateral"
                       className="w-full rounded-[8px] cursor-zoom-in transition-transform duration-300 hover:scale-[1.02]"
                       loading="lazy"
@@ -272,12 +272,12 @@ const Article = () => {
                 <figure className="!my-0">
                   <button
                     type="button"
-                    onClick={() => setLightbox({ src: uniformsAsset.url, alt: "Dad & Daughter uniform designs — polos, caps, and outerwear" })}
+                    onClick={() => setLightbox({ src: uniformsAsset, alt: "Dad & Daughter uniform designs — polos, caps, and outerwear" })}
                     className="block w-full overflow-hidden rounded-[8px] focus:outline-none focus-visible:ring-2 focus-visible:ring-primary"
                     aria-label="Open image: Uniforms"
                   >
                     <img
-                      src={uniformsAsset.url}
+                      src={uniformsAsset}
                       alt="Dad & Daughter uniform designs — polos, caps, and outerwear"
                       className="w-full rounded-[8px] cursor-zoom-in transition-transform duration-300 hover:scale-[1.02]"
                       loading="lazy"
@@ -288,12 +288,12 @@ const Article = () => {
                 <figure className="!my-0">
                   <button
                     type="button"
-                    onClick={() => setLightbox({ src: stickersAsset.url, alt: "Dad & Daughter sticker layouts — service, caution, and reminder" })}
+                    onClick={() => setLightbox({ src: stickersAsset, alt: "Dad & Daughter sticker layouts — service, caution, and reminder" })}
                     className="block w-full overflow-hidden rounded-[8px] focus:outline-none focus-visible:ring-2 focus-visible:ring-primary"
                     aria-label="Open image: Stickers"
                   >
                     <img
-                      src={stickersAsset.url}
+                      src={stickersAsset}
                       alt="Dad & Daughter sticker layouts — service, caution, and reminder"
                       className="w-full rounded-[8px] cursor-zoom-in transition-transform duration-300 hover:scale-[1.02]"
                       loading="lazy"
