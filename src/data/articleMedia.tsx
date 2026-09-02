@@ -2,7 +2,7 @@ import type { WorkMedia } from "@/data/content";
 import { articles, cases } from "@/data/content";
 import { useEffect, useState } from "react";
 import logosBriefsCard from "@/assets/article-33-briefs-logos-card.jpg";
-import websiteBrandVideo from "@/assets/article-website-brand-hero.mp4";
+
 import founderVoiceImage from "@/assets/article-founder-voice.jpg";
 import dadDaughterHero from "@/assets/dad-daughter-hero.mp4";
 import logoVsBrandVideo from "@/assets/whohire-logo-vs-brand.mp4";
