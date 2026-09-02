@@ -354,6 +354,43 @@ const Article = () => {
                 Founders: stop hiding. Your voice — your point of view, your standards, your slightly stubborn opinions — is the most defensible asset the company has. Build the brand around it, not in spite of it.
               </p>
             </div>
+          ) : a.slug === "ai-brand-strategy-90-seconds" ? (
+            <div className="mx-auto max-w-[680px] space-y-6 font-light leading-[1.75] text-foreground/90">
+              <p>{a.excerpt}</p>
+              <p>
+                Ask an AI brand tool to "build my brand strategy" and, ninety seconds later, it hands you five pillars, three values (one of them is always "authenticity"), a moodboard of the same soft-focus gradients everyone else just got, and a tone-of-voice slide reading "confident yet approachable." Type "premium minimalist brand" into an image generator and you'll get the same handful of aesthetic clichés — regardless of who's asking, or why. By any reasonable definition, that's a brand strategy. It is also, structurally, identical to the one the AI just handed the founder two tabs over.
+              </p>
+              <p>
+                Here's the part nobody selling these tools wants said out loud: that's not a bug they're racing to fix. It's the business model. A tool that produces the same output for every input scales infinitely. A strategist who produces a different, specific, occasionally uncomfortable answer for every client does not — and was never trying to.
+              </p>
+              <blockquote className="border-l-2 border-primary pl-6 font-display text-2xl font-light italic text-primary">
+                "The mechanical middle of brand strategy just became a commodity. What's left was always the actual point."
+              </blockquote>
+              <h2 className="!mt-12 font-display text-3xl font-light text-foreground">We've seen this <span className="text-primary">movie before</span></h2>
+              <p>
+                Stock photography didn't kill photography; it killed the market for generic photography and left the specific, art-directed kind more valuable. Templated websites didn't kill web design; they killed the twelve-page brochure site and made anything genuinely differentiated worth a premium. AI brand tools are running the identical play, faster, on strategy itself. What's left standing is the part that was always the actual point: someone with taste, pattern recognition, and the nerve to tell a founder their favourite idea is the weakest one in the room.
+              </p>
+              <p>
+                That's uncomfortable for anyone whose value proposition was "we'll make you a nice deck." It's very good news for anyone whose value proposition was never the deck.
+              </p>
+              <h2 className="!mt-12 font-display text-3xl font-light text-foreground">The question an <span className="text-primary">AI won't ask</span></h2>
+              <p>
+                Here's the tell. Ask an AI tool for a brand strategy and it will never ask you an uncomfortable question back. It won't notice that your co-founders each described the company differently just now, that your pricing page contradicts your positioning, or that the story you tell investors and the story you tell customers have quietly drifted apart. A generic five-pillar deck can't catch any of that, because catching it requires having sat in the room, read the tension in the pause before someone answers, and cared enough to push. That's not a workflow gap the next model update closes. It's a different job entirely.
+              </p>
+              <p>
+                This matters more right now than it would have two years ago, because the founders who most need real strategic thinking are also the ones most likely to reach for the free tool first — not out of laziness, but because it's genuinely hard to tell, from the outside, what you're not getting. The output looks polished. It has the right words on it. It's only six months later, watching a competitor with a sharper, more specific position pull ahead in a category you both entered at the same time, that the gap becomes visible. By then it's an expensive lesson instead of a cheap one.
+              </p>
+              <p>
+                None of this is an argument against using AI in brand work — we use it constantly, for exactly the acceleration it's good at: faster exploration, more variations, less time on the mechanical stuff. The argument is narrower, and more useful: the tool is only as good as the thinking directing it. Point a generic prompt at a generic model and you get a generic answer, dressed in this season's aesthetic. Point genuine strategic judgment at the same model and it becomes a very fast pair of hands. The difference was never the software.
+              </p>
+              <h2 className="!mt-12 font-display text-3xl font-light text-foreground">Where to <span className="text-primary">from here</span></h2>
+              <p>
+                So here's the flag, planted: if your brand strategy could have been generated by typing one sentence into a box, it's not a strategy — it's a placeholder wearing a strategy's clothes, and your competitor typed a similar sentence into the same box last week. The founders who'll be talking about their positioning differently a year from now are the ones treating brand as the thinking, not the artefact.
+              </p>
+              <p>
+                That's the whole pitch, really. We lead with thinking, not software — because the software was never the hard part.
+              </p>
+            </div>
           ) : (
           <div className="mx-auto max-w-[680px] space-y-6 font-light leading-[1.75] text-foreground/90">
             <p>{a.excerpt}</p>
