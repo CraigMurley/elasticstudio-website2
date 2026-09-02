@@ -2,7 +2,7 @@ import type { WorkMedia } from "@/data/content";
 import { articles, cases } from "@/data/content";
 import { useEffect, useState } from "react";
 import logosBriefsCard from "@/assets/article-33-briefs-logos-card.jpg";
-import websiteBrandVideo from "@/assets/article-website-brand-hero.mp4";
+
 import founderVoiceImage from "@/assets/article-founder-voice.jpg";
 import dadDaughterHero from "@/assets/dad-daughter-hero.mp4";
 import logoVsBrandVideo from "@/assets/whohire-logo-vs-brand.mp4";
@@ -34,7 +34,7 @@ const logoVsBrandSlides: string[] = [
 const overrides: Record<string, WorkMedia> = {
   "ai-brand-strategy-90-seconds": { type: "image", src: aiBrandStrategyHero },
   "lessons-from-33-briefs": logosBriefsCard,
-  "your-website-is-your-brand": { type: "video", src: websiteBrandVideo },
+  "your-website-is-your-brand": { type: "video", src: "https://vimeo.com/1221763576", title: "FINAL SPARK HOME SCREEN DESIGN" },
   "founder-voice": founderVoiceImage,
   "dad-and-daughter-rebrand": { type: "video", src: dadDaughterHero },
   "logo-vs-brand": { type: "video", src: logoVsBrandVideo },
@@ -55,6 +55,20 @@ export const renderArticleMedia = (slug: string, className: string, alt = "") =>
   const src = typeof media === "string" ? media : media.src;
   const isVideo = typeof media !== "string" && media.type === "video";
   if (isVideo) {
+    const vimeoId = src.match(/vimeo\.com\/(?:video\/)?(\d+)/)?.[1];
+    if (vimeoId) {
+      const embedSrc = `https://player.vimeo.com/video/${vimeoId}?autoplay=1&muted=1&loop=1&background=1&dnt=1&title=0&byline=0&portrait=0`;
+      const mediaTitle = typeof media !== "string" && media.type === "video" ? media.title : undefined;
+      return (
+        <iframe
+          src={embedSrc}
+          title={mediaTitle || alt || "Project video"}
+          allow="autoplay; fullscreen; picture-in-picture"
+          allowFullScreen
+          className={className}
+        />
+      );
+    }
     return (
       <video
         src={src}
