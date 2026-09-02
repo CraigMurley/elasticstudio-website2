@@ -34,7 +34,7 @@ const logoVsBrandSlides: string[] = [
 const overrides: Record<string, WorkMedia> = {
   "ai-brand-strategy-90-seconds": { type: "image", src: aiBrandStrategyHero },
   "lessons-from-33-briefs": logosBriefsCard,
-  "your-website-is-your-brand": { type: "video", src: websiteBrandVideo },
+  "your-website-is-your-brand": { type: "video", src: "https://vimeo.com/1221763576", title: "FINAL SPARK HOME SCREEN DESIGN" },
   "founder-voice": founderVoiceImage,
   "dad-and-daughter-rebrand": { type: "video", src: dadDaughterHero },
   "logo-vs-brand": { type: "video", src: logoVsBrandVideo },
