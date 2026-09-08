@@ -49,11 +49,17 @@ const Auth = () => {
   };
 
   const handleGoogle = async () => {
-    const result = await lovable.auth.signInWithOAuth("google", { redirect_uri: `${window.location.origin}/admin/submissions` });
+    const result = await lovable.auth.signInWithOAuth("google", {
+      redirect_uri: window.location.origin,
+    });
     if (result.error) {
       toast({ title: "Google sign-in failed", description: String(result.error), variant: "destructive" });
+      return;
     }
+    if (result.redirected) return;
+    navigate("/admin/submissions", { replace: true });
   };
+
 
   return (
     <>
