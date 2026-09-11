@@ -354,6 +354,62 @@ const Article = () => {
                 Founders: stop hiding. Your voice — your point of view, your standards, your slightly stubborn opinions — is the most defensible asset the company has. Build the brand around it, not in spite of it.
               </p>
             </div>
+          ) : a.slug === "ai-brand-was-already-vague" ? (
+            <div className="mx-auto max-w-[680px] space-y-6 font-light leading-[1.75] text-foreground/90">
+              <p>{a.excerpt}</p>
+              <p>
+                Nine in ten US marketing agencies now use generative AI. Half have moved on to agentic AI for actual execution. Forrester and the 4As published those numbers this year, and our industry received them the way it receives most numbers about itself: as a compliment. Look how fast we adopted. Look how modern we are.
+              </p>
+              <p>
+                Then you read the rest of the finding, which is the part that matters. The same research concludes that this adoption — bolted onto an industry-wide obsession with productivity and cost efficiency — is undermining marketing effectiveness, creativity, and long-term brand growth.
+              </p>
+              <p>
+                The tools got better. The work got worse. Both things are true, and the second one is not the fault of the first.
+              </p>
+              <p>
+                Here's the uncomfortable bit, and we say it with affection: AI did not make your brand generic. AI made your brand <em>legible</em>. It took whatever was actually in your brand guidelines and ran it ten thousand times at speed, and what came back was a very honest answer to a question most companies had been getting away with not answering.
+              </p>
+              <h2 className="!mt-12 font-display text-3xl font-light text-foreground">Averaging <span className="text-primary">machines</span></h2>
+              <p>
+                Because generative models are, at heart, averaging machines. They are trained on what already exists, so they return what already exists, smoothed. Feed one a brand with genuine conviction — a real point of view, a specific voice, an actual opinion about the world — and it becomes an extraordinary production engine. It scales the distinctiveness you already had. Feed it "innovative, trusted, human-centred, forward-thinking" and it will give you exactly that, in perpetuity, in every format, for pennies. It will give it to your competitor too, who wrote the same four words in a different order.
+              </p>
+              <p>
+                This is why the sameness critique has moved from design Twitter to the boardroom this year. The AI-led campaigns from the big houses — Coca-Cola, Valentino, J.Crew — didn't fail because the pixels were wrong. The pixels were immaculate. They failed the way a very well-made greetings card fails: technically coherent, emotionally weightless. Nothing in them could only have come from that brand. And audiences, it turns out, are unnervingly good at spotting the difference between something made and something generated, even when they can't tell you why.
+              </p>
+              <h2 className="!mt-12 font-display text-3xl font-light text-foreground">The question worth <span className="text-primary">asking</span></h2>
+              <p>
+                So the question worth asking in 2026 isn't "how do we use AI?" Everyone is using AI. Nine in ten, remember. That's not a strategy, that's a utility bill. The question is: what, specifically, would be lost if a machine made our work instead of us?
+              </p>
+              <p>
+                If the honest answer is "not much", you don't have an AI problem. You have a brand that was surviving on production values, and production values just became free.
+              </p>
+              <blockquote className="border-l-2 border-primary pl-6 font-display text-2xl font-light italic text-primary">
+                "The scarce resource was never execution. It's the willingness to be one thing and not another."
+              </blockquote>
+              <h2 className="!mt-12 font-display text-3xl font-light text-foreground">Strength <span className="text-primary">compounds</span> now</h2>
+              <p>
+                The good news is that this cuts sharply in the other direction too. A brand with real clarity — a defensible position, a voice you'd recognise blindfolded, opinions it's prepared to lose customers over — can suddenly show up everywhere, consistently, at a volume that was economically impossible three years ago. The distance between the brands that know who they are and the brands that don't isn't narrowing. It's widening at machine speed.
+              </p>
+              <p>
+                Which means the scarce resource was never execution. It hasn't been for a while. The scarce resource is the decision — the willingness to be one thing and not another, to plant a flag somewhere specific and stand next to it while the market floods with beautifully rendered nothing.
+              </p>
+              <p>
+                That decision cannot be prompted. It can't be A/B tested into existence, and it certainly can't be outsourced to a tool trained on the average of everyone who came before you. It has to be made by people who are prepared to be wrong in public, which is, inconveniently, still the only way anything interesting has ever been made.
+              </p>
+              <h2 className="!mt-12 font-display text-3xl font-light text-foreground">Where to <span className="text-primary">from here</span></h2>
+              <p>
+                Forrester's recommendation, for what it's worth, is that leaders reinvest their efficiency gains into talent, training and capability — into doing things that weren't possible before, rather than doing the same things cheaper. That's a polite way of saying the money you saved was supposed to buy you ambition. Most of it bought margin.
+              </p>
+              <p>
+                So use the tools. Use all of them. We do, daily, and they're genuinely remarkable. But use them to amplify a point of view, not to manufacture one. Get the conviction right first, then let the machine make it loud.
+              </p>
+              <p>
+                Otherwise you've simply bought the world's most expensive way to look like everybody else.
+              </p>
+              <p>
+                If you're not certain what your brand would lose to a machine, that's the conversation worth having. We're at <Link to="/contact" className="text-primary hover:underline">Elastic Studio</Link>.
+              </p>
+            </div>
           ) : a.slug === "ai-brand-strategy-90-seconds" ? (
             <div className="mx-auto max-w-[680px] space-y-6 font-light leading-[1.75] text-foreground/90">
               <p>{a.excerpt}</p>

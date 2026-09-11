@@ -122,6 +122,7 @@ export const cases: CaseItem[] = [
 ];
 
 export const articles = [
+  { slug: "ai-brand-was-already-vague", date: "September 9, 2026", title: "Feed a vague brand to a brilliant machine, and it gets vague at scale.", excerpt: "AI didn't make your brand generic — it made it legible. Feed a vague brand to an averaging machine and it hands you back, at scale, exactly how vague it always was." },
   { slug: "ai-brand-strategy-90-seconds", date: "September 2, 2026", title: "AI Can Build Your Brand Strategy in 90 Seconds. That's the Problem, Not the Pitch.", excerpt: "The mechanical middle of brand strategy just went free. That's exactly why the thinking behind it is worth more, not less." },
   { slug: "dad-and-daughter-rebrand", date: "June 14, 2026", title: "The thinking behind the Rebrand - Owning a headspace.", excerpt: "Solid is good. But solid doesn't make people stop scrolling, point at a van, and say \"I want them.\" How a Tennessee garage door company became a brand built to travel." },
   { slug: "lessons-from-33-briefs", date: "April 02, 2026", title: "What I learned from 33 award-winning brand briefs", excerpt: "The difference between a good brief and a great one is rarely the words. It's the questions that came before them." },
