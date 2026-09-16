@@ -364,11 +364,11 @@ const Article = () => {
                 That assumption is now partially wrong, and the part that's wrong is growing.
               </p>
               <p>
-                An increasing share of first impressions no longer happen on a page you designed. They happen inside an answer — a synthesised paragraph assembled by a model that has never seen your colour palette, doesn't care about your kerning, and has read everything ever written about you with the emotional engagement of a filing cabinet. It will decide, in a fraction of a second, whether you get mentioned. And it will not be charmed.
+                An increasing share of first impressions no longer happen on a page you designed. They happen inside an answer - a synthesised paragraph assembled by a model that has never seen your colour palette, doesn't care about your kerning, and has read everything ever written about you with the emotional engagement of a filing cabinet. It will decide, in a fraction of a second, whether you get mentioned. And it will not be charmed.
               </p>
               <h2 className="!mt-12 font-display text-3xl font-light text-foreground">The plumbing isn't the <span className="text-primary">point</span></h2>
               <p>
-                The technical crowd have already named this — answer engine optimisation, generative engine optimisation, pick your acronym — and are busy selling it as a plumbing problem. Schema. Structured data. Retrievability. All of it real, none of it the point.
+                The technical crowd have already named this - answer engine optimisation, generative engine optimisation, pick your acronym - and are busy selling it as a plumbing problem. Schema. Structured data. Retrievability. All of it real, none of it the point.
               </p>
               <p>
                 Because when you read what the serious analysts actually conclude, you find something almost embarrassingly old-fashioned. Onely's 2026 guidance on AI search visibility lands on three words: clear, trustworthy, distinctive. It notes that sheer volume of content matters less than how reusable a single answer is. Jarred Smith's analysis of AI-search data reports that brands appearing with both mentions and citations are roughly 40% more likely to resurface across consecutive queries than those carrying citations alone.
@@ -380,14 +380,14 @@ const Article = () => {
                 Which is, of course, precisely what a brand has always been. Not a logo. Not a palette. A compression algorithm. A way of squeezing everything a company is into something a stranger can carry in their head and hand to someone else without dropping any of it.
               </p>
               <p>
-                Here is the provocation. If your positioning cannot survive being compressed into one sentence by a system that has never met you, never liked you, and has no interest in your founder story — then it was never positioning. It was decoration. Expensive, beautifully rendered, professionally presented decoration.
+                Here is the provocation. If your positioning cannot survive being compressed into one sentence by a system that has never met you, never liked you, and has no interest in your founder story - then it was never positioning. It was decoration. Expensive, beautifully rendered, professionally presented decoration.
               </p>
               <p>
                 The machines have simply become the most ruthless focus group ever assembled. They don't nod politely in the room. They don't tell you the work is "interesting". They either repeat you or they don't.
               </p>
               <h2 className="!mt-12 font-display text-3xl font-light text-foreground">The production floor, <span className="text-primary">rebuilt</span></h2>
               <p>
-                Meanwhile, the production floor is being rebuilt underneath us. Colabz AI Studio has launched a platform that codifies a brand's visual DNA — lighting, composition, texture, mood — into a persistent system it calls a Visual Bible, pitched openly as a replacement for traditional product photography. Superside and Punchcut are running ranked league tables of AI design agencies, and the shared promise is ten times the output at a fraction of the cost.
+                Meanwhile, the production floor is being rebuilt underneath us. Colabz AI Studio has launched a platform that codifies a brand's visual DNA - lighting, composition, texture, mood - into a persistent system it calls a Visual Bible, pitched openly as a replacement for traditional product photography. Superside and Punchcut are running ranked league tables of AI design agencies, and the shared promise is ten times the output at a fraction of the cost.
               </p>
               <p>
                 Notice what is being sold there. Not better decisions. More outputs. Faster variants. Cheaper multiplication.
@@ -396,7 +396,7 @@ const Article = () => {
                 And multiplication is a magnificent thing, right up until you realise what you're multiplying. Ten thousand on-brand assets generated from a brand that says nothing distinctive is simply a very efficient way to be ignored at scale. The bottleneck in creative work was never how quickly you could produce the fiftieth variant. It was whether the first one was worth producing.
               </p>
               <p>
-                This is the strange gift the AI era has handed to anyone who does the hard part properly. The cheap layer got cheaper. The expensive layer — deciding what is true about a business, what it will refuse to say, what it will plant a flag on when it would be so much more comfortable to hedge — got more valuable, because it is now the only remaining input that matters.
+                This is the strange gift the AI era has handed to anyone who does the hard part properly. The cheap layer got cheaper. The expensive layer - deciding what is true about a business, what it will refuse to say, what it will plant a flag on when it would be so much more comfortable to hedge - got more valuable, because it is now the only remaining input that matters.
               </p>
               <p>
                 Fluxio's 2026 trend work notes that solo-founded startups climbed from 23.7% in 2019 to 36.3% by mid-2025, and identifies a ceiling where the operational load exceeds what one founder and their agents can carry. That ceiling is real. But it is an operations ceiling, not a judgement ceiling. Nobody has yet built a system that runs out of capacity to have a strong opinion.
@@ -406,7 +406,7 @@ const Article = () => {
                 <strong>Say one thing.</strong> Not four things weighted by stakeholder seniority. One. The machine will only carry one anyway, and it will pick for you if you don't.
               </p>
               <p>
-                <strong>Say it identically everywhere.</strong> Consistency used to be a governance nicety enforced by a brand guardian nobody invited to lunch. It is now a retrieval mechanism. Your website, your LinkedIn, your press mentions, your case studies — every inconsistency is a vote for a different version of you.
+                <strong>Say it identically everywhere.</strong> Consistency used to be a governance nicety enforced by a brand guardian nobody invited to lunch. It is now a retrieval mechanism. Your website, your LinkedIn, your press mentions, your case studies - every inconsistency is a vote for a different version of you.
               </p>
               <p>
                 <strong>Make it repeatable.</strong> If a stranger cannot relay your positioning accurately after reading it once, a language model won't either. Write the sentence you want quoted back to you, and then actually earn it.
@@ -415,7 +415,7 @@ const Article = () => {
                 None of this is new. It's just that the audience got larger, colder, and considerably harder to impress with a nice gradient.
               </p>
               <p>
-                If your brand would struggle to survive being compressed by something that has never met you — that's usually a good conversation to have out loud. We have it often, and we rather enjoy it. <Link to="/contact" className="text-primary hover:underline">Let's talk</Link>.
+                If your brand would struggle to survive being compressed by something that has never met you - that's usually a good conversation to have out loud. We have it often, and we rather enjoy it. <Link to="/contact" className="text-primary hover:underline">Let's talk</Link>.
               </p>
             </div>
           ) : a.slug === "ai-brand-was-already-vague" ? (
