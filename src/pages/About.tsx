@@ -4,6 +4,7 @@ import ProofBar from "@/components/site/ProofBar";
 import SectionHeading from "@/components/site/SectionHeading";
 import Reveal from "@/components/site/Reveal";
 import craigImg from "@/assets/craig.jpg";
+import clientBrandsImg from "@/assets/international-client-brands.jpg";
 import Seo from "@/components/site/Seo";
 import skypixel from "@/assets/awards/skypixel-2021.png";
 import caro from "@/assets/awards/caro-2020.png";
@@ -87,6 +88,24 @@ Our work lives where they meet."
           </Reveal>
         </div>
       </div>
+
+      <figure className="container-x mt-16">
+        <Reveal>
+          <div className="overflow-hidden rounded-3xl border border-hairline bg-[hsl(var(--background))]">
+            <img
+              src={clientBrandsImg}
+              alt="A selection of international brands Craig Murley has worked with, including Coca-Cola, Samsung, KFC, Renault, Shell, Ford, Danone, Decathlon, Orange and many more."
+              loading="lazy"
+              width={1920}
+              height={830}
+              className="h-full w-full object-cover"
+            />
+          </div>
+          <figcaption className="mt-4 text-center label-eyebrow text-muted-foreground">
+            A selection of international brands I've worked with.
+          </figcaption>
+        </Reveal>
+      </figure>
     </section>
 
     <ProofBar />
