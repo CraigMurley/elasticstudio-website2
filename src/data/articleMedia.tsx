@@ -18,6 +18,7 @@ import perceptionBrand from "@/assets/brand-universe-perception-predict-1-page-b
 import pregistryBrand from "@/assets/brand-universe-pregistry-1-page-brand-universe-2022.jpg";
 import aiBrandStrategyHero from "@/assets/article-ai-brand-strategy.png";
 import aiVagueFoxHero from "@/assets/article-ai-vague-fox.jpg";
+import machinesReadingHero from "@/assets/article-machines-reading.jpg";
 
 const logoVsBrandSlides: string[] = [
   apsBrand,
@@ -33,6 +34,7 @@ const logoVsBrandSlides: string[] = [
 ];
 
 const overrides: Record<string, WorkMedia> = {
+  "machines-reading-your-brand": { type: "image", src: machinesReadingHero },
   "ai-brand-was-already-vague": { type: "image", src: aiVagueFoxHero },
   "ai-brand-strategy-90-seconds": { type: "image", src: aiBrandStrategyHero },
   "lessons-from-33-briefs": logosBriefsCard,
