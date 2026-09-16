@@ -13,7 +13,7 @@ const Portfolio = () => (
     />
     <section className="bg-background py-24">
       <div className="container-x">
-        <span className="label-eyebrow"><span className="mr-3 inline-block h-px w-8 align-middle bg-primary" />Portfolio</span>
+        <span className="label-eyebrow"><span className="mr-3 inline-block h-px w-8 align-middle bg-primary" />Selected Brand Design Portfolio</span>
         <h1 className="mt-8 max-w-[18ch] font-display text-5xl font-extralight leading-[1.05] text-foreground md:text-7xl">
           Work that made a <span className="italic text-primary">difference.</span>
         </h1>
