@@ -54,7 +54,7 @@ const Contact = () => {
       />
       <section className="bg-background py-24">
         <div className="container-x">
-          <span className="label-eyebrow"><span className="mr-3 inline-block h-px w-8 align-middle bg-primary" />Contact</span>
+          <span className="label-eyebrow"><span className="mr-3 inline-block h-px w-8 align-middle bg-primary" />Contact Elastic Studio</span>
           <h1 className="mt-8 max-w-[22ch] font-display text-5xl font-extralight leading-[1.05] text-foreground md:text-7xl">
             <span className="block">Let's find out if</span>
             <span className="block italic text-primary">we're a good fit.</span>

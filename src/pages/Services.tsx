@@ -30,7 +30,7 @@ const Services = () => (
     />
     <section className="bg-background py-24">
       <div className="container-x">
-        <span className="label-eyebrow"><span className="mr-3 inline-block h-px w-8 align-middle bg-primary" />Services</span>
+        <span className="label-eyebrow"><span className="mr-3 inline-block h-px w-8 align-middle bg-primary" />Brand Strategy &amp; Design Services</span>
         <h1 className="mt-8 max-w-[20ch] font-display text-5xl font-extralight leading-[1.05] text-foreground md:text-7xl">
           We don't just make things look good. <span className="italic text-primary">We make them work.</span>
         </h1>

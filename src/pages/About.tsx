@@ -36,7 +36,7 @@ const About = () => (
     <section className="bg-background py-24">
       <div className="container-x grid gap-12 md:grid-cols-12 md:items-end">
         <div className="md:col-span-7">
-          <span className="label-eyebrow"><span className="mr-3 inline-block h-px w-8 align-middle bg-primary" />About · Craig Murley</span>
+          <span className="label-eyebrow"><span className="mr-3 inline-block h-px w-8 align-middle bg-primary" />About Craig Murley &amp; Elastic Studio</span>
           <h1 className="mt-8 font-display text-5xl font-extralight leading-[1.05] text-foreground md:text-7xl">
             Craig creates the <span className="italic text-primary">unexpected.</span>
           </h1>
