@@ -143,7 +143,7 @@ const Index = () => {
                   <h3 className="font-display text-2xl font-light">{s.title}</h3>
                   <p className="text-sm text-muted-foreground">{s.short}</p>
                   <span className="mt-auto inline-flex items-center gap-2 text-sm text-primary">
-                    Learn more <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
+                    Explore {s.title} <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
                   </span>
                 </Link>
               </Reveal>
@@ -249,7 +249,7 @@ const Index = () => {
             </h3>
             <p className="mt-4 max-w-2xl text-muted-foreground">{latest.excerpt}</p>
             <span className="mt-6 inline-flex items-center gap-2 text-sm text-primary">
-              Read more <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
+              Read this article <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
             </span>
           </Link>
         </div>
