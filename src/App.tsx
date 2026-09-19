@@ -17,6 +17,7 @@ import Testimonials from "./pages/Testimonials.tsx";
 import Awards from "./pages/Awards.tsx";
 import Auth from "./pages/Auth.tsx";
 import Submissions from "./pages/admin/Submissions.tsx";
+import Analytics from "./pages/admin/Analytics.tsx";
 
 const queryClient = new QueryClient();
 
@@ -40,6 +41,7 @@ const App = () => (
             <Route path="/awards" element={<Awards />} />
             <Route path="/auth" element={<Auth />} />
             <Route path="/admin/submissions" element={<Submissions />} />
+            <Route path="/admin/analytics" element={<Analytics />} />
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
             <Route path="*" element={<NotFound />} />
           </Route>
