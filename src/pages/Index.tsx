@@ -123,7 +123,7 @@ const faqs: Faq[] = [
   {
     question: "How much does it cost to work with Elastic Studio?",
     answer:
-      "Every engagement is scoped around the business challenge, the people involved and what needs to be delivered. After an initial conversation, we’ll recommend the right level of support and provide a clear proposal with no hidden extras. We're not looking for any projects with a budget smaller than €20,000.",
+      "Every engagement is scoped around the business challenge, the people involved and what needs to be delivered. After an initial conversation, we’ll recommend the right level of support and provide a clear proposal with no hidden extras. We're not looking for any projects with a budget smaller than €30,000.",
   },
 ];
 
