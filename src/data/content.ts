@@ -21,11 +21,14 @@ export type WorkMedia =
   | { type: "image"; src: string; fit?: "cover" | "contain" }
   | { type: "video"; src: string; poster?: string; hasAudio?: boolean; title?: string };
 
+export type CaseCategory = "brand design" | "Video";
+
 type CaseItem = {
   slug: string;
   name: string;
   industry: string;
   outcome: string;
+  category: CaseCategory;
   challenge?: string;
   approach?: string[];
   image: WorkMedia;
@@ -62,7 +65,8 @@ export const cases: CaseItem[] = [
     slug: "client-a", 
     name: "WhoHire", 
     industry: "Tech Startup", 
-    outcome: "Evolving a startup brand to be unique and to dominate this business sector.", 
+    category: "brand design",
+    outcome: "Evolving a startup brand to be unique and to dominate this business sector.",
     challenge: "Our clients had acquired a small but interesting company called HireWho.AI. The initial idea behind the technology was good, however, the look and app experience was very outdated and felt like a distant tech company in a people-oriented business. Our job was to make this amazing platform feel like one of the team. ", 
     approach: [
       "We found out that whohire.com was available and set up a rebrand, still using the element of the owl from the old logo but creating a much friendlier brand and UI experience. ",
@@ -76,7 +80,8 @@ export const cases: CaseItem[] = [
     slug: "client-b", 
     name: "INGENIA", 
     industry: "BUSINESS GROUP", 
-    outcome: "Share a new brand and vision for a group of companies across Mauritius and Africa", 
+    category: "Video",
+    outcome: "Share a new brand and vision for a group of companies across Mauritius and Africa",
     challenge: "The client came to us with a beautiful new logo and brand design for a company and brand that had existed for over 50 years in Mauritius as The Mauritius Chemical and Fertilizer Industry Limited (MCFI).\n\nOur challenge was to share the new vision and brand identity that went beyond the original business - with a new brand film, animation style and various social media pieces.\n\nThe business works across many industries, and needed a vision to get everyone from current employees, business stakeholders and even government to buy into this new, challenging, exciting vision.",
     approach: [
       "We started, as we always do, by listening and doing research. Working very closely with their design agency in Mauritius, we created a brand film that captured the spirit of this new brand without throwing away any of the brand equity that had been built over 50 years. ",
@@ -89,7 +94,8 @@ export const cases: CaseItem[] = [
     slug: "client-c", 
     name: "Dad & Daughter", 
     industry: "Consumer Brand", 
-    outcome: "A complete rebrand for a family owned American home services company.", 
+    category: "brand design",
+    outcome: "A complete rebrand for a family owned American home services company.",
     challenge: "The client came to us with a strong challenge: \"I want this to be recognizable from the moon.\" He also wanted to have the feeling of a team, as his aim is to build a business that will help to turn his technicians into wealthy people. We also had two very strong competitors in his service area, and we needed to find a way to be distinct. ",
     approach: [
       "We started, as we always do, by listening. Discovery sessions with leadership and the advertising agency. The strategy of the family-owned business was already in place but needed the brand and logo designed to communicate this.",
@@ -103,7 +109,8 @@ export const cases: CaseItem[] = [
     slug: "client-d", 
     name: "FinalSpark", 
     industry: "Biotech", 
-    outcome: "Create a complete visual language for an exciting new Swiss biotech startup.", 
+    category: "brand design",
+    outcome: "Create a complete visual language for an exciting new Swiss biotech startup.",
     challenge: "Our Swiss client is breaking new ground and creating technology that can have massive benefits for us and our planet. The name and logo were already in place, and our challenge was to create a visual identity, something unique, so that they were separated from three giant competitors. We were also tasked with creating the website that could explain this technology and invite researchers, investors, and partners.",
     image: { type: "video", src: "https://vimeo.com/1221763576" }, 
     approach: [
