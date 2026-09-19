@@ -77,7 +77,14 @@ const faqs: Faq[] = [
   {
     question: "Will I be involved in the process?",
     answer:
-      "Absolutely. The strongest brands are built with you, not presented to you at the end. You’ll be involved at the moments that matter — sharing context, challenging ideas and making key decisions — while we lead the strategy and creative process.",
+      "Absolutely — but in a focused, structured way. We guide you through key decisions early, then translate that clarity into design. You won’t be overwhelmed with choices, but your input shapes the outcome at every meaningful stage. This balance is what clients love most about working with us.",
+    answerNodes: (
+      <>
+        <p>Absolutely — but in a focused, structured way.</p>
+        <p>We guide you through key decisions early, then translate that clarity into design. You won’t be overwhelmed with choices, but your input shapes the outcome at every meaningful stage.</p>
+        <p>This balance is what clients love most about working with us.</p>
+      </>
+    ),
   },
   {
     question: "What makes Elastic Studio different from other brand agencies?",
