@@ -92,7 +92,7 @@ const faqs: Faq[] = [
     answerNodes: (
       <>
         <p>
-          You work directly with senior creative leadership throughout, so the thinking never gets lost between a pitch
+          We're a studio, not an agency. You work directly with senior creative leadership throughout, so the thinking never gets lost between a pitch
           team and a delivery team. We combine strategy and design in one focused process, then stay close until the
           brand feels right and works in the real world.
         </p>
