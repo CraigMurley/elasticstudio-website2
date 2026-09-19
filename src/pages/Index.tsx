@@ -11,15 +11,38 @@ import { cases, services, articles, testimonials } from "@/data/content";
 import { Carousel, CarouselContent, CarouselItem, CarouselPrevious, CarouselNext } from "@/components/ui/carousel";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import Autoplay from "embla-carousel-autoplay";
-import { useEffect, useRef } from "react";
+import { useEffect, useRef, type ReactNode } from "react";
 import craigImg from "@/assets/craig.jpg";
 import Seo from "@/components/site/Seo";
 
-const faqs = [
+type Faq = {
+  question: string;
+  answer: string;
+  answerNodes?: ReactNode;
+};
+
+const faqs: Faq[] = [
   {
     question: "What is a One-Page Brand Universe?",
     answer:
-      "It’s a clear, practical view of your brand on a single page: your positioning, personality, visual direction and the principles that hold everything together. It gives your team a shared creative north star without burying the useful thinking in a long presentation.",
+      "The One-Page Brand Universe is a single, beautifully designed document that captures the entire personality of your brand. It includes your brand pillars, tone and behavior, admired brands and inspiration, typography and color system, and emotional direction. It becomes the reference point for everyone who works on your brand — designers, marketers, developers, and even new hires. Our clients often tell us it’s the most valuable thing they’ve ever received for their business.",
+    answerNodes: (
+      <>
+        <p>The One-Page Brand Universe is a single, beautifully designed document that captures the entire personality of your brand.</p>
+        <p>It includes:</p>
+        <ul className="my-2 list-disc space-y-1 pl-5">
+          <li>Your brand pillars</li>
+          <li>Tone and behavior</li>
+          <li>Admired brands and inspiration</li>
+          <li>Typography and color system</li>
+          <li>Emotional direction</li>
+        </ul>
+        <p>It becomes the reference point for everyone who works on your brand — designers, marketers, developers, and even new hires.</p>
+        <p>
+          Our clients often tell us it’s the most valuable thing they’ve ever received for their business. Check out <Link to="/articles" className="text-primary underline-offset-4 hover:underline">our article</Link> for more.
+        </p>
+      </>
+    ),
   },
   {
     question: "Who is Elastic Studio best suited for?",
@@ -360,8 +383,8 @@ const Index = () => {
                   <AccordionTrigger className="py-6 text-left font-display text-lg font-light leading-snug text-foreground hover:text-primary hover:no-underline md:py-7 md:text-xl">
                     {faq.question}
                   </AccordionTrigger>
-                  <AccordionContent className="max-w-2xl pb-7 pr-8 text-base leading-relaxed text-muted-foreground">
-                    {faq.answer}
+                  <AccordionContent className="max-w-2xl space-y-3 pb-7 pr-8 text-base leading-relaxed text-muted-foreground">
+                    {faq.answerNodes ?? faq.answer}
                   </AccordionContent>
                 </AccordionItem>
               ))}
