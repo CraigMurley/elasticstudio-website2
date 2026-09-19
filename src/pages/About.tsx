@@ -32,6 +32,19 @@ const About = () => (
       title="About Elastic Studio — Craig Murley, Founder"
       description="30 years, three continents, 33 awards. Meet Craig Murley and the studio behind Elastic — brand strategy and design."
       path="/about"
+      jsonLd={{
+        "@context": "https://schema.org",
+        "@type": "AboutPage",
+        url: "https://elasticstudio.com/about",
+        mainEntity: {
+          "@type": "Person",
+          name: "Craig Murley",
+          jobTitle: "Founder & Creative Director",
+          url: "https://elasticstudio.com/about",
+          worksFor: { "@type": "Organization", name: "Elastic Studio", url: "https://elasticstudio.com/" },
+          knowsAbout: ["Brand strategy", "Brand identity", "Art direction", "Design systems"],
+        },
+      }}
     />
     <section className="bg-background py-24">
       <div className="container-x grid gap-12 md:grid-cols-12 md:items-end">

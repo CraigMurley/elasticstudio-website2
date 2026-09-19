@@ -42,14 +42,38 @@ const Article = () => {
         description={a.excerpt}
         path={`/articles/${a.slug}`}
         type="article"
-        jsonLd={{
-          "@context": "https://schema.org",
-          "@type": "Article",
-          headline: a.title,
-          datePublished: a.date,
-          author: { "@type": "Person", name: "Craig Murley" },
-          publisher: { "@type": "Organization", name: "Elastic Studio" },
-        }}
+        jsonLd={[
+          {
+            "@context": "https://schema.org",
+            "@type": "Article",
+            headline: a.title,
+            description: a.excerpt,
+            datePublished: new Date(a.date).toISOString().slice(0, 10),
+            dateModified: new Date(a.date).toISOString().slice(0, 10),
+            inLanguage: "en",
+            mainEntityOfPage: `https://elasticstudio.com/articles/${a.slug}`,
+            author: { "@type": "Person", name: "Craig Murley", url: "https://elasticstudio.com/about" },
+            publisher: {
+              "@type": "Organization",
+              name: "Elastic Studio",
+              url: "https://elasticstudio.com/",
+            },
+          },
+          {
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            itemListElement: [
+              { "@type": "ListItem", position: 1, name: "Home", item: "https://elasticstudio.com/" },
+              { "@type": "ListItem", position: 2, name: "Articles", item: "https://elasticstudio.com/articles" },
+              {
+                "@type": "ListItem",
+                position: 3,
+                name: a.title,
+                item: `https://elasticstudio.com/articles/${a.slug}`,
+              },
+            ],
+          },
+        ]}
       />
       <section className="bg-background pb-12 pt-12">
         <div className="container-x">

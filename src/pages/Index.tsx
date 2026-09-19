@@ -72,6 +72,37 @@ const Index = () => {
         title="Elastic Studio — Brand Strategy & Design for Founders"
         description="Brand strategy and design that turns ambitious founders into category leaders. Budapest · London · Zug."
         path="/"
+        jsonLd={[
+          {
+            "@context": "https://schema.org",
+            "@type": "ProfessionalService",
+            "@id": "https://elasticstudio.com/#studio",
+            name: "Elastic Studio",
+            url: "https://elasticstudio.com/",
+            description:
+              "Brand strategy and design studio partnering with founders on strategy, identity, naming, voice, and launch-ready design systems.",
+            founder: { "@type": "Person", name: "Craig Murley", jobTitle: "Founder & Creative Director" },
+            foundingDate: "2014",
+            areaServed: ["Budapest", "London", "Zug", "Worldwide"],
+            knowsAbout: [
+              "Brand strategy",
+              "Brand identity",
+              "Naming",
+              "Brand voice",
+              "Design systems",
+              "Rebranding",
+            ],
+            serviceType: ["Brand Launch", "Brand Evolution", "Brand Refresh"],
+            sameAs: ["https://elasticstudio.com/"],
+          },
+          {
+            "@context": "https://schema.org",
+            "@type": "WebSite",
+            name: "Elastic Studio",
+            url: "https://elasticstudio.com/",
+            publisher: { "@id": "https://elasticstudio.com/#studio" },
+          },
+        ]}
       />
       {/* HERO */}
       <section ref={heroRef} className="relative overflow-hidden bg-background">
