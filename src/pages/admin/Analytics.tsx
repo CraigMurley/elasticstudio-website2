@@ -117,7 +117,7 @@ const Analytics = () => {
 
   return (
     <>
-      <Seo title="Analytics | Elastic Studio" description="Site traffic overview" path="/admin/analytics" />
+      <Seo title="Analytics | Elastic Studio" description="Site traffic overview" path="/admin/analytics" noindex />
       <section className="bg-background py-20">
         <div className="container-x">
           <div className="flex flex-wrap items-end justify-between gap-6">

@@ -63,7 +63,7 @@ const Auth = () => {
 
   return (
     <>
-      <Seo title="Sign in | Elastic Studio" description="Admin sign in" path="/auth" />
+      <Seo title="Sign in | Elastic Studio" description="Admin sign in" path="/auth" noindex />
       <section className="bg-background py-24">
         <div className="container-x mx-auto max-w-md">
           <h1 className="font-display text-4xl font-extralight text-foreground">
