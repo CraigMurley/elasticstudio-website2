@@ -88,7 +88,17 @@ const faqs: Faq[] = [
   {
     question: "What makes Elastic Studio different from other brand agencies?",
     answer:
-      "You work directly with senior creative leadership throughout, so the thinking never gets lost between a pitch team and a delivery team. We combine strategy and design in one focused process, then stay close until the brand feels right and works in the real world.",
+      "You work directly with senior creative leadership throughout, so the thinking never gets lost between a pitch team and a delivery team. We combine strategy and design in one focused process, then stay close until the brand feels right and works in the real world. We don’t just make your business look good. We make your business make sense - and easy for your ideal client to love.",
+    answerNodes: (
+      <>
+        <p>
+          You work directly with senior creative leadership throughout, so the thinking never gets lost between a pitch
+          team and a delivery team. We combine strategy and design in one focused process, then stay close until the
+          brand feels right and works in the real world.
+        </p>
+        <p>We don’t just make your business look good. We make your business make sense - and easy for your ideal client to love.</p>
+      </>
+    ),
   },
   {
     question: "Can a One-Page Brand Universe replace a full brand guideline?",
