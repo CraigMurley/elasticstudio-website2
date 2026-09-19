@@ -39,7 +39,7 @@ const faqs: Faq[] = [
         </ul>
         <p>It becomes the reference point for everyone who works on your brand — designers, marketers, developers, and even new hires.</p>
         <p>
-          Our clients often tell us it’s the most valuable thing they’ve ever received for their business. Check out <Link to="/articles" className="text-primary underline-offset-4 hover:underline">our article</Link> for more.
+          Our clients often tell us it’s the most valuable thing they’ve ever received for their business. Check out <Link to="/articles/logo-vs-brand" className="text-primary underline-offset-4 hover:underline">our article</Link> for more.
         </p>
       </>
     ),
