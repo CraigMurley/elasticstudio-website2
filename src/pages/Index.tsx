@@ -81,8 +81,7 @@ const faqs: Faq[] = [
     answerNodes: (
       <>
         <p>Absolutely — but in a focused, structured way.</p>
-        <p>We guide you through key decisions early, then translate that clarity into design. You won’t be overwhelmed with choices, but your input shapes the outcome at every meaningful stage.&nbsp;This balance is what clients love most about working with us.</p>
-        <p>This balance is what clients love most about working with us.</p>
+        <p>We guide you through key decisions early, then translate that clarity into design. You won’t be overwhelmed with choices, but your input shapes the outcome at every meaningful stage. This balance is what clients love most about working with us.</p>
       </>
     ),
   },
