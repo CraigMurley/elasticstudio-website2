@@ -64,7 +64,15 @@ const faqs: Faq[] = [
   {
     question: "Do you work with clients internationally?",
     answer:
-      "Yes. Elastic Studio works with clients around the world from Budapest, London and Zug. The process is designed to work smoothly across locations and time zones, with focused conversations, clear milestones and collaborative reviews.",
+      "Yes, most of our clients work with us remotely. We collaborate with businesses across Europe and the United States, and all communication is done in English via Zoom, email, and shared documents. Our process is built to be smooth and clear, regardless of location. If you have any doubt — check out our client reviews.",
+    answerNodes: (
+      <>
+        <p>Yes, most of our clients work with us remotely.</p>
+        <p>
+          We collaborate with businesses across Europe and the United States, and all communication is done in English via Zoom, email, and shared documents. Our process is built to be smooth and clear, regardless of location. If you have any doubt — check out <Link to="/testimonials" className="text-primary underline-offset-4 hover:underline">our client reviews</Link>.
+        </p>
+      </>
+    ),
   },
   {
     question: "Will I be involved in the process?",
