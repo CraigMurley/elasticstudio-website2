@@ -52,7 +52,7 @@ const Portfolio = () => {
                   ].join(" ")}
                   aria-pressed={isActive}
                 >
-                  {f}
+                  {f === "brand design" ? "BRAND DESIGN" : f}
                 </button>
               );
             })}
