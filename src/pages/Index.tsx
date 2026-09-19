@@ -9,10 +9,54 @@ import Reveal from "@/components/site/Reveal";
 import ShowreelPlayer from "@/components/site/ShowreelPlayer";
 import { cases, services, articles, testimonials } from "@/data/content";
 import { Carousel, CarouselContent, CarouselItem, CarouselPrevious, CarouselNext } from "@/components/ui/carousel";
+import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import Autoplay from "embla-carousel-autoplay";
 import { useEffect, useRef } from "react";
 import craigImg from "@/assets/craig.jpg";
 import Seo from "@/components/site/Seo";
+
+const faqs = [
+  {
+    question: "What is a One-Page Brand Universe?",
+    answer:
+      "It’s a clear, practical view of your brand on a single page: your positioning, personality, visual direction and the principles that hold everything together. It gives your team a shared creative north star without burying the useful thinking in a long presentation.",
+  },
+  {
+    question: "Who is Elastic Studio best suited for?",
+    answer:
+      "We work best with ambitious founders and leadership teams who see brand as a business tool, not decoration. You might be launching something new, entering a bigger market or evolving a business that has outgrown the way it currently looks and sounds.",
+  },
+  {
+    question: "Do you work with clients internationally?",
+    answer:
+      "Yes. Elastic Studio works with clients around the world from Budapest, London and Zug. The process is designed to work smoothly across locations and time zones, with focused conversations, clear milestones and collaborative reviews.",
+  },
+  {
+    question: "Will I be involved in the process?",
+    answer:
+      "Absolutely. The strongest brands are built with you, not presented to you at the end. You’ll be involved at the moments that matter — sharing context, challenging ideas and making key decisions — while we lead the strategy and creative process.",
+  },
+  {
+    question: "What makes Elastic Studio different from other brand agencies?",
+    answer:
+      "You work directly with senior creative leadership throughout, so the thinking never gets lost between a pitch team and a delivery team. We combine strategy and design in one focused process, then stay close until the brand feels right and works in the real world.",
+  },
+  {
+    question: "Can a One-Page Brand Universe replace a full brand guideline?",
+    answer:
+      "For many growing teams, yes. It captures the decisions people actually need to make consistent work. If your organisation, partner network or rollout requires more detail, it can become the foundation for a fuller set of guidelines and templates.",
+  },
+  {
+    question: "How long does a branding project take?",
+    answer:
+      "It depends on the scope and how quickly decisions can be made. Most focused brand projects take several weeks rather than several months. Once we understand what you need, you’ll receive a clear schedule with milestones before the work begins.",
+  },
+  {
+    question: "How much does it cost to work with Elastic Studio?",
+    answer:
+      "Every engagement is scoped around the business challenge, the people involved and what needs to be delivered. After an initial conversation, we’ll recommend the right level of support and provide a clear proposal with no hidden extras.",
+  },
+];
 
 const Index = () => {
   const featured = cases.slice(0, 3);
@@ -101,6 +145,18 @@ const Index = () => {
             name: "Elastic Studio",
             url: "https://elasticstudio.com/",
             publisher: { "@id": "https://elasticstudio.com/#studio" },
+          },
+          {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            mainEntity: faqs.map((faq) => ({
+              "@type": "Question",
+              name: faq.question,
+              acceptedAnswer: {
+                "@type": "Answer",
+                text: faq.answer,
+              },
+            })),
           },
         ]}
       />
@@ -283,6 +339,34 @@ const Index = () => {
               Read this article <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
             </span>
           </Link>
+        </div>
+      </section>
+
+      {/* FAQ */}
+      <section className="bg-surface py-24 md:py-28">
+        <div className="container-x grid gap-12 md:grid-cols-12 md:gap-16">
+          <div className="md:col-span-4">
+            <div className="md:sticky md:top-28">
+              <SectionHeading eyebrow="FAQ">Got questions? We've got answers.</SectionHeading>
+              <p className="mt-6 max-w-sm text-base text-muted-foreground">
+                The useful things to know before we start building your brand together.
+              </p>
+            </div>
+          </div>
+          <div className="md:col-span-8">
+            <Accordion type="single" collapsible className="border-t border-hairline">
+              {faqs.map((faq, index) => (
+                <AccordionItem key={faq.question} value={`faq-${index}`} className="border-hairline">
+                  <AccordionTrigger className="py-6 text-left font-display text-lg font-light leading-snug text-foreground hover:text-primary hover:no-underline md:py-7 md:text-xl">
+                    {faq.question}
+                  </AccordionTrigger>
+                  <AccordionContent className="max-w-2xl pb-7 pr-8 text-base leading-relaxed text-muted-foreground">
+                    {faq.answer}
+                  </AccordionContent>
+                </AccordionItem>
+              ))}
+            </Accordion>
+          </div>
         </div>
       </section>
 
