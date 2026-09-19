@@ -17,6 +17,32 @@ const CaseStudy = () => {
         description={c.outcome}
         path={`/portfolio/${c.slug}`}
         type="article"
+        jsonLd={[
+          {
+            "@context": "https://schema.org",
+            "@type": "CreativeWork",
+            name: `${c.name} — ${c.industry} case study`,
+            description: c.outcome,
+            about: c.industry,
+            inLanguage: "en",
+            url: `https://elasticstudio.com/portfolio/${c.slug}`,
+            creator: { "@type": "Organization", name: "Elastic Studio", url: "https://elasticstudio.com/" },
+          },
+          {
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            itemListElement: [
+              { "@type": "ListItem", position: 1, name: "Home", item: "https://elasticstudio.com/" },
+              { "@type": "ListItem", position: 2, name: "Work", item: "https://elasticstudio.com/portfolio" },
+              {
+                "@type": "ListItem",
+                position: 3,
+                name: c.name,
+                item: `https://elasticstudio.com/portfolio/${c.slug}`,
+              },
+            ],
+          },
+        ]}
       />
       <section className="bg-background">
         <div className="container-x pt-12">

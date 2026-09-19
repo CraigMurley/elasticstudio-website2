@@ -11,6 +11,23 @@ const Articles = () => (
       title="Articles — Brand Strategy & Design Essays | Elastic Studio"
       description="Thinking out loud. Sharing what 30 years of brand strategy and design taught us — for founders and creative teams."
       path="/articles"
+      jsonLd={{
+        "@context": "https://schema.org",
+        "@type": "Blog",
+        name: "Elastic Studio Articles",
+        url: "https://elasticstudio.com/articles",
+        description:
+          "Essays on brand strategy, identity, voice and design discipline from Elastic Studio.",
+        publisher: { "@type": "Organization", name: "Elastic Studio", url: "https://elasticstudio.com/" },
+        blogPost: articles.map((a) => ({
+          "@type": "BlogPosting",
+          headline: a.title,
+          description: a.excerpt,
+          datePublished: new Date(a.date).toISOString().slice(0, 10),
+          url: `https://elasticstudio.com/articles/${a.slug}`,
+          author: { "@type": "Person", name: "Craig Murley" },
+        })),
+      }}
     />
     <section className="bg-background py-24">
       <div className="container-x">

@@ -1,15 +1,26 @@
 # Elastic Studio
 
-> Boutique brand strategy and design studio for founders who refuse to be ordinary. Based in Budapest, London, and Zug.
+> Brand strategy and design studio for founders who refuse to be ordinary. Based in Budapest, London, and Zug.
 
-Elastic Studio partners with founders and teams on brand strategy, identity, naming, voice, and launch-ready design systems.
+Elastic Studio partners with founders and teams on brand strategy, identity, naming, voice, and launch-ready design systems. Founded in 2014 by Craig Murley, Founder and Creative Director, with 30 years of work across three continents and 33 awards.
 
 ## Pages
 
-- [About](/about): Studio philosophy, founder, and how we work.
+- [About](/about): Studio philosophy, founder Craig Murley, and how we work.
 - [Services](/services): Brand Launch, Brand Evolution, and Brand Refresh offerings.
 - [Work](/portfolio): Selected case studies across tech, biotech, consumer, and architecture.
 - [Articles](/articles): Essays on brand strategy, identity, and design discipline.
 - [Testimonials](/testimonials): What founders and creative directors say.
 - [Awards](/awards): Recognition and festival selections.
 - [Contact](/contact): Start a conversation about your brand.
+
+## Articles
+
+- [The machines are reading your brand. Most of them are bored.](/articles/machines-reading-your-brand): Why AI-generated answers repeat some brands and ignore others.
+- [Feed a vague brand to a brilliant machine, and it gets vague at scale.](/articles/ai-brand-was-already-vague): AI didn't make your brand generic — it made it legible.
+- [AI Can Build Your Brand Strategy in 90 Seconds. That's the Problem, Not the Pitch.](/articles/ai-brand-strategy-90-seconds): Why the thinking behind strategy is worth more, not less.
+- [The thinking behind the Rebrand - Owning a headspace.](/articles/dad-and-daughter-rebrand): How a Tennessee garage door company became a brand built to travel.
+- [What I learned from 33 award-winning brand briefs](/articles/lessons-from-33-briefs): The questions that separate a good brief from a great one.
+- [Why your website is your most important brand decision](/articles/your-website-is-your-brand): Treating your site like the front door it is.
+- [The difference between a logo and a brand](/articles/logo-vs-brand): A logo is a signature; a brand is what that signature means.
+- [Founders, your brand and company culture are often the shadow of your character.](/articles/founder-voice): Why the winning companies sound like a person wrote the words.

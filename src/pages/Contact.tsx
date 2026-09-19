@@ -51,6 +51,12 @@ const Contact = () => {
         title="Contact — Let's Talk | Elastic Studio"
         description="We handpick the clients we work with. If you're building something worth believing in, we'd love to hear about it."
         path="/contact"
+        jsonLd={{
+          "@context": "https://schema.org",
+          "@type": "ContactPage",
+          url: "https://elasticstudio.com/contact",
+          about: { "@type": "Organization", name: "Elastic Studio", url: "https://elasticstudio.com/" },
+        }}
       />
       <section className="bg-background py-24">
         <div className="container-x">

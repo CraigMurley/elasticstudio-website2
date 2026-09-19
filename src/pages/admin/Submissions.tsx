@@ -99,7 +99,7 @@ const Submissions = () => {
 
   return (
     <>
-      <Seo title="Submissions | Elastic Studio" description="Contact form submissions" path="/admin/submissions" />
+      <Seo title="Submissions | Elastic Studio" description="Contact form submissions" path="/admin/submissions" noindex />
       <section className="bg-background py-20">
         <div className="container-x">
           <div className="flex items-end justify-between gap-6">

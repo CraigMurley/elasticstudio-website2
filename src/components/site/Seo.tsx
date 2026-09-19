@@ -9,9 +9,10 @@ type SeoProps = {
   type?: "website" | "article";
   image?: string;
   jsonLd?: Record<string, unknown> | Record<string, unknown>[];
+  noindex?: boolean;
 };
 
-const Seo = ({ title, description, path, type = "website", image, jsonLd }: SeoProps) => {
+const Seo = ({ title, description, path, type = "website", image, jsonLd, noindex }: SeoProps) => {
   const url = `${SITE_URL}${path}`;
   const ogImage =
     image ??
@@ -21,6 +22,7 @@ const Seo = ({ title, description, path, type = "website", image, jsonLd }: SeoP
     <Helmet>
       <title>{title}</title>
       <meta name="description" content={description} />
+      {noindex && <meta name="robots" content="noindex, nofollow" />}
       <link rel="canonical" href={url} />
       <meta property="og:title" content={title} />
       <meta property="og:description" content={description} />
