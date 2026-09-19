@@ -47,7 +47,19 @@ const faqs: Faq[] = [
   {
     question: "Who is Elastic Studio best suited for?",
     answer:
-      "We work best with ambitious founders and leadership teams who see brand as a business tool, not decoration. You might be launching something new, entering a bigger market or evolving a business that has outgrown the way it currently looks and sounds.",
+      "We work best with founders and entrepreneurs who care deeply about how their business is perceived, companies launching something new or leveling up, teams that want clarity, consistency, and confidence, and existing brands that need to evolve and stay up to date — a Brand Makeover adds a huge amount of value. If you want a quick logo with no thinking behind it, we’re not the right fit. If you want a brand that feels intentional and admired, you’re in the right place.",
+    answerNodes: (
+      <>
+        <p>We work best with:</p>
+        <ul className="my-2 list-disc space-y-1 pl-5">
+          <li>Founders and entrepreneurs who care deeply about how their business is perceived</li>
+          <li>Companies launching something new or leveling up</li>
+          <li>Teams that want clarity, consistency, and confidence</li>
+          <li>An existing brand that needs to evolve and to be up to date. A Brand Makeover adds a huge amount of value.</li>
+        </ul>
+        <p>If you want a quick logo with no thinking behind it, we’re not the right fit. If you want a brand that feels intentional and admired, you’re in the right place.</p>
+      </>
+    ),
   },
   {
     question: "Do you work with clients internationally?",
