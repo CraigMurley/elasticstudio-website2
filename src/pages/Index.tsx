@@ -396,7 +396,7 @@ const Index = () => {
         <div className="container-x grid gap-12 md:grid-cols-12 md:gap-16">
           <div className="md:col-span-4">
             <div className="md:sticky md:top-28">
-              <SectionHeading eyebrow="FAQ">Got questions? We've got answers.</SectionHeading>
+              <SectionHeading eyebrow="FAQ">Questions? We've got Answers.</SectionHeading>
               <p className="mt-6 max-w-sm text-base text-muted-foreground">
                 The useful things to know before we start building your brand together.
               </p>
