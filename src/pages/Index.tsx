@@ -103,7 +103,17 @@ const faqs: Faq[] = [
   {
     question: "Can a One-Page Brand Universe replace a full brand guideline?",
     answer:
-      "For many growing teams, yes. It captures the decisions people actually need to make consistent work. If your organisation, partner network or rollout requires more detail, it can become the foundation for a fuller set of guidelines and templates.",
+      "For most startups, yes. The 1-Page Brand Universe gives you the essence and direction needed to create confidently. Larger teams or franchises still benefit from extended guidelines later - but the Universe is always the foundation for an MVP. Think of it as the soul of the brand on one page, before the rulebook.",
+    answerNodes: (
+      <>
+        <p>
+          For most startups, yes. The 1-Page Brand Universe gives you the essence and direction needed to create
+          confidently. Larger teams or franchises still benefit from extended guidelines later - but the Universe is
+          always the foundation for an MVP.
+        </p>
+        <p>Think of it as the soul of the brand on one page, before the rulebook.</p>
+      </>
+    ),
   },
   {
     question: "How long does a branding project take?",
