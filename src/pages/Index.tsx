@@ -202,7 +202,7 @@ const faqs: Faq[] = [
   {
     question: "What is the typical timeline for an agency-led brand evolution project?",
     answer:
-      "It depends on scope and how quickly decisions can be made. A focused brand strategy sprint can wrap up in a few weeks, while a complete brand launch — strategy, identity, voice, and launch-ready assets — usually runs across several weeks rather than several months. A brand evolution that includes an audit, repositioning, and rollout tends to sit at the longer end. Once we understand what you need, you'll receive a clear schedule with milestones before the work begins.",
+      "It depends on scope and how quickly decisions can be made. A focused brand strategy sprint can wrap up in 7-10days, while a complete brand launch - strategy, identity, voice, and launch-ready assets - usually runs across 4-6 weeks rather than several months.\nThese timings are a rough guide, and where needed, certain elements can be expedited.\u00a0\n\nA brand evolution that includes an audit, repositioning, and rollout tends to sit at the longer end. Once we understand what you need, you'll receive a clear schedule with milestones before the work begins.",
   },
   {
     question: "How much does a complete brand launch and identity system cost for a startup?",
