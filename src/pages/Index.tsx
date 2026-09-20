@@ -8,6 +8,7 @@ import CtaBanner from "@/components/site/CtaBanner";
 import Reveal from "@/components/site/Reveal";
 import ShowreelPlayer from "@/components/site/ShowreelPlayer";
 import { cases, services, articles, testimonials } from "@/data/content";
+import { getArticleMedia } from "@/data/articleMedia";
 import { Carousel, CarouselContent, CarouselItem, CarouselPrevious, CarouselNext } from "@/components/ui/carousel";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import Autoplay from "embla-carousel-autoplay";
