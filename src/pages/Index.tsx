@@ -8,6 +8,7 @@ import CtaBanner from "@/components/site/CtaBanner";
 import Reveal from "@/components/site/Reveal";
 import ShowreelPlayer from "@/components/site/ShowreelPlayer";
 import { cases, services, articles, testimonials } from "@/data/content";
+import { getArticleMedia } from "@/data/articleMedia";
 import { Carousel, CarouselContent, CarouselItem, CarouselPrevious, CarouselNext } from "@/components/ui/carousel";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import Autoplay from "embla-carousel-autoplay";
@@ -482,16 +483,32 @@ out loud.</span></SectionHeading>
           </div>
           <Link
             to={`/articles/${latest.slug}`}
-            className="card-hover-glow group md:col-span-8 rounded-3xl border border-hairline bg-surface p-8 hover:border-primary/40 md:p-12"
+            className="card-hover-glow group md:col-span-8 flex flex-col gap-6 rounded-3xl border border-hairline bg-surface p-8 hover:border-primary/40 sm:flex-row sm:items-start md:p-12"
           >
-            <span className="label-eyebrow text-primary">{latest.date}</span>
-            <h3 className="mt-4 font-display text-2xl font-light leading-snug text-foreground md:text-4xl">
-              {latest.title}
-            </h3>
-            <p className="mt-4 max-w-2xl text-muted-foreground">{latest.excerpt}</p>
-            <span className="mt-6 inline-flex items-center gap-2 text-sm text-primary">
-              Read this article <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
-            </span>
+            {(() => {
+              const media = getArticleMedia(latest.slug);
+              const src = typeof media === "string" ? media : media.src;
+              const isVideo = typeof media !== "string" && media.type === "video";
+              if (isVideo) return null;
+              return (
+                <img
+                  src={src}
+                  alt=""
+                  loading="lazy"
+                  className="h-24 w-24 shrink-0 rounded-xl object-cover ring-1 ring-hairline sm:h-28 sm:w-28"
+                />
+              );
+            })()}
+            <div className="min-w-0">
+              <span className="label-eyebrow text-primary">{latest.date}</span>
+              <h3 className="mt-4 font-display text-2xl font-light leading-snug text-foreground md:text-4xl">
+                {latest.title}
+              </h3>
+              <p className="mt-4 max-w-2xl text-muted-foreground">{latest.excerpt}</p>
+              <span className="mt-6 inline-flex items-center gap-2 text-sm text-primary">
+                Read this article <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
+              </span>
+            </div>
           </Link>
         </div>
       </section>
