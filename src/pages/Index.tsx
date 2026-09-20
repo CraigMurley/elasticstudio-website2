@@ -477,7 +477,8 @@ const Index = () => {
         <div className="container-x grid gap-10 md:grid-cols-12">
           <div className="md:col-span-4">
             <SectionHeading eyebrow="Latest article">Thinking
-<span className="text-accent">out loud.</span></SectionHeading>
+ <span className="text-accent">
+out loud.</span></SectionHeading>
           </div>
           <Link
             to={`/articles/${latest.slug}`}
