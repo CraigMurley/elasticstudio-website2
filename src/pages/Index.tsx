@@ -116,14 +116,97 @@ const faqs: Faq[] = [
     ),
   },
   {
-    question: "How long does a branding project take?",
+    question: "How do I choose between a brand refresh and a full rebranding process?",
     answer:
-      "It depends on the scope and how quickly decisions can be made. Most focused brand projects take several weeks rather than several months. Once we understand what you need, you’ll receive a clear schedule with milestones before the work begins.",
+      "Start with the gap between where your brand is and where it needs to be. A brand refresh updates how you look and feel — refining your logo, color, type, and tone while keeping the equity you've built. A full rebrand rebuilds the foundation: positioning, narrative, name (where needed), and the entire identity system. In a discovery session we'll diagnose that gap together and recommend the path that protects what's working.",
+    answerNodes: (
+      <>
+        <p>Start with the gap between where your brand is and where it needs to be.</p>
+        <p>
+          A brand refresh updates how you look and feel — refining your logo, color, type, and tone while keeping the
+          equity you've built. It's right when your strategy still holds but the design feels dated or inconsistent.
+        </p>
+        <p>
+          A full rebrand rebuilds the foundation: positioning, narrative, name (where needed), and the entire identity
+          system. It's the move when your brand no longer reflects the company you've become or the category you're
+          reaching for.
+        </p>
+        <p>In a discovery session we'll diagnose that gap together and recommend the path that protects what's working.</p>
+      </>
+    ),
   },
   {
-    question: "How much does it cost to work with Elastic Studio?",
+    question: "What steps are involved in creating a brand strategy and messaging framework?",
     answer:
-      "Every engagement is scoped around the business challenge, the people involved and what needs to be delivered. After an initial conversation, we’ll recommend the right level of support and provide a clear proposal with no hidden extras. We're not looking for any projects with a budget smaller than €30,000.",
+      "Our brand strategy work moves through discovery, strategy, design, and launch. We start with stakeholder and market research to understand your business, audience, and ambition, then define positioning and narrative, audience, and a voice and tone framework. We capture it all in a creative brief and roadmap everyone can build from, and the messaging framework translates that strategy into the words you'll use everywhere.",
+    answerNodes: (
+      <>
+        <p>Our brand strategy work moves through four stages: discovery, strategy, design, and launch.</p>
+        <p>We start by listening and researching, then build out:</p>
+        <ul className="my-2 list-disc space-y-1 pl-5">
+          <li>Stakeholder & market research</li>
+          <li>Audience definition</li>
+          <li>Positioning & narrative</li>
+          <li>Voice & tone framework</li>
+          <li>Creative brief & roadmap</li>
+        </ul>
+        <p>
+          The messaging framework translates that strategy into the words you'll use everywhere — from homepage to sales
+          deck — so your brand stays consistent as it grows.
+        </p>
+      </>
+    ),
+  },
+  {
+    question: "How do branding agencies structure naming and visual identity projects for new startups?",
+    answer:
+      "For a startup, naming and visual identity usually run as two connected phases inside a brand launch. First we set the strategy and positioning, which gives the name something real to stand for. Then naming — exploring directions, testing them for meaning, availability, and fit — before the visual identity brings the chosen name to life through logo, color, typography, and a flexible system of assets. Everything is built launch-ready, so the name and identity work together the moment you go to market.",
+    answerNodes: (
+      <>
+        <p>
+          For a startup, naming and visual identity usually run as two connected phases inside a{" "}
+          <Link to="/services#brand-launch" className="text-primary underline-offset-4 hover:underline">
+            brand launch
+          </Link>
+          :
+        </p>
+        <ul className="my-2 list-disc space-y-1 pl-5">
+          <li>Strategy & positioning first, so the name has something real to stand for</li>
+          <li>Naming — exploring directions, then testing them for meaning, availability, and fit</li>
+          <li>Visual identity — logo, color, typography, and a flexible system of assets</li>
+        </ul>
+        <p>Everything is built launch-ready, so the name and identity work together the moment you go to market.</p>
+      </>
+    ),
+  },
+  {
+    question: "How can a creative studio help position a startup as a category leader?",
+    answer:
+      "Positioning a startup as a category leader starts well before the logo. We help you find a space in the market no competitor has claimed, then build a brand that makes that position obvious to your ideal client — sharpening positioning, giving you a distinctive identity and voice, and making sure every touchpoint reinforces the same idea. The goal isn't to look bigger than you are, but to look like the obvious choice.",
+    answerNodes: (
+      <>
+        <p>Positioning a startup as a category leader starts well before the logo.</p>
+        <p>
+          We help you find a space in the market no competitor has claimed, then build a brand that makes that position
+          obvious to your ideal client — sharpening positioning, giving you a distinctive identity and voice, and making
+          sure every touchpoint reinforces the same idea.
+        </p>
+        <p>
+          The goal isn't to look bigger than you are. It's to look like the obvious choice, so the right people feel
+          they'd be missing out by going elsewhere.
+        </p>
+      </>
+    ),
+  },
+  {
+    question: "What is the typical timeline for an agency-led brand evolution project?",
+    answer:
+      "It depends on scope and how quickly decisions can be made. A focused brand strategy sprint can wrap up in a few weeks, while a complete brand launch — strategy, identity, voice, and launch-ready assets — usually runs across several weeks rather than several months. A brand evolution that includes an audit, repositioning, and rollout tends to sit at the longer end. Once we understand what you need, you'll receive a clear schedule with milestones before the work begins.",
+  },
+  {
+    question: "How much does a complete brand launch and identity system cost for a startup?",
+    answer:
+      "Every engagement is scoped around the business challenge, the people involved and what needs to be delivered. A complete brand launch — strategy, naming, identity, voice, and a launch-ready website — is a larger investment than a standalone strategy sprint, and we tailor the scope to fit where you are. After an initial conversation, we'll recommend the right level of support and provide a clear proposal with no hidden extras. We're not looking for any projects with a budget smaller than €30,000.",
   },
 ];
 
