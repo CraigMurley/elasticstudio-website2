@@ -119,6 +119,27 @@ function startServer(indexHtml) {
   });
 }
 
+/**
+ * Launch a browser that works in both places:
+ *  - Linux / Vercel build image: @sparticuz/chromium (self-contained, needs no
+ *    system shared libraries) driven via puppeteer-core.
+ *  - Local macOS/Windows dev: full puppeteer with its bundled Chromium.
+ */
+async function launchBrowser() {
+  const commonArgs = ["--no-sandbox", "--disable-setuid-sandbox", "--disable-dev-shm-usage"];
+  if (process.platform === "linux") {
+    const chromium = (await import("@sparticuz/chromium")).default;
+    const puppeteerCore = (await import("puppeteer-core")).default;
+    return puppeteerCore.launch({
+      args: [...chromium.args, ...commonArgs],
+      executablePath: await chromium.executablePath(),
+      headless: true,
+    });
+  }
+  const puppeteer = (await import("puppeteer")).default;
+  return puppeteer.launch({ headless: "new", args: commonArgs });
+}
+
 async function snapshot(page, url, waitSelector) {
   await page.goto(url, { waitUntil: "networkidle0", timeout: 45000 });
   // Wait for react-helmet-async to inject its managed tags. On heavy pages
@@ -147,18 +168,6 @@ async function main() {
     process.exit(1);
   }
 
-  let puppeteer;
-  try {
-    puppeteer = (await import("puppeteer")).default;
-  } catch (err) {
-    // Fail the build rather than ship a site with no prerendered routes and no
-    // SPA catch-all (see vercel.json) - that would 404 across the board. A
-    // failed build leaves the previous good deploy live.
-    console.error("prerender: puppeteer is required but could not be loaded. Failing the build.");
-    console.error(String(err));
-    process.exit(1);
-  }
-
   const indexHtml = await readFile(join(DIST, "index.html"), "utf8");
   const { routes, articleSlugs, caseSlugs } = await buildRouteList();
   console.log(
@@ -169,10 +178,7 @@ async function main() {
 
   let browser;
   try {
-    browser = await puppeteer.launch({
-      headless: "new",
-      args: ["--no-sandbox", "--disable-setuid-sandbox", "--disable-dev-shm-usage"],
-    });
+    browser = await launchBrowser();
   } catch (err) {
     console.error("prerender: could not launch a browser. Failing the build (see vercel.json - no SPA catch-all).");
     console.error(String(err));
