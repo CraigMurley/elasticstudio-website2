@@ -19,6 +19,7 @@ import pregistryBrand from "@/assets/brand-universe-pregistry-1-page-brand-unive
 import aiBrandStrategyHero from "@/assets/article-ai-brand-strategy.png";
 import aiVagueFoxHero from "@/assets/article-ai-vague-fox.jpg";
 import machinesReadingHero from "@/assets/article-machines-reading.jpg";
+import greatNewAverageHero from "@/assets/article-great-new-average.jpg";
 
 const logoVsBrandSlides: string[] = [
   apsBrand,
@@ -34,6 +35,7 @@ const logoVsBrandSlides: string[] = [
 ];
 
 const overrides: Record<string, WorkMedia> = {
+  "great-is-the-new-average": { type: "image", src: greatNewAverageHero },
   "machines-reading-your-brand": { type: "image", src: machinesReadingHero },
   "ai-brand-was-already-vague": { type: "image", src: aiVagueFoxHero },
   "ai-brand-strategy-90-seconds": { type: "image", src: aiBrandStrategyHero },
