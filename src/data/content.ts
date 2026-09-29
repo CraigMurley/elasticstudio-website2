@@ -129,6 +129,7 @@ export const cases: CaseItem[] = [
 ];
 
 export const articles = [
+  { slug: "great-is-the-new-average", date: "September 29, 2026", title: "Great is the new average", excerpt: "When everyone's work is good, what makes yours worth choosing?" },
   { slug: "machines-reading-your-brand", date: "September 16, 2026", title: "The machines are reading your brand. Most of them are bored.", excerpt: "More and more first impressions now happen inside an AI-generated answer - assembled by something that has read everything about you and felt nothing. It either repeats you or it doesn't." },
   { slug: "ai-brand-was-already-vague", date: "September 9, 2026", title: "Feed a vague brand to a brilliant machine, and it gets vague at scale.", excerpt: "AI didn't make your brand generic — it made it legible. Feed a vague brand to an averaging machine and it hands you back, at scale, exactly how vague it always was." },
   { slug: "ai-brand-strategy-90-seconds", date: "September 2, 2026", title: "AI Can Build Your Brand Strategy in 90 Seconds. That's the Problem, Not the Pitch.", excerpt: "The mechanical middle of brand strategy just went free. That's exactly why the thinking behind it is worth more, not less." },
