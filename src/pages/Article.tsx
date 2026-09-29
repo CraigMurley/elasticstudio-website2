@@ -378,6 +378,68 @@ const Article = () => {
                 Founders: stop hiding. Your voice — your point of view, your standards, your slightly stubborn opinions — is the most defensible asset the company has. Build the brand around it, not in spite of it.
               </p>
             </div>
+          ) : a.slug === "great-is-the-new-average" ? (
+            <div className="mx-auto max-w-[680px] space-y-6 font-light leading-[1.75] text-foreground/90">
+              <p>{a.excerpt}</p>
+              <p>
+                There was a time when good work was enough to win. A sharp identity, a well-built website, a campaign that looked expensive - any of those could set you apart, because most of what surrounded you was, frankly, not very good.
+              </p>
+              <p>
+                That time is over. Not because the bar collapsed, but because it rose for everybody at once.
+              </p>
+              <p>
+                Every founder now has access to beautiful templates, capable freelancers, and tools that can produce a polished logo, a clean landing page and a month of on-brand social posts before lunch. The floor has lifted. Competent is free. Polished is cheap. Good is, for the first time, completely ordinary.
+              </p>
+              <h2 className="!mt-12 font-display text-3xl font-light text-foreground">A field of <span className="text-primary">lighthouses</span></h2>
+              <p>
+                Picture a coastline where every building is a lighthouse. Each one well made. Each one lit. Each one doing exactly what a lighthouse is supposed to do. From out at sea, what do you see?
+              </p>
+              <p>
+                You see a glow. An even, pleasant, undifferentiated glow. None of them is wrong, and none of them is helping you navigate. When everything signals, nothing does.
+              </p>
+              <p>
+                That is what most categories look like right now. Twenty competitors, all with tidy wordmarks, confident sans-serifs, soft gradients and a headline about being "the smarter way to" something. All good. All lit. All the same height.
+              </p>
+              <blockquote className="border-l-2 border-primary pl-6 font-display text-2xl font-light italic text-primary">
+                "When everyone's work is good, good stops being a reason to choose you."
+              </blockquote>
+              <h2 className="!mt-12 font-display text-3xl font-light text-foreground">Better isn't the same as <span className="text-primary">different</span></h2>
+              <p>
+                The instinctive response is to try to be a little better. A slightly bolder colour. A slightly cleverer line. A slightly bigger budget for the photography. It feels like progress, and it almost never is.
+              </p>
+              <p>
+                Being a little better than a field of good competitors just makes you a slightly brighter light in the same crowd. From a distance, the difference disappears. People don't choose between brands by comparing the quality of their kerning. They choose the one they remember, and they remember the one that stood somewhere nobody else was standing.
+              </p>
+              <p>
+                The lighthouse that gets seen isn't the one with the best paintwork. It's the one that is built differently - taller, placed somewhere else, throwing its light in a direction the others never thought to.
+              </p>
+              <h2 className="!mt-12 font-display text-3xl font-light text-foreground">Where great actually <span className="text-primary">comes from</span></h2>
+              <p>
+                Great work, the kind that still separates you when everyone's work is good, rarely comes from execution. Execution is the part that became abundant. It comes from the decisions made before anyone opens a design file.
+              </p>
+              <p>
+                <strong>A position only you can hold.</strong> Not a list of qualities every competitor would also claim, but a specific place in the market that is true of you and awkward for anyone else to copy.
+              </p>
+              <p>
+                <strong>A point of view you're prepared to defend.</strong> Brands that try to please everyone end up with nothing to say. The ones that stand out have opinions, and are willing to lose the customers who disagree.
+              </p>
+              <p>
+                <strong>The discipline to be consistent.</strong> A single distinctive idea, repeated everywhere, beats ten clever ones that change with the season. Consistency is what turns a good idea into something people can actually recognise.
+              </p>
+              <p>
+                None of that can be templated. None of it comes free with a subscription. That is exactly why it is now the whole game.
+              </p>
+              <h2 className="!mt-12 font-display text-3xl font-light text-foreground">Where to <span className="text-primary">from here</span></h2>
+              <p>
+                If you look at your category and see a row of good-looking, well-lit competitors, that isn't a threat. It's a map. It shows you precisely where not to stand.
+              </p>
+              <p>
+                The question worth asking isn't "how do we look as good as them?" You probably already do. It's "what could we say, and be, that none of them can?" Answer that honestly, build everything around it, and good stops being the ceiling. It becomes the thing everyone else is stuck at.
+              </p>
+              <p>
+                If you suspect your brand is one more light in a very bright field, that's a conversation we'd enjoy having. <Link to="/contact" className="text-primary hover:underline">Let's talk</Link>.
+              </p>
+            </div>
           ) : a.slug === "machines-reading-your-brand" ? (
             <div className="mx-auto max-w-[680px] space-y-6 font-light leading-[1.75] text-foreground/90">
               <p>{a.excerpt}</p>
