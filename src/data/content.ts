@@ -129,6 +129,7 @@ export const cases: CaseItem[] = [
 ];
 
 export const articles = [
+  { slug: "founder-brand-plan", date: "September 30, 2026", title: "Everyone agrees the founder is the brand. Almost nobody has a plan.", excerpt: "Founders are the most trusted voice a brand has, and most of them are winging it. Here is how to turn a good intention into a voice, a system and a schedule." },
   { slug: "great-is-the-new-average", date: "September 29, 2026", title: "Great is the new average", excerpt: "When everyone's work is good, what makes yours worth choosing?" },
   { slug: "machines-reading-your-brand", date: "September 16, 2026", title: "The machines are reading your brand. Most of them are bored.", excerpt: "More and more first impressions now happen inside an AI-generated answer - assembled by something that has read everything about you and felt nothing. It either repeats you or it doesn't." },
   { slug: "ai-brand-was-already-vague", date: "September 9, 2026", title: "Feed a vague brand to a brilliant machine, and it gets vague at scale.", excerpt: "AI didn't make your brand generic — it made it legible. Feed a vague brand to an averaging machine and it hands you back, at scale, exactly how vague it always was." },

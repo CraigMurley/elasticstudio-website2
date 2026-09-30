@@ -378,6 +378,46 @@ const Article = () => {
                 Founders: stop hiding. Your voice — your point of view, your standards, your slightly stubborn opinions — is the most defensible asset the company has. Build the brand around it, not in spite of it.
               </p>
             </div>
+          ) : a.slug === "founder-brand-plan" ? (
+            <div className="mx-auto max-w-[680px] space-y-6 font-light leading-[1.75] text-foreground/90">
+              <p>{a.excerpt}</p>
+              <p>
+                Ask a founder whether personal branding matters and they will say yes, usually while opening LinkedIn. Founder-led marketing coverage this year keeps landing on the same awkward pair of numbers. Roughly 70% of executives say personal branding is important, and only about 15% have a defined strategy for it. Treat the exact figures with a pinch of salt, because they come from marketing blogs and not a controlled study. The shape of the gap will still be familiar to anyone who has watched a founder post three times in January and vanish until March.
+              </p>
+              <p>
+                The gap exists because "be more visible" is an intention, not a plan. Intentions lose to client work every time.
+              </p>
+              <h2 className="!mt-12 font-display text-3xl font-light text-foreground">Why it is worth <span className="text-primary">closing</span></h2>
+              <p>
+                People trust people faster than they trust logos. A founder's voice carries opinion, risk and personality, which a company page is professionally trained to remove. The same idea posted from the founder's profile and from the brand page will usually travel differently, and it is rarely the brand page that wins. If you run a business where trust closes the deal, your face and your point of view are already doing marketing work. The only question is whether they are doing it on purpose.
+              </p>
+              <h2 className="!mt-12 font-display text-3xl font-light text-foreground">A workable plan, in <span className="text-primary">five parts</span></h2>
+              <p>
+                <strong>1. Decide what you stand for, not what you post about.</strong> Topics run out. A position does not. Write down three things you believe that a sensible competitor would disagree with. Those are your raw material, and they are far more useful than a content calendar.
+              </p>
+              <p>
+                <strong>2. Pin down a voice you can run on a bad Tuesday.</strong> Most founder content dies when the founder is tired, because sounding like yourself takes energy and you have not defined what "yourself" means. Write a short voice guide covering how you open, how blunt you are, what you never say and which words you would never use. It should be sharp enough that a stranger could imitate you convincingly. If they can't, it is not specific enough.
+              </p>
+              <p>
+                <strong>3. Build a system, not a calendar.</strong> A calendar tells you when to post. A system tells you what to post and where it comes from: a small set of recurring formats fed by real things that happen in your week, such as a client question, a decision you regretted or a rule you broke on purpose. Formats remove the blank-page problem, and the blank page is what actually kills consistency.
+              </p>
+              <p>
+                <strong>4. Let AI carry the volume, never the view.</strong> This is where founders get it backwards. Ask a model what you think and you will get an average of everyone's thinking. Give it your position, your voice guide and your raw notes, and it becomes a very good drafting partner that never tires of the fourth rewrite. The judgement stays with you and the labour goes to the machine.
+              </p>
+              <p>
+                <strong>5. Protect a small, boring, repeatable slot.</strong> Thirty minutes twice a week beats a heroic Sunday session you will skip. Consistency is mostly a scheduling problem dressed up as a creativity problem.
+              </p>
+              <h2 className="!mt-12 font-display text-3xl font-light text-foreground">The single point of <span className="text-primary">failure</span></h2>
+              <p>
+                There is a trap in all this. A founder brand built on personality alone is fragile, because it depends on the founder having the energy, the time and the appetite forever. The stronger version connects the founder's voice to a wider brand system, so the company still sounds like itself when the founder is on a plane, on holiday or, occasionally, asleep. Personal and company brand should share DNA without being the same thing. Get that right and your voice scales. Get it wrong and you have simply made yourself a single point of failure with a headshot.
+              </p>
+              <p>
+                If you already believe the founder is your best channel, you are ahead of most. The work now is turning that belief into a voice, a system and a schedule. That is unglamorous, and it is also the part that works.
+              </p>
+              <p>
+                If you would like help building a brand that sounds like you, at volume, without you having to write every word, <Link to="/contact" className="text-primary hover:underline">let's talk</Link>.
+              </p>
+            </div>
           ) : a.slug === "great-is-the-new-average" ? (
             <div className="mx-auto max-w-[680px] space-y-6 font-light leading-[1.75] text-foreground/90">
               <p>{a.excerpt}</p>
