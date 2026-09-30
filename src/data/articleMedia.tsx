@@ -20,7 +20,7 @@ import aiBrandStrategyHero from "@/assets/article-ai-brand-strategy.png";
 import aiVagueFoxHero from "@/assets/article-ai-vague-fox.jpg";
 import machinesReadingHero from "@/assets/article-machines-reading.jpg";
 import greatNewAverageHero from "@/assets/article-great-new-average.jpg";
-import founderBrandPlanHero from "@/assets/article-founder-brand-plan.jpg";
+import founderBrandPlanHero from "@/assets/article-founder-brand-plan.jpg.asset.json";
 
 const logoVsBrandSlides: string[] = [
   apsBrand,
@@ -36,7 +36,7 @@ const logoVsBrandSlides: string[] = [
 ];
 
 const overrides: Record<string, WorkMedia> = {
-  "founder-brand-plan": { type: "image", src: founderBrandPlanHero },
+  "founder-brand-plan": { type: "image", src: founderBrandPlanHero.url },
   "great-is-the-new-average": { type: "image", src: greatNewAverageHero },
   "machines-reading-your-brand": { type: "image", src: machinesReadingHero },
   "ai-brand-was-already-vague": { type: "image", src: aiVagueFoxHero },
