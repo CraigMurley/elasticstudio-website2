@@ -330,7 +330,7 @@ const Index = () => {
             </div>
           </Reveal>
           <Reveal delay={260}>
-            <h1 className="mx-auto mt-8 max-w-[20ch] font-display leading-[1.1] tracking-[-0.02em] text-foreground sm:text-5xl sm:leading-[1.05] md:text-6xl lg:leading-[1.02] lg:text-6xl font-medium text-5xl">
+            <h1 className="mx-auto mt-8 max-w-[20ch] font-display leading-[1.1] tracking-[-0.02em] text-foreground sm:text-5xl sm:leading-[1.05] md:text-6xl lg:leading-[1.02] lg:text-6xl font-medium text-4xl">
               Let's get your ideal client to <span className="italic text-primary font-medium">love your business.</span>
             </h1>
           </Reveal>
