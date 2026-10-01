@@ -324,22 +324,22 @@ const Index = () => {
               Brand Strategy & Design · Est. 2014
             </span>
           </Reveal>
-          <Reveal delay={160} className="mt-10 w-full">
+          <Reveal delay={160} className="mt-10 w-full lg:order-2">
             <div className="mx-auto w-full max-w-5xl">
               <ShowreelPlayer videoId={1221748734} title="ELASTIC STUDIO SHOWREEL 2026" />
             </div>
           </Reveal>
-          <Reveal delay={260}>
+          <Reveal delay={260} className="lg:order-1">
             <h1 className="mx-auto mt-8 max-w-[20ch] font-display leading-[1.1] tracking-[-0.02em] text-foreground sm:text-5xl sm:leading-[1.05] md:text-6xl lg:leading-[1.02] lg:text-6xl font-medium text-5xl">
               Let's get your ideal client to <span className="italic text-primary font-medium">love your business.</span>
             </h1>
           </Reveal>
-          <Reveal delay={340}>
+          <Reveal delay={340} className="lg:order-3">
             <p className="mx-auto mt-8 max-w-xl text-base font-light text-muted-foreground md:text-lg whitespace-pre-line">
               Let's build you a brand that makes you look like the category leader. {"\n"}Then makes you one.
             </p>
           </Reveal>
-          <Reveal delay={420}>
+          <Reveal delay={420} className="lg:order-4">
             <div className="mt-12 flex flex-wrap items-center justify-center gap-4">
               <Button asChild size="lg" className="rounded-full bg-primary px-7 py-6 text-primary-foreground hover:bg-primary/90">
                 <Link to="/contact">Let's Talk</Link>
@@ -349,7 +349,7 @@ const Index = () => {
               </Button>
             </div>
           </Reveal>
-          <div className="mt-16 flex items-center justify-center gap-6 text-xs uppercase tracking-[0.2em] text-muted-foreground">
+          <div className="mt-16 flex items-center justify-center gap-6 text-xs uppercase tracking-[0.2em] text-muted-foreground lg:order-5">
             <span className="h-px w-10 bg-hairline" />
             BUDAPEST · LONDON · ZUG
             <span className="h-px w-10 bg-hairline" />
