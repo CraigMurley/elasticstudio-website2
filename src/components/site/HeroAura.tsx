@@ -93,7 +93,6 @@ const HeroAura = () => {
         ambient: true,
       });
     };
-    for (let i = 0; i < AMBIENT_COUNT; i++) spawnAmbient(true);
 
     const spawnBurst = (x: number, y: number, count: number) => {
       for (let i = 0; i < count && particles.length < MAX_PARTICLES; i++) {
@@ -114,7 +113,7 @@ const HeroAura = () => {
     };
 
     // Smoothed cursor position for the trailing comet glow.
-    const cursor = { x: -1000, y: -1000, sx: -1000, sy: -1000, active: false };
+    const cursor = { x: -1000, y: -1000, sx: -1000, sy: -1000, active: false, lastMove: 0, intensity: 0 };
 
     const onMove = (e: MouseEvent) => {
       const rect = hero.getBoundingClientRect();
@@ -125,6 +124,7 @@ const HeroAura = () => {
         cursor.sy = cursor.y;
         cursor.active = true;
       }
+      cursor.lastMove = performance.now();
       spawnBurst(cursor.x, cursor.y, 4);
     };
     const onLeave = () => {
@@ -139,12 +139,16 @@ const HeroAura = () => {
       ctx.globalCompositeOperation = "lighter";
 
       // Trailing comet glow that eases toward the cursor.
-      if (cursor.active) {
+      // Glow is full while moving, fades to nothing once the cursor rests.
+      const moving = cursor.active && performance.now() - cursor.lastMove < 120;
+      cursor.intensity += ((moving ? 1 : 0) - cursor.intensity) * (moving ? 0.15 : 0.03);
+      const k = cursor.intensity;
+      if (k > 0.005) {
         cursor.sx += (cursor.x - cursor.sx) * 0.12;
         cursor.sy += (cursor.y - cursor.sy) * 0.12;
         const glow = ctx.createRadialGradient(cursor.sx, cursor.sy, 0, cursor.sx, cursor.sy, 130);
-        glow.addColorStop(0, gold(0.16));
-        glow.addColorStop(0.4, gold(0.06));
+        glow.addColorStop(0, gold(0.16 * k));
+        glow.addColorStop(0.4, gold(0.06 * k));
         glow.addColorStop(1, gold(0));
         ctx.fillStyle = glow;
         ctx.beginPath();
@@ -152,7 +156,7 @@ const HeroAura = () => {
         ctx.fill();
         // Hot core
         const core = ctx.createRadialGradient(cursor.sx, cursor.sy, 0, cursor.sx, cursor.sy, 26);
-        core.addColorStop(0, warm(0.35));
+        core.addColorStop(0, warm(0.35 * k));
         core.addColorStop(1, warm(0));
         ctx.fillStyle = core;
         ctx.beginPath();
@@ -223,20 +227,6 @@ const HeroAura = () => {
 
   return (
     <div className="pointer-events-none absolute inset-0 overflow-hidden" aria-hidden>
-      {/* Drifting gold light pools */}
-      <div className="absolute -left-[10%] -top-[20%] h-[60vw] w-[60vw] rounded-full bg-[hsl(var(--primary)/0.09)] blur-[120px] aura-pulse" />
-      <div className="absolute -bottom-[15%] -right-[5%] h-[45vw] w-[45vw] rounded-full bg-[hsl(var(--primary)/0.06)] blur-[140px] aura-pulse aura-pulse-slow" />
-
-      {/* Twinkling sparkle nodes */}
-      <div className="aura-sparkle left-[12%] top-[18%]" />
-      <div className="aura-sparkle left-[28%] top-[64%] aura-delay-1" />
-      <div className="aura-sparkle left-[46%] top-[10%] aura-delay-2" />
-      <div className="aura-sparkle left-[63%] top-[72%]" />
-      <div className="aura-sparkle left-[78%] top-[26%] aura-delay-1" />
-      <div className="aura-sparkle left-[88%] top-[58%] aura-delay-2" />
-      <div className="aura-sparkle left-[7%] top-[84%] aura-delay-2" />
-      <div className="aura-sparkle left-[54%] top-[38%] aura-delay-1" />
-
       {/* Stardust canvas */}
       <canvas ref={canvasRef} className="absolute inset-0" />
     </div>
