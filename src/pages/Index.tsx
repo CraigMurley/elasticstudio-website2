@@ -214,7 +214,7 @@ const faqs: Faq[] = [
 
 const Index = () => {
   const featured = cases.slice(0, 3);
-  const latest = articles[0];
+  const latest = articles.find((a) => a.slug === "your-website-is-your-brand") ?? articles[0];
   const autoplay = useRef(Autoplay({ delay: 6000, stopOnInteraction: false, stopOnMouseEnter: true }));
   const heroRef = useRef<HTMLElement | null>(null);
   const glowRef = useRef<HTMLDivElement | null>(null);
@@ -478,8 +478,11 @@ const Index = () => {
       <section className="bg-background py-24">
         <div className="container-x grid gap-10 md:grid-cols-12">
           <div className="md:col-span-4">
-            <SectionHeading eyebrow="Latest article">Thinking<br />
+            <SectionHeading eyebrow="Pinned article">Thinking<br />
   <span className="text-accent">out loud.</span></SectionHeading>
+            <Button asChild size="lg" className="mt-8 rounded-full bg-primary px-7 py-6 text-primary-foreground hover:bg-primary/90">
+              <Link to="/articles">Explore our articles.</Link>
+            </Button>
           </div>
           <Link
             to={`/articles/${latest.slug}`}
