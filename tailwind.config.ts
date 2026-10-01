@@ -24,6 +24,7 @@ export default {
           2: "hsl(var(--surface-2))",
         },
         hairline: "hsl(var(--hairline))",
+        slate: "hsl(var(--slate))",
         light: {
           DEFAULT: "hsl(var(--light))",
           foreground: "hsl(var(--light-foreground))",
