@@ -26,7 +26,6 @@ type Particle = {
 };
 
 const MAX_PARTICLES = 220;
-const AMBIENT_COUNT = 26;
 
 const HeroAura = () => {
   const canvasRef = useRef<HTMLCanvasElement | null>(null);
@@ -178,7 +177,7 @@ const HeroAura = () => {
         const lifeRatio = p.life / p.maxLife;
         if (lifeRatio >= 1 || p.y < -20 || p.x < -20 || p.x > width + 20) {
           particles.splice(i, 1);
-          if (p.ambient) spawnAmbient();
+          // cursor-only particles
           continue;
         }
 
