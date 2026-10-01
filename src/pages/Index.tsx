@@ -335,7 +335,10 @@ const Index = () => {
             </h1>
           </Reveal>
           <Reveal delay={340}>
-            <p className="mx-auto mt-8 max-w-xl text-base font-light text-muted-foreground md:text-lg whitespace-pre-line">
+            <p className="mx-auto mt-8 max-w-xl text-base font-light text-muted-foreground md:text-lg sm:hidden">
+              Let's build you a brand that makes you look like the category leader. Then make it one.
+            </p>
+            <p className="mx-auto mt-8 max-w-xl text-base font-light text-muted-foreground md:text-lg whitespace-pre-line hidden sm:block">
               Let's build you a brand that makes you look like the category leader. {"\n"}Then makes you one.
             </p>
           </Reveal>
