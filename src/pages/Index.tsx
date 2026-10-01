@@ -481,7 +481,7 @@ const Index = () => {
             <SectionHeading eyebrow="Pinned article">Thinking<br />
   <span className="text-accent">out loud.</span></SectionHeading>
             <Button asChild size="lg" className="mt-8 rounded-full bg-primary px-7 py-6 text-primary-foreground hover:bg-primary/90">
-              <Link to="/articles">Explore our articles.</Link>
+              <Link to="/articles">Explore Our Articles.</Link>
             </Button>
           </div>
           <Link
