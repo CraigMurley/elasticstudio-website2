@@ -118,6 +118,7 @@ const HeroAura = () => {
       const rect = hero.getBoundingClientRect();
       cursor.x = e.clientX - rect.left;
       cursor.y = e.clientY - rect.top;
+      if (cursor.x < 0 || cursor.y < 0 || cursor.x > rect.width || cursor.y > rect.height) return onLeave();
       if (!cursor.active) {
         cursor.sx = cursor.x;
         cursor.sy = cursor.y;
@@ -146,8 +147,8 @@ const HeroAura = () => {
         cursor.sx += (cursor.x - cursor.sx) * 0.12;
         cursor.sy += (cursor.y - cursor.sy) * 0.12;
         const glow = ctx.createRadialGradient(cursor.sx, cursor.sy, 0, cursor.sx, cursor.sy, 130);
-        glow.addColorStop(0, gold(0.16 * k));
-        glow.addColorStop(0.4, gold(0.06 * k));
+        glow.addColorStop(0, gold(0.32 * k));
+        glow.addColorStop(0.4, gold(0.12 * k));
         glow.addColorStop(1, gold(0));
         ctx.fillStyle = glow;
         ctx.beginPath();
@@ -155,7 +156,7 @@ const HeroAura = () => {
         ctx.fill();
         // Hot core
         const core = ctx.createRadialGradient(cursor.sx, cursor.sy, 0, cursor.sx, cursor.sy, 26);
-        core.addColorStop(0, warm(0.35 * k));
+        core.addColorStop(0, warm(0.5 * k));
         core.addColorStop(1, warm(0));
         ctx.fillStyle = core;
         ctx.beginPath();
@@ -183,7 +184,7 @@ const HeroAura = () => {
 
         const fadeIn = Math.min(1, lifeRatio * 6);
         const fadeOut = 1 - lifeRatio;
-        const alpha = 0.55 * fadeIn * fadeOut * (0.6 + 0.4 * Math.sin(p.twinkle));
+        const alpha = 0.9 * fadeIn * fadeOut * (0.6 + 0.4 * Math.sin(p.twinkle));
         if (alpha <= 0.01) continue;
 
         const drawSize = p.size * 4;
@@ -210,7 +211,7 @@ const HeroAura = () => {
 
     const ro = new ResizeObserver(resize);
     ro.observe(hero);
-    hero.addEventListener("mousemove", onMove);
+    window.addEventListener("mousemove", onMove);
     hero.addEventListener("mouseleave", onLeave);
     document.addEventListener("visibilitychange", onVisibility);
 
@@ -218,14 +219,14 @@ const HeroAura = () => {
       running = false;
       cancelAnimationFrame(raf);
       ro.disconnect();
-      hero.removeEventListener("mousemove", onMove);
+      window.removeEventListener("mousemove", onMove);
       hero.removeEventListener("mouseleave", onLeave);
       document.removeEventListener("visibilitychange", onVisibility);
     };
   }, []);
 
   return (
-    <div className="pointer-events-none absolute inset-0 overflow-hidden" aria-hidden>
+    <div className="pointer-events-none absolute inset-0 z-20 overflow-hidden mix-blend-screen" aria-hidden>
       {/* Stardust canvas */}
       <canvas ref={canvasRef} className="absolute inset-0" />
     </div>
