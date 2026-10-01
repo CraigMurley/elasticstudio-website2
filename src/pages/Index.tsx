@@ -352,10 +352,10 @@ const Index = () => {
               </Button>
             </div>
           </Reveal>
-          <div className="mt-16 flex items-center justify-center gap-6 text-xs uppercase tracking-[0.2em] text-muted-foreground">
-            <span className="h-px w-10 bg-hairline" />
+          <div className="mt-16 flex items-center justify-center gap-2 text-xs uppercase tracking-[0.2em] text-muted-foreground sm:gap-6">
+            <span className="h-px w-3 bg-hairline sm:w-10" />
             BUDAPEST · LONDON · ZUG
-            <span className="h-px w-10 bg-hairline" />
+            <span className="h-px w-3 bg-hairline sm:w-10" />
           </div>
         </div>
       </section>
