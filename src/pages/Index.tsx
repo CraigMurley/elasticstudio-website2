@@ -316,6 +316,7 @@ const Index = () => {
       {/* HERO */}
       <section ref={heroRef} className="relative overflow-hidden bg-background">
         <div ref={glowRef} className="pointer-events-none absolute inset-0 gold-glow" aria-hidden />
+        <HeroAura />
         <div className="container-x relative flex flex-col items-center py-24 text-center pt-[46px]">
           <Reveal>
             <span className="label-eyebrow">

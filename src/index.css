@@ -143,3 +143,32 @@ All colors MUST be HSL.
   from { opacity: 0; transform: translateY(16px); }
   to { opacity: 1; transform: translateY(0); }
 }
+
+/* Ethereal Golden Aura — magical mouse-follow layer */
+@keyframes aura-pulse {
+  0%, 100% { opacity: 0.7; transform: scale(1); }
+  50% { opacity: 1; transform: scale(1.08); }
+}
+.aura-pulse { animation: aura-pulse 10s ease-in-out infinite; }
+.aura-pulse-slow { animation-duration: 15s; animation-direction: reverse; }
+
+@keyframes aura-twinkle {
+  0%, 100% { opacity: 0; transform: scale(0.4); }
+  50% { opacity: 0.9; transform: scale(1); }
+}
+.aura-sparkle {
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  border-radius: 9999px;
+  background: hsl(var(--primary) / 0.9);
+  box-shadow: 0 0 12px 2px hsl(var(--primary) / 0.7), 0 0 3px 1px hsl(48 100% 90% / 0.8);
+  animation: aura-twinkle 4s ease-in-out infinite;
+  filter: blur(0.5px);
+}
+.aura-delay-1 { animation-delay: 1.3s; }
+.aura-delay-2 { animation-delay: 2.6s; }
+
+@media (prefers-reduced-motion: reduce) {
+  .aura-pulse, .aura-sparkle { animation: none; opacity: 0.35; }
+}
