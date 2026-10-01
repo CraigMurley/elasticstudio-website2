@@ -492,10 +492,11 @@ const Index = () => {
               const media = getArticleMedia(latest.slug);
               const src = typeof media === "string" ? media : media.src;
               const isVideo = typeof media !== "string" && media.type === "video";
-              if (isVideo) return null;
+              const vimeoId = isVideo ? src.match(/vimeo\.com\/(?:video\/)?(\d+)/)?.[1] : undefined;
+              const thumbSrc = vimeoId ? `https://vumbnail.com/${vimeoId}.jpg` : src;
               return (
                 <img
-                  src={src}
+                  src={thumbSrc}
                   alt=""
                   loading="lazy"
                   className="h-24 w-24 shrink-0 rounded-xl object-cover ring-1 ring-hairline sm:h-28 sm:w-28"
