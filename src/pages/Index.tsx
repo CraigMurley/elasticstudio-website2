@@ -7,6 +7,7 @@ import CaseCard from "@/components/site/CaseCard";
 import CtaBanner from "@/components/site/CtaBanner";
 import Reveal from "@/components/site/Reveal";
 import ShowreelPlayer from "@/components/site/ShowreelPlayer";
+import HeroAura from "@/components/site/HeroAura";
 import { cases, services, articles, testimonials } from "@/data/content";
 import { getArticleMedia } from "@/data/articleMedia";
 import { Carousel, CarouselContent, CarouselItem, CarouselPrevious, CarouselNext } from "@/components/ui/carousel";
