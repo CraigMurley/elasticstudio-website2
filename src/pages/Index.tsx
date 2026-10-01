@@ -7,6 +7,7 @@ import CaseCard from "@/components/site/CaseCard";
 import CtaBanner from "@/components/site/CtaBanner";
 import Reveal from "@/components/site/Reveal";
 import ShowreelPlayer from "@/components/site/ShowreelPlayer";
+import HeroAura from "@/components/site/HeroAura";
 import { cases, services, articles, testimonials } from "@/data/content";
 import { getArticleMedia } from "@/data/articleMedia";
 import { Carousel, CarouselContent, CarouselItem, CarouselPrevious, CarouselNext } from "@/components/ui/carousel";
@@ -316,6 +317,7 @@ const Index = () => {
       {/* HERO */}
       <section ref={heroRef} className="relative overflow-hidden bg-background">
         <div ref={glowRef} className="pointer-events-none absolute inset-0 gold-glow" aria-hidden />
+        <HeroAura />
         <div className="container-x relative flex flex-col items-center py-24 text-center pt-[46px]">
           <Reveal>
             <span className="label-eyebrow">
