@@ -480,7 +480,7 @@ const Index = () => {
           <div className="md:col-span-4">
             <SectionHeading eyebrow="Latest article">Thinking
   <span className="text-accent">
-out loud.</span></SectionHeading>
+\nout loud.</span></SectionHeading>
           </div>
           <Link
             to={`/articles/${latest.slug}`}
