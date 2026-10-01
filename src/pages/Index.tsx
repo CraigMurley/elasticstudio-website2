@@ -214,7 +214,7 @@ const faqs: Faq[] = [
 
 const Index = () => {
   const featured = cases.slice(0, 3);
-  const latest = articles[0];
+  const latest = articles.find((a) => a.slug === "lessons-from-33-briefs") ?? articles[0];
   const autoplay = useRef(Autoplay({ delay: 6000, stopOnInteraction: false, stopOnMouseEnter: true }));
   const heroRef = useRef<HTMLElement | null>(null);
   const glowRef = useRef<HTMLDivElement | null>(null);
