@@ -317,33 +317,33 @@ const Index = () => {
       {/* HERO */}
       <section ref={heroRef} className="relative overflow-hidden bg-background">
         <HeroAura />
-        <div className="container-x relative flex flex-col items-center py-24 text-center pt-[46px]">
+        <div className="container-x relative flex flex-col items-center pt-[46px] pb-14 text-center sm:pb-24">
           <Reveal>
             <span className="label-eyebrow">
               <span className="mr-3 inline-block h-px w-8 align-middle bg-primary" />
               Brand Strategy & Design · Est. 2014
             </span>
           </Reveal>
-          <Reveal delay={160} className="mt-10 w-full">
+          <Reveal delay={160} className="mt-7 w-full sm:mt-10">
             <div className="mx-auto w-full max-w-5xl">
               <ShowreelPlayer videoId={1221748734} title="ELASTIC STUDIO SHOWREEL 2026" />
             </div>
           </Reveal>
           <Reveal delay={260}>
-            <h1 className="mx-auto mt-8 max-w-[20ch] font-display leading-[1.1] tracking-[-0.02em] text-foreground sm:text-5xl sm:leading-[1.05] md:text-6xl lg:leading-[1.02] lg:text-6xl font-medium text-4xl">
+            <h1 className="mx-auto mt-6 max-w-[20ch] font-display leading-[1.1] tracking-[-0.02em] text-foreground sm:mt-8 sm:text-5xl sm:leading-[1.05] md:text-6xl lg:leading-[1.02] lg:text-6xl font-medium text-4xl">
               Let's get your ideal client to <span className="italic text-primary font-medium">love your business.</span>
             </h1>
           </Reveal>
           <Reveal delay={340}>
-            <p className="mx-auto mt-8 max-w-xl text-base font-light text-muted-foreground md:text-lg sm:hidden">
+            <p className="mx-auto mt-5 max-w-xl text-base font-light text-muted-foreground md:text-lg sm:hidden">
               Let's build you a brand that makes you look like the category leader.
             </p>
-            <p className="mx-auto mt-8 max-w-xl text-base font-light text-muted-foreground md:text-lg whitespace-pre-line hidden sm:block">
+            <p className="mx-auto mt-5 max-w-xl text-base font-light text-muted-foreground md:text-lg whitespace-pre-line hidden sm:block sm:mt-8">
               Let's build you a brand that makes you look like the category leader.
             </p>
           </Reveal>
           <Reveal delay={420}>
-            <div className="mt-12 flex flex-wrap items-center justify-center gap-4">
+            <div className="mt-8 flex flex-wrap items-center justify-center gap-4 sm:mt-12">
               <Button asChild size="lg" className="rounded-full bg-primary px-7 py-6 text-primary-foreground hover:bg-primary/90">
                 <Link to="/contact">Let's Talk</Link>
               </Button>
@@ -352,7 +352,7 @@ const Index = () => {
               </Button>
             </div>
           </Reveal>
-          <div className="mt-16 flex items-center justify-center gap-2 text-xs uppercase tracking-[0.2em] text-muted-foreground sm:gap-6">
+          <div className="mt-10 flex items-center justify-center gap-2 text-xs uppercase tracking-[0.2em] text-muted-foreground sm:mt-16 sm:gap-6">
             <span className="h-px w-3 bg-hairline sm:w-10" />
             BUDAPEST · LONDON · ZUG
             <span className="h-px w-3 bg-hairline sm:w-10" />
