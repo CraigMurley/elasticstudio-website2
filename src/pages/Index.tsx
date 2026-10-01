@@ -334,12 +334,12 @@ const Index = () => {
               Let's get your ideal client to <span className="italic text-primary font-medium">love your business.</span>
             </h1>
           </Reveal>
-          <Reveal delay={340}>
+          <Reveal delay={340} className="lg:order-3">
             <p className="mx-auto mt-8 max-w-xl text-base font-light text-muted-foreground md:text-lg whitespace-pre-line">
               Let's build you a brand that makes you look like the category leader. {"\n"}Then makes you one.
             </p>
           </Reveal>
-          <Reveal delay={420}>
+          <Reveal delay={420} className="lg:order-4">
             <div className="mt-12 flex flex-wrap items-center justify-center gap-4">
               <Button asChild size="lg" className="rounded-full bg-primary px-7 py-6 text-primary-foreground hover:bg-primary/90">
                 <Link to="/contact">Let's Talk</Link>
@@ -349,7 +349,7 @@ const Index = () => {
               </Button>
             </div>
           </Reveal>
-          <div className="mt-16 flex items-center justify-center gap-6 text-xs uppercase tracking-[0.2em] text-muted-foreground">
+          <div className="mt-16 flex items-center justify-center gap-6 text-xs uppercase tracking-[0.2em] text-muted-foreground lg:order-5">
             <span className="h-px w-10 bg-hairline" />
             BUDAPEST · LONDON · ZUG
             <span className="h-px w-10 bg-hairline" />
