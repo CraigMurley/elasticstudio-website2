@@ -324,12 +324,12 @@ const Index = () => {
               Brand Strategy & Design · Est. 2014
             </span>
           </Reveal>
-          <Reveal delay={160} className="mt-10 w-full">
+          <Reveal delay={160} className="mt-10 w-full order-2 lg:order-1">
             <div className="mx-auto w-full max-w-5xl">
               <ShowreelPlayer videoId={1221748734} title="ELASTIC STUDIO SHOWREEL 2026" />
             </div>
           </Reveal>
-          <Reveal delay={260}>
+          <Reveal delay={260} className="order-1 lg:order-2">
             <h1 className="mx-auto mt-8 max-w-[20ch] font-display leading-[1.1] tracking-[-0.02em] text-foreground sm:text-5xl sm:leading-[1.05] md:text-6xl lg:leading-[1.02] lg:text-6xl font-medium text-5xl">
               Let's get your ideal client to <span className="italic text-primary font-medium">love your business.</span>
             </h1>
