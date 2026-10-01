@@ -129,7 +129,7 @@ const HeroAura = () => {
     };
     const onLeave = () => {
       cursor.active = false;
-ec: cursor.x = -1000;
+      cursor.x = -1000;
       cursor.y = -1000;
     };
 
