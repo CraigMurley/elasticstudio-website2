@@ -37,7 +37,7 @@ All colors MUST be HSL.
     --light: 42 30% 94%;              /* #F5F2EC */
     --light-foreground: 0 0% 4%;
 
-    --slate: 217 33% 17%;             /* #1E293B slate for FAQ gradient */
+    --slate: 0 0% 15%;                /* #262626 neutral dark gray for FAQ gradient */
 
     --destructive: 0 70% 50%;
     --destructive-foreground: 0 0% 100%;
