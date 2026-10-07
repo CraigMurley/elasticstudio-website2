@@ -480,16 +480,17 @@ const Index = () => {
       {/* LATEST ARTICLE */}
       <section className="bg-background py-24">
         <div className="container-x grid gap-10 md:grid-cols-12">
-          <div className="md:col-span-4">
+          <Reveal className="md:col-span-4" delay={0}>
             <SectionHeading eyebrow="Pinned article">Thinking<br />
   <span className="text-accent">out loud.</span></SectionHeading>
             <Button asChild size="lg" className="mt-8 rounded-full bg-primary px-7 py-6 text-primary-foreground hover:bg-primary/90">
               <Link to="/articles">Explore Our Articles.</Link>
             </Button>
-          </div>
+          </Reveal>
+          <Reveal className="md:col-span-8" delay={150}>
           <Link
             to={`/articles/${latest.slug}`}
-            className="card-hover-glow group md:col-span-8 flex flex-col gap-6 rounded-3xl border border-hairline bg-surface p-8 hover:border-primary/40 sm:flex-row sm:items-start md:p-12"
+            className="card-hover-glow group flex flex-col gap-6 rounded-3xl border border-hairline bg-surface p-8 hover:border-primary/40 sm:flex-row sm:items-start md:p-12"
           >
             {(() => {
               const media = getArticleMedia(latest.slug);
@@ -517,24 +518,26 @@ const Index = () => {
               </span>
             </div>
           </Link>
+          </Reveal>
         </div>
       </section>
 
       {/* FAQ */}
       <section className="faq-bg py-24 md:py-28">
         <div className="container-x grid gap-12 md:grid-cols-12 md:gap-16">
-          <div className="md:col-span-4">
+          <Reveal className="md:col-span-4" delay={0}>
             <div className="md:sticky md:top-28">
               <SectionHeading eyebrow="FAQ">Questions? <span className="text-accent">We've got Answers.</span></SectionHeading>
               <p className="mt-6 max-w-sm text-base text-muted-foreground">
                 The useful things to know before we start building your brand together.
               </p>
             </div>
-          </div>
+          </Reveal>
           <div className="md:col-span-8">
             <Accordion type="single" collapsible className="space-y-4">
               {faqs.map((faq, index) => (
-                <AccordionItem key={faq.question} value={`faq-${index}`} className="faq-glass border-b-0 px-6 md:px-8">
+                <Reveal key={faq.question} delay={Math.min(index, 5) * 90}>
+                <AccordionItem value={`faq-${index}`} className="faq-glass border-b-0 px-6 md:px-8">
                   <AccordionTrigger className="py-6 text-left font-display text-lg font-light leading-snug text-foreground hover:text-primary hover:no-underline md:py-7 md:text-xl">
                     {faq.question}
                   </AccordionTrigger>
@@ -542,6 +545,7 @@ const Index = () => {
                     {faq.answerNodes ?? faq.answer}
                   </AccordionContent>
                 </AccordionItem>
+                </Reveal>
               ))}
             </Accordion>
           </div>
