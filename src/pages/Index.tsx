@@ -525,14 +525,14 @@ const Index = () => {
       {/* FAQ */}
       <section className="faq-bg py-24 md:py-28">
         <div className="container-x grid gap-12 md:grid-cols-12 md:gap-16">
-          <div className="md:col-span-4">
+          <Reveal className="md:col-span-4" delay={0}>
             <div className="md:sticky md:top-28">
               <SectionHeading eyebrow="FAQ">Questions? <span className="text-accent">We've got Answers.</span></SectionHeading>
               <p className="mt-6 max-w-sm text-base text-muted-foreground">
                 The useful things to know before we start building your brand together.
               </p>
             </div>
-          </div>
+          </Reveal>
           <div className="md:col-span-8">
             <Accordion type="single" collapsible className="space-y-4">
               {faqs.map((faq, index) => (
