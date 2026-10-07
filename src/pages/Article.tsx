@@ -152,7 +152,7 @@ const Article = () => {
                 So, plainly. If the AI arms race has made your brand faster but not clearer, you have bought a bigger engine for a car with no steering. The studios that matter in 2027 will not be the ones with the best stack. They will be the ones who can tell you, in a single sentence, what their client's brand refuses to be, and then prove it across a hundred touchpoints nobody briefed.
               </p>
               <p>
-                We build one-page brand universes for founders who are tired of guessing. If yours does not exist, or exists as forty slides nobody opens, come and <Link to="/contact" className="text-primary hover:underline">say hello</Link> at elasticstudio.com. Bring the mood board. We will find the territory, and we will claim it.
+                We build one-page brand universes for founders who are tired of guessing. If yours does not exist, or exists as forty slides nobody opens, come and <Link to="/contact" className="text-primary hover:underline">say hello</Link>. Bring the mood board. We will find the territory, and we will claim it.
               </p>
             </div>
           ) : a.slug === "your-website-is-your-brand" ? (
