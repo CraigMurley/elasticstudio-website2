@@ -97,7 +97,65 @@ const Article = () => {
 
       <article className="bg-background pb-24">
         <div className="container-x">
-          {a.slug === "your-website-is-your-brand" ? (
+          {a.slug === "only-a-great-brand-claims-territory" ? (
+            <div className="mx-auto max-w-[680px] space-y-6 font-light leading-[1.75] text-foreground/90">
+              <p>{a.excerpt}</p>
+              <p>
+                Every studio on earth has spent the last two years learning to make more things, faster. Congratulations to all of us. The bottleneck has moved, and almost nobody has moved with it.
+              </p>
+              <p>
+                Here is the new Tuesday. A founder opens a tool before their coffee has cooled and by lunchtime has forty logo directions, a palette, three taglines and a finished launch film narrated by a voice that is not theirs, saying words they did not write. None of it is bad. That is precisely the problem. Bad is easy to reject. Competent is where brands go quietly to die.
+              </p>
+              <p>
+                The industry has clocked this, in its roundabout way. Read any of the 2026 trend round-ups and you will find motion-first identity on one page, all kinetic logos and sonic marks and micro-interactions, and on the very next page a craving for hand-drawn letterforms, tactile texture and deliberate imperfection. Those two look like a contradiction. They are the same instinct in different outfits. Both are brands trying to prove that a human was in the room.
+              </p>
+              <p>
+                Proving a human was in the room is not a style. You cannot buy it as a texture pack. It is the residue of a decision, and a decision is the one thing no tool will make for you, because deciding means giving something up.
+              </p>
+              <p>
+                That is the part everyone skips. Ask a tool for something premium and it will hand you a consensus of everything the internet has agreed looks premium. That is an average. Averages are safe, legible and entirely forgettable, which is a strange thing to pay for when the whole point of a brand is to not be interchangeable with the company next door. An average has given nothing up. It is standing in the middle of the field with its options open, waiting to see what everyone else does.
+              </p>
+              <p>
+                A brand that means anything has stopped waiting. It has walked to one corner of the field, driven a stake into the ground, and said: this is ours. Not that. This.
+              </p>
+              <p>
+                Which brings us to Wolff Olins. When they refreshed their own identity, they did not build scaffolding. They planted two letters. A wavy, almost hand-drawn W beside a geometrically perfect O. The magic and the maths. You can like it or not. What you cannot do is misunderstand it, or mistake it for the studio next door. Sixty years of a point of view driven into the ground in two characters, and everyone inside that business now has somewhere to stand at four in the afternoon on a Friday.
+              </p>
+              <p>
+                That is a territory. Not a mood, not a palette. A position taken in public, with edges, specific enough that some work is now obviously wrong.
+              </p>
+              <p>
+                Most brands have never claimed one. They have a logo, a hex code, a font licence and a folder named Brand Assets FINAL v3. None of those take a position. Ask the folder whether the new campaign should be warm or austere and it says nothing. Ask it whether you are allowed to joke about your own product and it says nothing. Ask it which of two perfectly nice routes is more <em>you</em>, and it shrugs in Pantone. A folder cannot rule anything out, and ruling things out is the entire job.
+              </p>
+              <p>
+                So mark it out. One page. We call it a brand universe, and it is the most useful document a growing company owns: the promise, the voice with its edges showing, the palette and what each colour is actually for, the image world, and the line that matters more than all of them put together, which is what this brand will never do.
+              </p>
+              <p>
+                That last line is not a footnote. It is the boundary, and a territory without one is just a field. Everything above it is description. Only that line is a decision, because it is the only part of the page you can be held to.
+              </p>
+              <p>
+                And it has to be one page for a reason that has nothing to do with elegance. The solo operator now genuinely runs like a team of five. Founders generate interactive prototypes without ever opening Figma or briefing a designer. Marketing hires ship campaign creative on their own, at eleven at night, with nobody checking. This is good. It is also the most efficient brand-dilution machine ever built, because every one of those people is taking a position on your behalf, at speed, without you in the room. Multiply that by a year and you do not have a brand. You have a mood board with a payroll.
+              </p>
+              <blockquote className="border-l-2 border-primary pl-6 font-display text-2xl font-light italic text-primary">
+                "Output is not a brand. Territory is."
+              </blockquote>
+              <p>
+                Nobody reads the forty-page guidelines. They will read one page, once, if the page actually says something.
+              </p>
+              <p>
+                There is a quick test for whether yours does. Hand it to someone who has never met you, give them a brief, and look at what comes back. If you can tell it is yours, the page is working. If you have to explain it first, you have written a description, not a territory.
+              </p>
+              <p>
+                Get that right and the tools stop being a threat. They become what they should always have been: very fast hands working inside a boundary you have already drawn. Forty directions is useless when you have no criteria. It is a gift when you have three.
+              </p>
+              <p>
+                So, plainly. If the AI arms race has made your brand faster but not clearer, you have bought a bigger engine for a car with no steering. The studios that matter in 2027 will not be the ones with the best stack. They will be the ones who can tell you, in a single sentence, what their client's brand refuses to be, and then prove it across a hundred touchpoints nobody briefed.
+              </p>
+              <p>
+                We build one-page brand universes for founders who are tired of guessing. If yours does not exist, or exists as forty slides nobody opens, come and <Link to="/contact" className="text-primary hover:underline">say hello</Link>. Bring the mood board. We will find the territory, and we will claim it.
+              </p>
+            </div>
+          ) : a.slug === "your-website-is-your-brand" ? (
             <div className="mx-auto max-w-[680px] space-y-6 font-light leading-[1.75] text-foreground/90">
               <p>{a.excerpt}</p>
               <p>

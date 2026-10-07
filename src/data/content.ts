@@ -129,6 +129,7 @@ export const cases: CaseItem[] = [
 ];
 
 export const articles = [
+  { slug: "only-a-great-brand-claims-territory", date: "October 7, 2026", title: "Anyone can make more. Only a great brand claims territory.", excerpt: "AI made everyone fast. It did not make anyone distinctive. Why the one-page brand universe is the only asset that still scales." },
   { slug: "founder-brand-plan", date: "September 30, 2026", title: "Everyone agrees the founder is the brand. Almost nobody has a plan.", excerpt: "Founders are the most trusted voice a brand has, and most of them are winging it. Here is how to turn a good intention into a voice, a system and a schedule." },
   { slug: "your-website-is-your-brand", date: "March 18, 2026", title: "Why your website is your most important brand decision", excerpt: "It's the one place every customer eventually lands. Treat it like the front door it is." },
   { slug: "great-is-the-new-average", date: "September 29, 2026", title: "Great is the new average", excerpt: "When everyone's work is good, what makes yours worth choosing?" },
