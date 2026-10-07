@@ -536,7 +536,8 @@ const Index = () => {
           <div className="md:col-span-8">
             <Accordion type="single" collapsible className="space-y-4">
               {faqs.map((faq, index) => (
-                <AccordionItem key={faq.question} value={`faq-${index}`} className="faq-glass border-b-0 px-6 md:px-8">
+                <Reveal key={faq.question} delay={Math.min(index, 5) * 90}>
+                <AccordionItem value={`faq-${index}`} className="faq-glass border-b-0 px-6 md:px-8">
                   <AccordionTrigger className="py-6 text-left font-display text-lg font-light leading-snug text-foreground hover:text-primary hover:no-underline md:py-7 md:text-xl">
                     {faq.question}
                   </AccordionTrigger>
@@ -544,6 +545,7 @@ const Index = () => {
                     {faq.answerNodes ?? faq.answer}
                   </AccordionContent>
                 </AccordionItem>
+                </Reveal>
               ))}
             </Accordion>
           </div>
