@@ -8,6 +8,7 @@ import {
 } from "@/components/ui/select";
 import { toast } from "@/hooks/use-toast";
 import Seo from "@/components/site/Seo";
+import Reveal, { RevealLine } from "@/components/site/Reveal";
 import { supabase } from "@/integrations/supabase/client";
 
 const Field = ({ label, id, children }: { label: string; id: string; children: React.ReactNode }) => (
@@ -60,20 +61,24 @@ const Contact = () => {
       />
       <section className="bg-background py-24">
         <div className="container-x">
-          <span className="label-eyebrow"><span className="mr-3 inline-block h-px w-8 align-middle bg-primary" />Contact Elastic Studio</span>
+          <Reveal>
+            <span className="label-eyebrow"><span className="mr-3 inline-block h-px w-8 align-middle bg-primary" />Contact Elastic Studio</span>
+          </Reveal>
           <h1 className="mt-8 max-w-[22ch] font-display text-5xl font-extralight leading-[1.05] text-foreground md:text-7xl">
-            <span className="block">Let's find out if</span>
-            <span className="block italic text-primary">we're a good fit.</span>
+            <RevealLine>Let's find out if</RevealLine>
+            <RevealLine delay={160} className="italic text-primary">we're a good fit.</RevealLine>
           </h1>
-          <p className="mt-8 max-w-xl text-lg font-light text-muted-foreground">
-            We handpick the clients we work with. If you're building something worth believing in, we'd love to hear about it.
-          </p>
+          <Reveal delay={340}>
+            <p className="mt-8 max-w-xl text-lg font-light text-muted-foreground">
+              We handpick the clients we work with. If you're building something worth believing in, we'd love to hear about it.
+            </p>
+          </Reveal>
         </div>
       </section>
 
       <section className="bg-surface-2 py-20">
         <div className="container-x grid gap-12 md:grid-cols-12">
-          <div className="md:col-span-5">
+          <Reveal className="md:col-span-5" delay={120}>
             <h2 className="font-display text-3xl font-light text-foreground">Tell us about your project.</h2>
             <div className="mt-10 space-y-6 text-sm text-muted-foreground">
               <div>
@@ -93,9 +98,9 @@ const Contact = () => {
                 <p className="mt-2">We reply to every enquiry within two working days.</p>
               </div>
             </div>
-          </div>
+          </Reveal>
 
-          <div className="md:col-span-7">
+          <Reveal className="md:col-span-7" delay={240}>
             {submitted ? (
               <div className="rounded-3xl border border-primary/30 bg-surface p-10 text-center">
                 <h3 className="font-display text-3xl font-light text-foreground">Thank you.</h3>
@@ -130,7 +135,7 @@ const Contact = () => {
                 </Button>
               </form>
             )}
-          </div>
+          </Reveal>
         </div>
       </section>
     </>
