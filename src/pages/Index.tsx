@@ -490,7 +490,7 @@ const Index = () => {
           <Reveal className="md:col-span-8" delay={150}>
           <Link
             to={`/articles/${latest.slug}`}
-            className="card-hover-glow group md:col-span-8 flex flex-col gap-6 rounded-3xl border border-hairline bg-surface p-8 hover:border-primary/40 sm:flex-row sm:items-start md:p-12"
+            className="card-hover-glow group flex flex-col gap-6 rounded-3xl border border-hairline bg-surface p-8 hover:border-primary/40 sm:flex-row sm:items-start md:p-12"
           >
             {(() => {
               const media = getArticleMedia(latest.slug);
@@ -518,6 +518,7 @@ const Index = () => {
               </span>
             </div>
           </Link>
+          </Reveal>
         </div>
       </section>
 
