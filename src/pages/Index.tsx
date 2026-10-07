@@ -480,13 +480,14 @@ const Index = () => {
       {/* LATEST ARTICLE */}
       <section className="bg-background py-24">
         <div className="container-x grid gap-10 md:grid-cols-12">
-          <div className="md:col-span-4">
+          <Reveal className="md:col-span-4" delay={0}>
             <SectionHeading eyebrow="Pinned article">Thinking<br />
   <span className="text-accent">out loud.</span></SectionHeading>
             <Button asChild size="lg" className="mt-8 rounded-full bg-primary px-7 py-6 text-primary-foreground hover:bg-primary/90">
               <Link to="/articles">Explore Our Articles.</Link>
             </Button>
-          </div>
+          </Reveal>
+          <Reveal className="md:col-span-8" delay={150}>
           <Link
             to={`/articles/${latest.slug}`}
             className="card-hover-glow group md:col-span-8 flex flex-col gap-6 rounded-3xl border border-hairline bg-surface p-8 hover:border-primary/40 sm:flex-row sm:items-start md:p-12"
