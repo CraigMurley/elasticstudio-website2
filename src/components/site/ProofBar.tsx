@@ -9,7 +9,9 @@ const stats = [
 const DURATION = 1500;
 
 const CountUp = ({ end, suffix }: { end: number; suffix: string }) => {
-  const [count, setCount] = useState(1);
+  // Start at the final value so crawlers and no-JS visitors see the real
+  // numbers; the count-up animation only plays for interactive browsers.
+  const [count, setCount] = useState(end);
   const ref = useRef<HTMLSpanElement | null>(null);
   const started = useRef(false);
 
@@ -22,6 +24,7 @@ const CountUp = ({ end, suffix }: { end: number; suffix: string }) => {
       started.current = true;
       const start = performance.now();
       const from = 1;
+      setCount(from);
       const tick = (now: number) => {
         const t = Math.min(1, (now - start) / DURATION);
         const eased = 1 - Math.pow(1 - t, 3);
