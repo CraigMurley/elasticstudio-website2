@@ -180,10 +180,18 @@ async function main() {
   try {
     browser = await launchBrowser();
   } catch (err) {
-    console.error("prerender: could not launch a browser. Failing the build (see vercel.json - no SPA catch-all).");
-    console.error(String(err));
     server.close();
-    process.exit(1);
+    // On Vercel the static files are mandatory (no SPA catch-all), so fail.
+    // Elsewhere (e.g. Lovable's own builder, which lacks Chromium's system
+    // libraries) the host serves the SPA shell for every route, so skip.
+    if (process.env.VERCEL) {
+      console.error("prerender: could not launch a browser. Failing the build (see vercel.json - no SPA catch-all).");
+      console.error(String(err));
+      process.exit(1);
+    }
+    console.warn("prerender: browser unavailable outside Vercel - skipping static snapshots.");
+    console.warn(String(err).split("\n")[0]);
+    process.exit(0);
   }
 
   const page = await browser.newPage();
