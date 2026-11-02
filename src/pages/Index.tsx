@@ -27,7 +27,7 @@ const faqs: Faq[] = [
   {
     question: "What is a One-Page Brand Universe?",
     answer:
-      "The One-Page Brand Universe is a single, beautifully designed document that captures the entire personality of your brand. It includes your brand pillars, tone and behavior, admired brands and inspiration, typography and color system, and emotional direction. It becomes the reference point for everyone who works on your brand — designers, marketers, developers, and even new hires. Our clients often tell us it’s the most valuable thing they’ve ever received for their business.",
+      "The One-Page Brand Universe is a single, beautifully designed document that captures the entire personality of your brand. It includes your brand pillars, tone and behavior, admired brands and inspiration, typography and color system, and emotional direction. It becomes the reference point for everyone who works on your brand - designers, marketers, developers, and even new hires. Our clients often tell us it’s the most valuable thing they’ve ever received for their business.",
     answerNodes: (
       <>
         <p>The One-Page Brand Universe is a single, beautifully designed document that captures the entire personality of your brand.</p>
@@ -39,7 +39,7 @@ const faqs: Faq[] = [
           <li>Typography and color system</li>
           <li>Emotional direction</li>
         </ul>
-        <p>It becomes the reference point for everyone who works on your brand — designers, marketers, developers, and even new hires.</p>
+        <p>It becomes the reference point for everyone who works on your brand - designers, marketers, developers, and even new hires.</p>
         <p>
           Our clients often tell us it’s the most valuable thing they’ve ever received for their business. Check out <Link to="/articles/logo-vs-brand" className="text-primary underline-offset-4 hover:underline">our article</Link> for more.
         </p>
@@ -49,7 +49,7 @@ const faqs: Faq[] = [
   {
     question: "Who is Elastic Studio best suited for?",
     answer:
-      "We work best with founders and entrepreneurs who care deeply about how their business is perceived, companies launching something new or leveling up, teams that want clarity, consistency, and confidence, and existing brands that need to evolve and stay up to date — a Brand Makeover adds a huge amount of value. If you want a quick logo with no thinking behind it, we’re not the right fit. If you want a brand that feels intentional and admired, you’re in the right place.",
+      "We work best with founders and entrepreneurs who care deeply about how their business is perceived, companies launching something new or leveling up, teams that want clarity, consistency, and confidence, and existing brands that need to evolve and stay up to date - a Brand Evolution adds a huge amount of value. If you want a quick logo with no thinking behind it, we’re not the right fit. If you want a brand that feels intentional and admired, you’re in the right place.",
     answerNodes: (
       <>
         <p>We work best with:</p>
@@ -57,7 +57,7 @@ const faqs: Faq[] = [
           <li>Founders and entrepreneurs who care deeply about how their business is perceived</li>
           <li>Companies launching something new or leveling up</li>
           <li>Teams that want clarity, consistency, and confidence</li>
-          <li>An existing brand that needs to evolve and to be up to date. A Brand Makeover adds a huge amount of value.</li>
+          <li>An existing brand that needs to evolve and to be up to date. A Brand Evolution adds a huge amount of value.</li>
         </ul>
         <p>If you want a quick logo with no thinking behind it, we’re not the right fit. If you want a brand that feels intentional and admired, you’re in the right place.</p>
       </>
@@ -66,12 +66,12 @@ const faqs: Faq[] = [
   {
     question: "Do you work with clients internationally?",
     answer:
-      "Yes, most of our clients work with us remotely. We collaborate with businesses across Europe and the United States, and all communication is done in English via Zoom, email, and shared documents. Our process is built to be smooth and clear, regardless of location. If you have any doubt — check out our client reviews.",
+      "Yes, most of our clients work with us remotely. We collaborate with businesses across Europe, the UK and the United States, with clients in Australia, Japan, Mauritius and Africa too, and all communication is done in English via Zoom, email, and shared documents. Our process is built to be smooth and clear, regardless of location. If you have any doubt - check out our client reviews.",
     answerNodes: (
       <>
         <p>Yes, most of our clients work with us remotely.</p>
         <p>
-          We collaborate with businesses across Europe and the United States, and all communication is done in English via Zoom, email, and shared documents. Our process is built to be smooth and clear, regardless of location. If you have any doubt — check out <Link to="/testimonials" className="text-primary underline-offset-4 hover:underline">our client reviews</Link>.
+          We collaborate with businesses across Europe, the UK and the United States, with clients in Australia, Japan, Mauritius and Africa too, and all communication is done in English via Zoom, email, and shared documents. Our process is built to be smooth and clear, regardless of location. If you have any doubt - check out <Link to="/testimonials" className="text-primary underline-offset-4 hover:underline">our client reviews</Link>.
         </p>
       </>
     ),
@@ -79,10 +79,10 @@ const faqs: Faq[] = [
   {
     question: "Will I be involved in the process?",
     answer:
-      "Absolutely — but in a focused, structured way. We guide you through key decisions early, then translate that clarity into design. You won’t be overwhelmed with choices, but your input shapes the outcome at every meaningful stage. This balance is what clients love most about working with us.",
+      "Absolutely - but in a focused, structured way. We guide you through key decisions early, then translate that clarity into design. You won’t be overwhelmed with choices, but your input shapes the outcome at every meaningful stage. This balance is what clients love most about working with us.",
     answerNodes: (
       <>
-        <p>Absolutely — but in a focused, structured way.</p>
+        <p>Absolutely - but in a focused, structured way.</p>
         <p>We guide you through key decisions early, then translate that clarity into design. You won’t be overwhelmed with choices, but your input shapes the outcome at every meaningful stage. This balance is what clients love most about working with us.</p>
       </>
     ),
@@ -120,12 +120,12 @@ const faqs: Faq[] = [
   {
     question: "How do I choose between a brand refresh and a full rebranding process?",
     answer:
-      "Start with the gap between where your brand is and where it needs to be. A brand refresh updates how you look and feel — refining your logo, color, type, and tone while keeping the equity you've built. A full rebrand rebuilds the foundation: positioning, narrative, name (where needed), and the entire identity system. In a discovery session we'll diagnose that gap together and recommend the path that protects what's working.",
+      "Start with the gap between where your brand is and where it needs to be. A brand refresh updates how you look and feel - refining your logo, color, type, and tone while keeping the equity you've built. A full rebrand rebuilds the foundation: positioning, narrative, name (where needed), and the entire identity system. In a discovery session we'll diagnose that gap together and recommend the path that protects what's working.",
     answerNodes: (
       <>
         <p>Start with the gap between where your brand is and where it needs to be.</p>
         <p>
-          A brand refresh updates how you look and feel — refining your logo, color, type, and tone while keeping the
+          A brand refresh updates how you look and feel - refining your logo, color, type, and tone while keeping the
           equity you've built. It's right when your strategy still holds but the design feels dated or inconsistent.
         </p>
         <p>
@@ -153,8 +153,8 @@ const faqs: Faq[] = [
           <li>Creative brief & roadmap</li>
         </ul>
         <p>
-          The messaging framework translates that strategy into the words you'll use everywhere — from homepage to sales
-          deck — so your brand stays consistent as it grows.
+          The messaging framework translates that strategy into the words you'll use everywhere - from homepage to sales
+          deck - so your brand stays consistent as it grows.
         </p>
       </>
     ),
@@ -162,7 +162,7 @@ const faqs: Faq[] = [
   {
     question: "How do branding agencies structure naming and visual identity projects for new startups?",
     answer:
-      "For a startup, naming and visual identity usually run as two connected phases inside a brand launch. First we set the strategy and positioning, which gives the name something real to stand for. Then naming — exploring directions, testing them for meaning, availability, and fit — before the visual identity brings the chosen name to life through logo, color, typography, and a flexible system of assets. Everything is built launch-ready, so the name and identity work together the moment you go to market.",
+      "For a startup, naming and visual identity usually run as two connected phases inside a brand launch. First we set the strategy and positioning, which gives the name something real to stand for. Then naming - exploring directions, testing them for meaning, availability, and fit - before the visual identity brings the chosen name to life through logo, color, typography, and a flexible system of assets. Everything is built launch-ready, so the name and identity work together the moment you go to market.",
     answerNodes: (
       <>
         <p>
@@ -174,8 +174,8 @@ const faqs: Faq[] = [
         </p>
         <ul className="my-2 list-disc space-y-1 pl-5">
           <li>Strategy & positioning first, so the name has something real to stand for</li>
-          <li>Naming — exploring directions, then testing them for meaning, availability, and fit</li>
-          <li>Visual identity — logo, color, typography, and a flexible system of assets</li>
+          <li>Naming - exploring directions, then testing them for meaning, availability, and fit</li>
+          <li>Visual identity - logo, color, typography, and a flexible system of assets</li>
         </ul>
         <p>Everything is built launch-ready, so the name and identity work together the moment you go to market.</p>
       </>
@@ -184,13 +184,13 @@ const faqs: Faq[] = [
   {
     question: "How can a creative studio help position a startup as a category leader?",
     answer:
-      "Positioning a startup as a category leader starts well before the logo. We help you find a space in the market no competitor has claimed, then build a brand that makes that position obvious to your ideal client — sharpening positioning, giving you a distinctive identity and voice, and making sure every touchpoint reinforces the same idea. The goal isn't to look bigger than you are, but to look like the obvious choice.",
+      "Positioning a startup as a category leader starts well before the logo. We help you find a space in the market no competitor has claimed, then build a brand that makes that position obvious to your ideal client - sharpening positioning, giving you a distinctive identity and voice, and making sure every touchpoint reinforces the same idea. The goal isn't to look bigger than you are, but to look like the obvious choice.",
     answerNodes: (
       <>
         <p>Positioning a startup as a category leader starts well before the logo.</p>
         <p>
           We help you find a space in the market no competitor has claimed, then build a brand that makes that position
-          obvious to your ideal client — sharpening positioning, giving you a distinctive identity and voice, and making
+          obvious to your ideal client - sharpening positioning, giving you a distinctive identity and voice, and making
           sure every touchpoint reinforces the same idea.
         </p>
         <p>
@@ -203,12 +203,12 @@ const faqs: Faq[] = [
   {
     question: "What is the typical timeline for an agency-led brand evolution project?",
     answer:
-      "It depends on scope and how quickly decisions can be made. A focused brand strategy sprint can wrap up in 7-10days, while a complete brand launch - strategy, identity, voice, and launch-ready assets - usually runs across 4-6 weeks rather than several months.\nThese timings are a rough guide, and where needed, certain elements can be expedited.\u00a0\n\nA brand evolution that includes an audit, repositioning, and rollout tends to sit at the longer end. Once we understand what you need, you'll receive a clear schedule with milestones before the work begins.",
+      "It depends on scope and how quickly decisions can be made. A focused brand strategy sprint can wrap up in 7-10 days, while a complete brand launch - strategy, identity, voice, and launch-ready assets - usually runs across 4-6 weeks rather than several months.\nThese timings are a rough guide, and where needed, certain elements can be expedited.\u00a0\n\nA brand evolution that includes an audit, repositioning, and rollout tends to sit at the longer end. Once we understand what you need, you'll receive a clear schedule with milestones before the work begins.",
   },
   {
     question: "How much does a complete brand launch and identity system cost for a startup?",
     answer:
-      "Every engagement is scoped around the business challenge, the people involved and what needs to be delivered. A complete brand launch — strategy, naming, identity, voice, and a launch-ready website — is a larger investment than a standalone strategy sprint, and we tailor the scope to fit where you are. After an initial conversation, we'll recommend the right level of support and provide a clear proposal with no hidden extras. We're not looking for any projects with a budget smaller than €30,000.",
+      "Every engagement is scoped around the business challenge, the people involved and what needs to be delivered. A complete brand launch - strategy, naming, identity, voice, and a launch-ready website - is a larger investment than a standalone strategy sprint, and we tailor the scope to fit where you are. After an initial conversation, we'll recommend the right level of support and provide a clear proposal with no hidden extras. We're not looking for any projects with a budget smaller than €30,000.",
   },
 ];
 
