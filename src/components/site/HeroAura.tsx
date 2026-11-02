@@ -1,7 +1,7 @@
 import { useEffect, useRef } from "react";
 
 /**
- * Ethereal Golden Aura — magical mouse-follow layer for the hero.
+ * Ethereal Golden Aura - magical mouse-follow layer for the hero.
  *
  * Layers:
  *  1. Canvas stardust: golden particles trail the cursor, twinkle, and fade;

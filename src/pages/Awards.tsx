@@ -35,7 +35,7 @@ const awards: Award[] = [
   { year: "2020", tier: "Official Selection", project: "Duality", title: "Icaro International Film Festival" },
   { year: "2020", tier: "Official Selection", project: "Duality", title: "Corti in Cortile International Film Festival, Italy" },
   { year: "2019", tier: "Honourable Mention", title: "International iPhone Photography Awards (IPPA)" },
-  { year: "2013", tier: "Grand Prize Winner", title: "Mauritius photo-marathon — and winner of 3 photo categories" },
+  { year: "2013", tier: "Grand Prize Winner", title: "Mauritius photo-marathon - and winner of 3 photo categories" },
   { year: "2012", tier: "Best Corporate TV", project: "Noel", title: "Finalist, Orange Global Brand Awards, Paris" },
   { year: "2012", tier: "Best Digital Campaign", title: "Orange Global Brand Awards, Paris" },
   { year: "2011", tier: "Finalist", project: "UBP Corporate Film", title: "Creatives 2011 (Judged in Paris)" },
@@ -59,13 +59,13 @@ const awards: Award[] = [
   { year: "2008", tier: "Gold", project: "Permoglaze Paint", title: "Best Outdoor, Creatives 2008 (Judged in Paris)" },
   { year: "2008", tier: "Gold", project: "Permoglaze", title: "Best TVC, Creatives 2008 (Judged in Paris)" },
   { year: "2008", tier: "Gold", project: "Talia Breast Cancer", title: "Best Print, Creatives 2008 (Judged in Paris)" },
-  { year: "2008", tier: "Finalist", project: "Edena Water — Kick", title: "Creatives 2008 (Judged in Paris)" },
+  { year: "2008", tier: "Finalist", project: "Edena Water - Kick", title: "Creatives 2008 (Judged in Paris)" },
   { year: "2007", tier: "Finalist", project: "Rape Crisis TVC", title: "Vuka 2007, South Africa" },
   { year: "2002", tier: "Winner", title: "Roger Garlic Media Awards, Robben Island Museum, Summer Tours" },
   { year: "1998", tier: "Silver", project: "Shell Petroleum", title: "Expo Stand Design, Electra Mining Expo, South Africa" },
   { year: "1996", tier: "Best New Talent", project: "Navaho", title: "5FM Modern Rock Awards, South Africa" },
-  { year: "1996", tier: "No. 1", project: "Navaho", title: "Modern Rock Chart — Bronze (single), 5FM, South Africa" },
-  { year: "1993", tier: "Winner", title: "Robert Niven Award, Design Faculty — Nelson Mandela Metropolitan University" },
+  { year: "1996", tier: "No. 1", project: "Navaho", title: "Modern Rock Chart - Bronze (single), 5FM, South Africa" },
+  { year: "1993", tier: "Winner", title: "Robert Niven Award, Design Faculty - Nelson Mandela Metropolitan University" },
 ];
 
 const tierAccent = (tier: string) => {
@@ -93,7 +93,7 @@ const Awards = () => (
   <>
     <Seo
       title="Awards & Recognition | Elastic Studio"
-      description="Three decades of award-winning work — film festival selections, design recognition, and craft honored across continents."
+      description="Three decades of award-winning work - film festival selections, design recognition, and craft honoured across continents."
       path="/awards"
     />
     <section className="bg-background py-24">
@@ -106,7 +106,7 @@ const Awards = () => (
           Three decades of <span className="italic text-primary">award-winning work.</span>
         </h1>
         <p className="mt-8 max-w-2xl text-lg font-light text-muted-foreground">
-          From Cape Town to Paris, Mauritius to New York — a career-spanning record of recognition across advertising, design, film, photography and music.
+          From Cape Town to Paris, Mauritius to New York - a career-spanning record of recognition across advertising, design, film, photography and music.
         </p>
 
         <div className="mt-14 grid gap-6 md:grid-cols-3">
@@ -142,7 +142,7 @@ const Awards = () => (
                       </span>
                       <div className="flex-1">
                         {a.project && (
-                          <span className="mr-2 font-display text-base font-medium italic text-foreground">{a.project} —</span>
+                          <span className="mr-2 font-display text-base font-medium italic text-foreground">{a.project} -</span>
                         )}
                         <span className="text-sm text-muted-foreground md:text-base">{a.title}</span>
                       </div>

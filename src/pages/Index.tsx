@@ -27,16 +27,16 @@ const faqs: Faq[] = [
   {
     question: "What is a One-Page Brand Universe?",
     answer:
-      "The One-Page Brand Universe is a single, beautifully designed document that captures the entire personality of your brand. It includes your brand pillars, tone and behavior, admired brands and inspiration, typography and color system, and emotional direction. It becomes the reference point for everyone who works on your brand - designers, marketers, developers, and even new hires. Our clients often tell us it’s the most valuable thing they’ve ever received for their business.",
+      "The One-Page Brand Universe is a single, beautifully designed document that captures the entire personality of your brand. It includes your brand pillars, tone and behaviour, admired brands and inspiration, typography and colour system, and emotional direction. It becomes the reference point for everyone who works on your brand - designers, marketers, developers, and even new hires. Our clients often tell us it’s the most valuable thing they’ve ever received for their business.",
     answerNodes: (
       <>
         <p>The One-Page Brand Universe is a single, beautifully designed document that captures the entire personality of your brand.</p>
         <p>It includes:</p>
         <ul className="my-2 list-disc space-y-1 pl-5">
           <li>Your brand pillars</li>
-          <li>Tone and behavior</li>
+          <li>Tone and behaviour</li>
           <li>Admired brands and inspiration</li>
-          <li>Typography and color system</li>
+          <li>Typography and colour system</li>
           <li>Emotional direction</li>
         </ul>
         <p>It becomes the reference point for everyone who works on your brand - designers, marketers, developers, and even new hires.</p>
@@ -49,13 +49,13 @@ const faqs: Faq[] = [
   {
     question: "Who is Elastic Studio best suited for?",
     answer:
-      "We work best with founders and entrepreneurs who care deeply about how their business is perceived, companies launching something new or leveling up, teams that want clarity, consistency, and confidence, and existing brands that need to evolve and stay up to date - a Brand Evolution adds a huge amount of value. If you want a quick logo with no thinking behind it, we’re not the right fit. If you want a brand that feels intentional and admired, you’re in the right place.",
+      "We work best with founders and entrepreneurs who care deeply about how their business is perceived, companies launching something new or levelling up, teams that want clarity, consistency, and confidence, and existing brands that need to evolve and stay up to date - a Brand Evolution adds a huge amount of value. If you want a quick logo with no thinking behind it, we’re not the right fit. If you want a brand that feels intentional and admired, you’re in the right place.",
     answerNodes: (
       <>
         <p>We work best with:</p>
         <ul className="my-2 list-disc space-y-1 pl-5">
           <li>Founders and entrepreneurs who care deeply about how their business is perceived</li>
-          <li>Companies launching something new or leveling up</li>
+          <li>Companies launching something new or levelling up</li>
           <li>Teams that want clarity, consistency, and confidence</li>
           <li>An existing brand that needs to evolve and to be up to date. A Brand Evolution adds a huge amount of value.</li>
         </ul>
@@ -120,12 +120,12 @@ const faqs: Faq[] = [
   {
     question: "How do I choose between a brand refresh and a full rebranding process?",
     answer:
-      "Start with the gap between where your brand is and where it needs to be. A brand refresh updates how you look and feel - refining your logo, color, type, and tone while keeping the equity you've built. A full rebrand rebuilds the foundation: positioning, narrative, name (where needed), and the entire identity system. In a discovery session we'll diagnose that gap together and recommend the path that protects what's working.",
+      "Start with the gap between where your brand is and where it needs to be. A brand refresh updates how you look and feel - refining your logo, colour, type, and tone while keeping the equity you've built. A full rebrand rebuilds the foundation: positioning, narrative, name (where needed), and the entire identity system. In a discovery session we'll diagnose that gap together and recommend the path that protects what's working.",
     answerNodes: (
       <>
         <p>Start with the gap between where your brand is and where it needs to be.</p>
         <p>
-          A brand refresh updates how you look and feel - refining your logo, color, type, and tone while keeping the
+          A brand refresh updates how you look and feel - refining your logo, colour, type, and tone while keeping the
           equity you've built. It's right when your strategy still holds but the design feels dated or inconsistent.
         </p>
         <p>
@@ -162,7 +162,7 @@ const faqs: Faq[] = [
   {
     question: "How do branding agencies structure naming and visual identity projects for new startups?",
     answer:
-      "For a startup, naming and visual identity usually run as two connected phases inside a brand launch. First we set the strategy and positioning, which gives the name something real to stand for. Then naming - exploring directions, testing them for meaning, availability, and fit - before the visual identity brings the chosen name to life through logo, color, typography, and a flexible system of assets. Everything is built launch-ready, so the name and identity work together the moment you go to market.",
+      "For a startup, naming and visual identity usually run as two connected phases inside a brand launch. First we set the strategy and positioning, which gives the name something real to stand for. Then naming - exploring directions, testing them for meaning, availability, and fit - before the visual identity brings the chosen name to life through logo, colour, typography, and a flexible system of assets. Everything is built launch-ready, so the name and identity work together the moment you go to market.",
     answerNodes: (
       <>
         <p>
@@ -175,7 +175,7 @@ const faqs: Faq[] = [
         <ul className="my-2 list-disc space-y-1 pl-5">
           <li>Strategy & positioning first, so the name has something real to stand for</li>
           <li>Naming - exploring directions, then testing them for meaning, availability, and fit</li>
-          <li>Visual identity - logo, color, typography, and a flexible system of assets</li>
+          <li>Visual identity - logo, colour, typography, and a flexible system of assets</li>
         </ul>
         <p>Everything is built launch-ready, so the name and identity work together the moment you go to market.</p>
       </>
@@ -267,7 +267,7 @@ const Index = () => {
   return (
     <>
       <Seo
-        title="Elastic Studio — Brand Strategy & Design for Founders"
+        title="Elastic Studio - Brand Strategy & Design for Founders"
         description="Brand strategy and design that turns ambitious founders into category leaders. Budapest · London · Zug."
         path="/"
         jsonLd={[
@@ -362,7 +362,7 @@ const Index = () => {
 
       <ProofBar />
 
-      {/* WHAT WE DO — light section */}
+      {/* WHAT WE DO - light section */}
       <section className="bg-light py-24 text-[hsl(var(--light-foreground))]">
         <div className="container-x">
           <div className="grid gap-10 md:grid-cols-12 md:items-end">
@@ -429,7 +429,7 @@ const Index = () => {
                     <blockquote className="mx-auto max-w-4xl font-display text-2xl font-light leading-snug text-foreground md:text-4xl">
                       "{t.quote}"
                     </blockquote>
-                    <figcaption className="mt-8 label-eyebrow">— {t.attribution}</figcaption>
+                    <figcaption className="mt-8 label-eyebrow">- {t.attribution}</figcaption>
                   </figure>
                 </CarouselItem>
               ))}
@@ -472,7 +472,7 @@ const Index = () => {
             <p className="font-display text-2xl font-light italic leading-snug text-foreground md:text-4xl">
               "It's not just a project for us. We guide and work with you until we hit the sweet spot."
             </p>
-            <p className="mt-6 label-eyebrow">— Craig Murley, Founder · Elastic Studio</p>
+            <p className="mt-6 label-eyebrow">- Craig Murley, Founder · Elastic Studio</p>
           </div>
         </div>
       </section>

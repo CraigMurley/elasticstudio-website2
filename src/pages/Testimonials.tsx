@@ -9,7 +9,7 @@ const Testimonials = () => {
   return (
     <>
       <Seo
-        title="Testimonials — What Clients Say | Elastic Studio"
+        title="Testimonials - What Clients Say | Elastic Studio"
         description="A decade of partnerships, told in the words of the founders, marketers and creative directors who trusted us with their brands."
         path="/testimonials"
       />
@@ -38,7 +38,7 @@ const Testimonials = () => {
                   <blockquote className="mt-5 font-display text-lg font-light leading-snug text-foreground md:text-xl">
                     "{t.quote}"
                   </blockquote>
-                  <figcaption className="mt-6 label-eyebrow">— {t.attribution}</figcaption>
+                  <figcaption className="mt-6 label-eyebrow">- {t.attribution}</figcaption>
                 </figure>
               </Reveal>
             ))}

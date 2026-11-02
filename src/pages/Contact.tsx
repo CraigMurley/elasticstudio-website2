@@ -49,7 +49,7 @@ const Contact = () => {
   return (
     <>
       <Seo
-        title="Contact — Let's Talk | Elastic Studio"
+        title="Contact - Let's Talk | Elastic Studio"
         description="We handpick the clients we work with. If you're building something worth believing in, we'd love to hear about it."
         path="/contact"
         jsonLd={{

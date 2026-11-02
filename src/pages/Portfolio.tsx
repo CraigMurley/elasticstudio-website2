@@ -18,8 +18,8 @@ const Portfolio = () => {
   return (
     <>
       <Seo
-        title="Selected Work — Brand Case Studies | Elastic Studio"
-        description="A selection of the brands we've been trusted to build, evolve, and launch — across tech, biotech, consumer, and architecture."
+        title="Selected Work - Brand Case Studies | Elastic Studio"
+        description="A selection of the brands we've been trusted to build, evolve, and launch - across tech, biotech, consumer, and architecture."
         path="/portfolio"
       />
       <section className="bg-background py-24">

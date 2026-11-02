@@ -8,8 +8,8 @@ import { renderArticleMedia } from "@/data/articleMedia";
 const Articles = () => (
   <>
     <Seo
-      title="Articles — Brand Strategy & Design Essays | Elastic Studio"
-      description="Thinking out loud. Sharing what 30 years of brand strategy and design taught us — for founders and creative teams."
+      title="Articles - Brand Strategy & Design Essays | Elastic Studio"
+      description="Thinking out loud. Sharing what 30 years of brand strategy and design taught us - for founders and creative teams."
       path="/articles"
       jsonLd={{
         "@context": "https://schema.org",

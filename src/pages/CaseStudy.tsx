@@ -13,7 +13,7 @@ const CaseStudy = () => {
   return (
     <>
       <Seo
-        title={`${c.name} — ${c.industry} Case Study | Elastic Studio`}
+        title={`${c.name} - ${c.industry} Case Study | Elastic Studio`}
         description={c.outcome}
         path={`/portfolio/${c.slug}`}
         type="article"
@@ -21,7 +21,7 @@ const CaseStudy = () => {
           {
             "@context": "https://schema.org",
             "@type": "CreativeWork",
-            name: `${c.name} — ${c.industry} case study`,
+            name: `${c.name} - ${c.industry} case study`,
             description: c.outcome,
             about: c.industry,
             inLanguage: "en",
@@ -144,10 +144,10 @@ const CaseStudy = () => {
                   We started, as we always do, by listening. Discovery sessions with leadership, customers, and the team uncovered a story they hadn't realised they were already telling. From that, the strategy wrote itself.
                 </p>
                 <p className="text-foreground/90">
-                  The new identity leaned into restraint — fewer elements, working harder. A typographic system built on contrast. A colour story rooted in the brand's natural temperature. A voice that finally sounded like the founders, not the category.
+                  The new identity leaned into restraint - fewer elements, working harder. A typographic system built on contrast. A colour story rooted in the brand's natural temperature. A voice that finally sounded like the founders, not the category.
                 </p>
                 <p className="text-foreground/90">
-                  We rolled it out across every touchpoint — digital, print, environmental — with guidelines designed to be used, not filed.
+                  We rolled it out across every touchpoint - digital, print, environmental - with guidelines designed to be used, not filed.
                 </p>
               </>
             )}

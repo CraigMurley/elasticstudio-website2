@@ -18,7 +18,7 @@ import chicagoAi from "@/assets/awards/chicago-ai-2024.png";
 const awards = [
   { src: skypixel, alt: "1st Prize · SkyPixel 6th Anniversary Aerial Photo & Video Contest 2021", invert: false },
   { src: caro, alt: "Official Selection · CARO Festival Internacional de Cine en Centroamérica 2020", invert: false },
-  { src: corti, alt: "Official Selection · Corti in Cortile — il cinema in breve 2020", invert: false },
+  { src: corti, alt: "Official Selection · Corti in Cortile - il cinema in breve 2020", invert: false },
   { src: defy, alt: "Official Selection · Defy Film Festival 2021", invert: false },
   { src: hollyshorts, alt: "Official Selection · HollyShorts Monthly Screenings 2021", invert: true },
   { src: tokyoIndie, alt: "Official Selection · Tokyo Indie Shorts Fest 2024", invert: true },
@@ -29,8 +29,8 @@ const awards = [
 const About = () => (
   <>
     <Seo
-      title="About Elastic Studio — Craig Murley, Founder"
-      description="30 years, three continents, 33 awards. Meet Craig Murley and the studio behind Elastic — brand strategy and design."
+      title="About Elastic Studio - Craig Murley, Founder"
+      description="30 years, three continents, 33 awards. Meet Craig Murley and the studio behind Elastic - brand strategy and design."
       path="/about"
       jsonLd={{
         "@context": "https://schema.org",
@@ -77,7 +77,7 @@ const About = () => (
           <Reveal>
             <h3 className="font-display text-xl font-medium text-foreground">From Cape Town to Budapest</h3>
             <p className="mt-3 max-w-2xl text-muted-foreground">
-              Craig started his career in Cape Town in the mid-1990s, working on brand programmes for some of South Africa's most ambitious businesses. London came next, then Zug, Switzerland then Budapest — where Elastic Studio was founded in 2014. Three decades, three continents, one consistent obsession: brands that earn attention.
+              Craig started his career in Cape Town in the mid-1990s, working on brand programmes for some of South Africa's most ambitious businesses. London came next, then Zug, Switzerland then Budapest - where Elastic Studio was founded in 2014. Three decades, three continents, one consistent obsession: brands that earn attention.
             </p>
           </Reveal>
           <Reveal delay={80}>

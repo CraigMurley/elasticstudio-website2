@@ -159,34 +159,34 @@ const Article = () => {
             <div className="mx-auto max-w-[680px] space-y-6 font-light leading-[1.75] text-foreground/90">
               <p>{a.excerpt}</p>
               <p>
-                A website is no longer a brochure. It's the single environment where almost every customer eventually meets your brand on their own terms — unguided, unrushed, and ready to make a decision. Long before anyone speaks to your team, they've already decided whether you look credible, whether you sound like you understand them, and whether you feel like a company worth trusting with their money.
+                A website is no longer a brochure. It's the single environment where almost every customer eventually meets your brand on their own terms - unguided, unrushed, and ready to make a decision. Long before anyone speaks to your team, they've already decided whether you look credible, whether you sound like you understand them, and whether you feel like a company worth trusting with their money.
               </p>
               <blockquote className="border-l-2 border-primary pl-6 font-display text-2xl font-light italic text-primary">
                 "Your website isn't where people learn about your brand. It is your brand."
               </blockquote>
               <p>
-                Every other channel — ads, social, referrals, search — ends at the same place. The website is the convergence point. If the brand promise breaks down here, nothing upstream can save it. If it holds, every other touchpoint compounds.
+                Every other channel - ads, social, referrals, search - ends at the same place. The website is the convergence point. If the brand promise breaks down here, nothing upstream can save it. If it holds, every other touchpoint compounds.
               </p>
               <h2 className="!mt-12 font-display text-3xl font-light text-foreground">Why the website is the <span className="text-primary">brand decision</span></h2>
               <p>
-                A logo can be admired. A tagline can be remembered. But a website is <em>used</em>. People scroll it, navigate it, compare it, and judge it against everything else they've ever opened in a browser. That experience — the typography, the pace, the clarity, the confidence — becomes the brand in the customer's mind. There is no separating the two.
+                A logo can be admired. A tagline can be remembered. But a website is <em>used</em>. People scroll it, navigate it, compare it, and judge it against everything else they've ever opened in a browser. That experience - the typography, the pace, the clarity, the confidence - becomes the brand in the customer's mind. There is no separating the two.
               </p>
               <p>
                 This is why a beautiful identity on a clumsy site quietly undermines itself. And it's why a sharply-written, well-built website can make a small company feel substantial, and a substantial company feel inevitable.
               </p>
               <h2 className="!mt-12 font-display text-3xl font-light text-foreground">How a website moves someone <span className="text-primary">off the fence</span></h2>
               <p>
-                Most buyers don't arrive ready. They arrive curious, cautious, and comparing. The job of the website isn't to shout — it's to remove every reason not to proceed. That's a brand job as much as a UX one.
+                Most buyers don't arrive ready. They arrive curious, cautious, and comparing. The job of the website isn't to shout - it's to remove every reason not to proceed. That's a brand job as much as a UX one.
               </p>
               <p>
                 It happens through small, deliberate things. A headline that names the exact problem they're sitting with. A first scroll that proves you understand the work better than the next tab open in their browser. Proof that other people like them have already trusted you and been rewarded for it. Pricing or process that feels honest rather than hidden. A path forward that feels like a sensible next step, not a leap.
               </p>
               <p>
-                Done well, none of this feels like persuasion. It feels like recognition. The visitor stops thinking "should I?" and starts thinking "of course." That shift — from evaluation to assumption — is what a brand-led website is designed to produce.
+                Done well, none of this feels like persuasion. It feels like recognition. The visitor stops thinking "should I?" and starts thinking "of course." That shift - from evaluation to assumption - is what a brand-led website is designed to produce.
               </p>
               <h2 className="!mt-12 font-display text-3xl font-light text-foreground">Where to from here</h2>
               <p>
-                Treat the website as the most important brand decision you'll make this year, because it is. Every other piece of marketing eventually points here. Build it so that when someone finally arrives — undecided, distracted, and one click from leaving — the brand does the closing for you.
+                Treat the website as the most important brand decision you'll make this year, because it is. Every other piece of marketing eventually points here. Build it so that when someone finally arrives - undecided, distracted, and one click from leaving - the brand does the closing for you.
               </p>
             </div>
           ) : a.slug === "dad-and-daughter-rebrand" ? (
@@ -196,7 +196,7 @@ const Article = () => {
               </p>
               <h2 className="!mt-12 font-display text-3xl font-light text-foreground">A strategy worth <span className="text-primary">building on</span></h2>
               <p>
-                This rebrand started in exactly the right place: strategy. The Ryan Chute Group did the foundational work — the positioning, the market thinking, and the name itself - and it's a genuinely brilliant one. "Dad & Daughter" instantly does three things at once. It signals family-owned and trustworthy. It promises something warmer than the typical trades brand. And it sets up a story - a real, ongoing narrative about a father and daughter building something together - that can carry the company across radio, advertising, vehicles, uniforms, and community touchpoints for years to come.
+                This rebrand started in exactly the right place: strategy. The Ryan Chute Group did the foundational work - the positioning, the market thinking, and the name itself - and it's a genuinely brilliant one. "Dad & Daughter" instantly does three things at once. It signals family-owned and trustworthy. It promises something warmer than the typical trades brand. And it sets up a story - a real, ongoing narrative about a father and daughter building something together - that can carry the company across radio, advertising, vehicles, uniforms, and community touchpoints for years to come.
               </p>
               <figure className="!my-10">
                 <button
@@ -215,11 +215,11 @@ const Article = () => {
                 <figcaption className="mt-3 text-sm text-foreground/60">The original Cornerstone Garage Doors brand</figcaption>
               </figure>
               <p>
-                Once that foundation was in place, the Ryan Chute Group brought Elastic Studio on board as their creative partner to bring it to life — to take that strategic platform and give it a face, a voice, and a visual system strong enough to carry the weight of that story. One that would work as well on a van in a driveway as it would on a billboard, a t-shirt, or a business card.
+                Once that foundation was in place, the Ryan Chute Group brought Elastic Studio on board as their creative partner to bring it to life - to take that strategic platform and give it a face, a voice, and a visual system strong enough to carry the weight of that story. One that would work as well on a van in a driveway as it would on a billboard, a t-shirt, or a business card.
               </p>
               <h2 className="!mt-12 font-display text-3xl font-light text-foreground">The "best of both" <span className="text-primary">concept</span></h2>
               <p>
-                The heart of the brand comes down to a simple but powerful idea: book smarts meets street smarts. Dad brings decades of hands-on, hard-earned installation expertise - the guy who leads a team that can can diagnose a garage door problem and delivers precision work. Daughter brings a university education and sharp business acumen — the person modernising operations, building the customer experience, and thinking about where the company goes next.
+                The heart of the brand comes down to a simple but powerful idea: book smarts meets street smarts. Dad brings decades of hands-on, hard-earned installation expertise - the guy who leads a team that can can diagnose a garage door problem and delivers precision work. Daughter brings a university education and sharp business acumen - the person modernising operations, building the customer experience, and thinking about where the company goes next.
               </p>
               <p>
                 Crucially, this is a partnership of equals. One of the clearest creative briefs we worked from was an explicit rejection of the tired "dumb dad" trope so common in family-business branding. Neither character outshines the other. They stand back-to-back, arms crossed, equally confident - a visual handshake that says "we've got this, together."
@@ -228,7 +228,7 @@ const Article = () => {
                 "Tough and technical, but never flashy<br />for its own sake."
               </blockquote>
               <p>
-                To find the right tone, we looked at brands and cultural references that captured this dual identity: the rugged dependability of a Ford F-150, the understated sophistication of an Audi Q4, and the disciplined teamwork of a NASCAR pit crew — tough, technical, and tightly coordinated. That blend of toughness and intelligence, of blue-collar and white-collar, became the DNA of everything that followed.
+                To find the right tone, we looked at brands and cultural references that captured this dual identity: the rugged dependability of a Ford F-150, the understated sophistication of an Audi Q4, and the disciplined teamwork of a NASCAR pit crew - tough, technical, and tightly coordinated. That blend of toughness and intelligence, of blue-collar and white-collar, became the DNA of everything that followed.
               </p>
               <h2 className="!mt-12 font-display text-3xl font-light text-foreground">Standing out in a crowded, <span className="text-primary">colourful market</span></h2>
               <p>
@@ -238,13 +238,13 @@ const Article = () => {
                 <figure className="!my-0">
                   <button
                     type="button"
-                    onClick={() => setLightbox({ src: competitorsAsset, alt: "Competitor brands A1 Garage Door Service and Precision Garage Door Service — websites and vehicle livery" })}
+                    onClick={() => setLightbox({ src: competitorsAsset, alt: "Competitor brands A1 Garage Door Service and Precision Garage Door Service - websites and vehicle livery" })}
                     className="block w-full overflow-hidden rounded-[8px] focus:outline-none focus-visible:ring-2 focus-visible:ring-primary"
                     aria-label="Open image: Direct Competitors"
                   >
                     <img
                       src={competitorsAsset}
-                      alt="Competitor brands A1 Garage Door Service and Precision Garage Door Service — websites and vehicle livery"
+                      alt="Competitor brands A1 Garage Door Service and Precision Garage Door Service - websites and vehicle livery"
                       className="w-full rounded-[8px] cursor-zoom-in transition-transform duration-300 hover:scale-[1.02]"
                       loading="lazy"
                     />
@@ -254,26 +254,26 @@ const Article = () => {
                 <figure className="!my-0">
                   <button
                     type="button"
-                    onClick={() => setLightbox({ src: colourSpaceAsset, alt: "Dad & Daughter colour space — colour wheel showing existing competitor brand colours to avoid" })}
+                    onClick={() => setLightbox({ src: colourSpaceAsset, alt: "Dad & Daughter colour space - colour wheel showing existing competitor brand colours to avoid" })}
                     className="block w-full overflow-hidden rounded-[8px] focus:outline-none focus-visible:ring-2 focus-visible:ring-primary"
-                    aria-label="Open image: Existing brands — colour spaces to avoid"
+                    aria-label="Open image: Existing brands - colour spaces to avoid"
                   >
                     <img
                       src={colourSpaceAsset}
-                      alt="Dad & Daughter colour space — colour wheel showing existing competitor brand colours to avoid"
+                      alt="Dad & Daughter colour space - colour wheel showing existing competitor brand colours to avoid"
                       className="w-full rounded-[8px] cursor-zoom-in transition-transform duration-300 hover:scale-[1.02]"
                       loading="lazy"
                     />
                   </button>
-                  <figcaption className="mt-3 text-sm text-foreground/60">Existing brands — colour spaces to avoid</figcaption>
+                  <figcaption className="mt-3 text-sm text-foreground/60">Existing brands - colour spaces to avoid</figcaption>
                 </figure>
               </div>
               <p>
-                We mapped out the colour territory these competitors already owned and made a deliberate decision to go somewhere else entirely. The result is a palette built around deep graphite and a confident, saturated magenta — a combination that simply doesn't exist anywhere else in this market. It's bold without being garish, premium without losing approachability, and — most importantly — it's instantly recognisable from a distance. In a category where visual space has been very well owned, Dad & Daughter looks like it belongs to a different, better-run business altogether.
+                We mapped out the colour territory these competitors already owned and made a deliberate decision to go somewhere else entirely. The result is a palette built around deep graphite and a confident, saturated magenta - a combination that simply doesn't exist anywhere else in this market. It's bold without being garish, premium without losing approachability, and - most importantly - it's instantly recognisable from a distance. In a category where visual space has been very well owned, Dad & Daughter looks like it belongs to a different, better-run business altogether.
               </p>
               <h2 className="!mt-12 font-display text-3xl font-light text-foreground">Characters worth <span className="text-primary">remembering</span></h2>
               <p>
-                At the centre of the new identity are Dad and Elizabeth (Daughter) themselves, illustrated as a mascot pairing that's warm without being cartoonish, and professional without being stiff. We explored dozens of reference points — from classic American mascots to modern tech brand characters — before landing on a style that feels approachable, contemporary, and built to age well as the brand scales.
+                At the centre of the new identity are Dad and Elizabeth (Daughter) themselves, illustrated as a mascot pairing that's warm without being cartoonish, and professional without being stiff. We explored dozens of reference points - from classic American mascots to modern tech brand characters - before landing on a style that feels approachable, contemporary, and built to age well as the brand scales.
               </p>
               <div className="!my-10 grid grid-cols-1 gap-6 sm:grid-cols-2">
                 <figure className="!my-0">
@@ -295,13 +295,13 @@ const Article = () => {
                 <figure className="!my-0">
                   <button
                     type="button"
-                    onClick={() => setLightbox({ src: secondaryLogosAsset, alt: "Dad & Daughter secondary logos — badge, label, logotype, icon, and avatar variants" })}
+                    onClick={() => setLightbox({ src: secondaryLogosAsset, alt: "Dad & Daughter secondary logos - badge, label, logotype, icon, and avatar variants" })}
                     className="block w-full overflow-hidden rounded-[8px] focus:outline-none focus-visible:ring-2 focus-visible:ring-primary"
                     aria-label="Open image: Secondary logos"
                   >
                     <img
                       src={secondaryLogosAsset}
-                      alt="Dad & Daughter secondary logos — badge, label, logotype, icon, and avatar variants"
+                      alt="Dad & Daughter secondary logos - badge, label, logotype, icon, and avatar variants"
                       className="w-full rounded-[8px] cursor-zoom-in transition-transform duration-300 hover:scale-[1.02]"
                       loading="lazy"
                     />
@@ -310,11 +310,11 @@ const Article = () => {
                 </figure>
               </div>
               <p>
-                The badge-shaped icon nods to craftsmanship and structure — the kind of mark that feels at home on a uniform patch, a van door, or a hard hat sticker. Bold, uppercase "DAD" typography brings strength and durability, while "Daughter" is rendered in a confident retro script that adds warmth, personality, and a touch of nostalgia. Together, they create a logo that reads instantly, even at a glance from a moving car — which, for a brand whose vans are its biggest billboards, is exactly the point.
+                The badge-shaped icon nods to craftsmanship and structure - the kind of mark that feels at home on a uniform patch, a van door, or a hard hat sticker. Bold, uppercase "DAD" typography brings strength and durability, while "Daughter" is rendered in a confident retro script that adds warmth, personality, and a touch of nostalgia. Together, they create a logo that reads instantly, even at a glance from a moving car - which, for a brand whose vans are its biggest billboards, is exactly the point.
               </p>
               <h2 className="!mt-12 font-display text-3xl font-light text-foreground">A system built to do <span className="text-primary">the heavy lifting</span></h2>
               <p>
-                A great logo is only the start. What makes a brand actually work in the real world is the system behind it — and that's where we spent much of our time. We developed a full identity architecture: primary and secondary logo lockups, a badge version, a circular "repair & care" stamp, social media avatars, and standalone character icons for messaging and community communications.
+                A great logo is only the start. What makes a brand actually work in the real world is the system behind it - and that's where we spent much of our time. We developed a full identity architecture: primary and secondary logo lockups, a badge version, a circular "repair & care" stamp, social media avatars, and standalone character icons for messaging and community communications.
               </p>
               <div className="!my-10 grid grid-cols-1 gap-6 sm:grid-cols-2">
                 <figure className="!my-0">
@@ -331,61 +331,61 @@ const Article = () => {
                       loading="lazy"
                     />
                   </button>
-                  <figcaption className="mt-3 text-sm text-foreground/60">Brand universe — pillars, palette, and references</figcaption>
+                  <figcaption className="mt-3 text-sm text-foreground/60">Brand universe - pillars, palette, and references</figcaption>
                 </figure>
                 <figure className="!my-0">
                   <button
                     type="button"
-                    onClick={() => setLightbox({ src: brandDesignAsset, alt: "Dad & Daughter brand design — logo, livery, and collateral" })}
+                    onClick={() => setLightbox({ src: brandDesignAsset, alt: "Dad & Daughter brand design - logo, livery, and collateral" })}
                     className="block w-full overflow-hidden rounded-[8px] focus:outline-none focus-visible:ring-2 focus-visible:ring-primary"
                     aria-label="Open image: Brand design"
                   >
                     <img
                       src={brandDesignAsset}
-                      alt="Dad & Daughter brand design — logo, livery, and collateral"
+                      alt="Dad & Daughter brand design - logo, livery, and collateral"
                       className="w-full rounded-[8px] cursor-zoom-in transition-transform duration-300 hover:scale-[1.02]"
                       loading="lazy"
                     />
                   </button>
-                  <figcaption className="mt-3 text-sm text-foreground/60">Brand design — logo system, livery, and collateral</figcaption>
+                  <figcaption className="mt-3 text-sm text-foreground/60">Brand design - logo system, livery, and collateral</figcaption>
                 </figure>
               </div>
               <div className="!my-10 grid grid-cols-1 gap-6 sm:grid-cols-2">
                 <figure className="!my-0">
                   <button
                     type="button"
-                    onClick={() => setLightbox({ src: uniformsAsset, alt: "Dad & Daughter uniform designs — polos, caps, and outerwear" })}
+                    onClick={() => setLightbox({ src: uniformsAsset, alt: "Dad & Daughter uniform designs - polos, caps, and outerwear" })}
                     className="block w-full overflow-hidden rounded-[8px] focus:outline-none focus-visible:ring-2 focus-visible:ring-primary"
                     aria-label="Open image: Uniforms"
                   >
                     <img
                       src={uniformsAsset}
-                      alt="Dad & Daughter uniform designs — polos, caps, and outerwear"
+                      alt="Dad & Daughter uniform designs - polos, caps, and outerwear"
                       className="w-full rounded-[8px] cursor-zoom-in transition-transform duration-300 hover:scale-[1.02]"
                       loading="lazy"
                     />
                   </button>
-                  <figcaption className="mt-3 text-sm text-foreground/60">Uniforms — polos, caps, and outerwear</figcaption>
+                  <figcaption className="mt-3 text-sm text-foreground/60">Uniforms - polos, caps, and outerwear</figcaption>
                 </figure>
                 <figure className="!my-0">
                   <button
                     type="button"
-                    onClick={() => setLightbox({ src: stickersAsset, alt: "Dad & Daughter sticker layouts — service, caution, and reminder" })}
+                    onClick={() => setLightbox({ src: stickersAsset, alt: "Dad & Daughter sticker layouts - service, caution, and reminder" })}
                     className="block w-full overflow-hidden rounded-[8px] focus:outline-none focus-visible:ring-2 focus-visible:ring-primary"
                     aria-label="Open image: Stickers"
                   >
                     <img
                       src={stickersAsset}
-                      alt="Dad & Daughter sticker layouts — service, caution, and reminder"
+                      alt="Dad & Daughter sticker layouts - service, caution, and reminder"
                       className="w-full rounded-[8px] cursor-zoom-in transition-transform duration-300 hover:scale-[1.02]"
                       loading="lazy"
                     />
                   </button>
-                  <figcaption className="mt-3 text-sm text-foreground/60">Sticker layouts — service, caution, and reminder</figcaption>
+                  <figcaption className="mt-3 text-sm text-foreground/60">Sticker layouts - service, caution, and reminder</figcaption>
                 </figure>
               </div>
               <p>
-                Then we put it to work. Full vehicle livery designs for a Ford Transit van and a RAM 1500 pickup bring the characters and colour palette to life on the road - bold enough to be seen from blocks away, but cohesive enough to feel like one unmistakable brand. Uniform designs carry the magenta-and-graphite palette through polos and caps, with the characters embroidered front and centre. Business cards, letterhead, and a full digital brand guideline round out a toolkit built so that — whether the company adds five vans or fifty - every new touchpoint looks like it was made by the same confident, considered hand.
+                Then we put it to work. Full vehicle livery designs for a Ford Transit van and a RAM 1500 pickup bring the characters and colour palette to life on the road - bold enough to be seen from blocks away, but cohesive enough to feel like one unmistakable brand. Uniform designs carry the magenta-and-graphite palette through polos and caps, with the characters embroidered front and centre. Business cards, letterhead, and a full digital brand guideline round out a toolkit built so that - whether the company adds five vans or fifty - every new touchpoint looks like it was made by the same confident, considered hand.
               </p>
               <p>
                 This is the part of branding that doesn't always make it into the highlight reel, but it's the part that determines whether a rebrand actually sticks: a system robust enough that the brand stays consistent as it grows, scales, and reaches new markets.
@@ -412,28 +412,28 @@ const Article = () => {
               </blockquote>
               <h2 className="!mt-12 font-display text-3xl font-light text-foreground">The founder sets the <span className="text-primary">tone</span></h2>
               <p>
-                In the early years, the founder <em>is</em> the culture. What they tolerate becomes the standard. What they get excited about becomes the strategy. The way they speak in a meeting becomes the way the company sounds in the world. That tone — whether they realise it or not — is the brand's first and most honest signal.
+                In the early years, the founder <em>is</em> the culture. What they tolerate becomes the standard. What they get excited about becomes the strategy. The way they speak in a meeting becomes the way the company sounds in the world. That tone - whether they realise it or not - is the brand's first and most honest signal.
               </p>
               <p>
                 When founders try to outsource that voice too early, the brand starts to drift. It looks competent but reads as anonymous. It could belong to anyone, which means it belongs to no one.
               </p>
               <h2 className="!mt-12 font-display text-3xl font-light text-foreground">It's not the designer's <span className="text-primary">taste</span></h2>
               <p>
-                A brand is not the designer's portfolio piece. Our job isn't to impose a style we happen to like this season. Our job is to listen carefully enough to the founder and the team that the brand we build feels inevitable — like it could only have come from them.
+                A brand is not the designer's portfolio piece. Our job isn't to impose a style we happen to like this season. Our job is to listen carefully enough to the founder and the team that the brand we build feels inevitable - like it could only have come from them.
               </p>
               <p>
                 Authenticity is the whole game. A brand is the suit the business wears in public. If the suit doesn't fit the body underneath, everyone notices, even if they can't say why. The most beautiful identity in the world will quietly fail if it feels borrowed.
               </p>
               <h2 className="!mt-12 font-display text-3xl font-light text-foreground">A brand is a <span className="text-primary">living thing</span></h2>
               <p>
-                The brand has to feel like the culture of the people building it — the founder's philosophy, the team's instincts, the way they actually work when no one is watching. That's why a brand isn't a static deliverable. It's a living thing. It grows, sharpens, and matures as the company does.
+                The brand has to feel like the culture of the people building it - the founder's philosophy, the team's instincts, the way they actually work when no one is watching. That's why a brand isn't a static deliverable. It's a living thing. It grows, sharpens, and matures as the company does.
               </p>
               <p>
                 The job, then, isn't to invent a personality. It's to find the one that's already there, give it a shape, and trust the founder enough to let it sound like them.
               </p>
               <h2 className="!mt-12 font-display text-3xl font-light text-foreground">Where to from here</h2>
               <p>
-                Founders: stop hiding. Your voice — your point of view, your standards, your slightly stubborn opinions — is the most defensible asset the company has. Build the brand around it, not in spite of it.
+                Founders: stop hiding. Your voice - your point of view, your standards, your slightly stubborn opinions - is the most defensible asset the company has. Build the brand around it, not in spite of it.
               </p>
             </div>
           ) : a.slug === "founder-brand-plan" ? (
@@ -609,7 +609,7 @@ const Article = () => {
                 Nine in ten US marketing agencies now use generative AI. Half have moved on to agentic AI for actual execution. Forrester and the 4As published those numbers this year, and our industry received them the way it receives most numbers about itself: as a compliment. Look how fast we adopted. Look how modern we are.
               </p>
               <p>
-                Then you read the rest of the finding, which is the part that matters. The same research concludes that this adoption — bolted onto an industry-wide obsession with productivity and cost efficiency — is undermining marketing effectiveness, creativity, and long-term brand growth.
+                Then you read the rest of the finding, which is the part that matters. The same research concludes that this adoption - bolted onto an industry-wide obsession with productivity and cost efficiency - is undermining marketing effectiveness, creativity, and long-term brand growth.
               </p>
               <p>
                 The tools got better. The work got worse. Both things are true, and the second one is not the fault of the first.
@@ -619,10 +619,10 @@ const Article = () => {
               </p>
               <h2 className="!mt-12 font-display text-3xl font-light text-foreground">Averaging <span className="text-primary">machines</span></h2>
               <p>
-                Because generative models are, at heart, averaging machines. They are trained on what already exists, so they return what already exists, smoothed. Feed one a brand with genuine conviction — a real point of view, a specific voice, an actual opinion about the world — and it becomes an extraordinary production engine. It scales the distinctiveness you already had. Feed it "innovative, trusted, human-centred, forward-thinking" and it will give you exactly that, in perpetuity, in every format, for pennies. It will give it to your competitor too, who wrote the same four words in a different order.
+                Because generative models are, at heart, averaging machines. They are trained on what already exists, so they return what already exists, smoothed. Feed one a brand with genuine conviction - a real point of view, a specific voice, an actual opinion about the world - and it becomes an extraordinary production engine. It scales the distinctiveness you already had. Feed it "innovative, trusted, human-centred, forward-thinking" and it will give you exactly that, in perpetuity, in every format, for pennies. It will give it to your competitor too, who wrote the same four words in a different order.
               </p>
               <p>
-                This is why the sameness critique has moved from design Twitter to the boardroom this year. The AI-led campaigns from the big houses — Coca-Cola, Valentino, J.Crew — didn't fail because the pixels were wrong. The pixels were immaculate. They failed the way a very well-made greetings card fails: technically coherent, emotionally weightless. Nothing in them could only have come from that brand. And audiences, it turns out, are unnervingly good at spotting the difference between something made and something generated, even when they can't tell you why.
+                This is why the sameness critique has moved from design Twitter to the boardroom this year. The AI-led campaigns from the big houses - Coca-Cola, Valentino, J.Crew - didn't fail because the pixels were wrong. The pixels were immaculate. They failed the way a very well-made greetings card fails: technically coherent, emotionally weightless. Nothing in them could only have come from that brand. And audiences, it turns out, are unnervingly good at spotting the difference between something made and something generated, even when they can't tell you why.
               </p>
               <h2 className="!mt-12 font-display text-3xl font-light text-foreground">The question worth <span className="text-primary">asking</span></h2>
               <p>
@@ -636,17 +636,17 @@ const Article = () => {
               </blockquote>
               <h2 className="!mt-12 font-display text-3xl font-light text-foreground">Strength <span className="text-primary">compounds</span> now</h2>
               <p>
-                The good news is that this cuts sharply in the other direction too. A brand with real clarity — a defensible position, a voice you'd recognise blindfolded, opinions it's prepared to lose customers over — can suddenly show up everywhere, consistently, at a volume that was economically impossible three years ago. The distance between the brands that know who they are and the brands that don't isn't narrowing. It's widening at machine speed.
+                The good news is that this cuts sharply in the other direction too. A brand with real clarity - a defensible position, a voice you'd recognise blindfolded, opinions it's prepared to lose customers over - can suddenly show up everywhere, consistently, at a volume that was economically impossible three years ago. The distance between the brands that know who they are and the brands that don't isn't narrowing. It's widening at machine speed.
               </p>
               <p>
-                Which means the scarce resource was never execution. It hasn't been for a while. The scarce resource is the decision — the willingness to be one thing and not another, to plant a flag somewhere specific and stand next to it while the market floods with beautifully rendered nothing.
+                Which means the scarce resource was never execution. It hasn't been for a while. The scarce resource is the decision - the willingness to be one thing and not another, to plant a flag somewhere specific and stand next to it while the market floods with beautifully rendered nothing.
               </p>
               <p>
                 That decision cannot be prompted. It can't be A/B tested into existence, and it certainly can't be outsourced to a tool trained on the average of everyone who came before you. It has to be made by people who are prepared to be wrong in public, which is, inconveniently, still the only way anything interesting has ever been made.
               </p>
               <h2 className="!mt-12 font-display text-3xl font-light text-foreground">Where to <span className="text-primary">from here</span></h2>
               <p>
-                Forrester's recommendation, for what it's worth, is that leaders reinvest their efficiency gains into talent, training and capability — into doing things that weren't possible before, rather than doing the same things cheaper. That's a polite way of saying the money you saved was supposed to buy you ambition. Most of it bought margin.
+                Forrester's recommendation, for what it's worth, is that leaders reinvest their efficiency gains into talent, training and capability - into doing things that weren't possible before, rather than doing the same things cheaper. That's a polite way of saying the money you saved was supposed to buy you ambition. Most of it bought margin.
               </p>
               <p>
                 So use the tools. Use all of them. We do, daily, and they're genuinely remarkable. But use them to amplify a point of view, not to manufacture one. Get the conviction right first, then let the machine make it loud.
@@ -662,10 +662,10 @@ const Article = () => {
             <div className="mx-auto max-w-[680px] space-y-6 font-light leading-[1.75] text-foreground/90">
               <p>{a.excerpt}</p>
               <p>
-                Ask an AI brand tool to "build my brand strategy" and, ninety seconds later, it hands you five pillars, three values (one of them is always "authenticity"), a moodboard of the same soft-focus gradients everyone else just got, and a tone-of-voice slide reading "confident yet approachable." Type "premium minimalist brand" into an image generator and you'll get the same handful of aesthetic clichés — regardless of who's asking, or why. By any reasonable definition, that's a brand strategy. It is also, structurally, identical to the one the AI just handed the founder two tabs over.
+                Ask an AI brand tool to "build my brand strategy" and, ninety seconds later, it hands you five pillars, three values (one of them is always "authenticity"), a moodboard of the same soft-focus gradients everyone else just got, and a tone-of-voice slide reading "confident yet approachable." Type "premium minimalist brand" into an image generator and you'll get the same handful of aesthetic clichés - regardless of who's asking, or why. By any reasonable definition, that's a brand strategy. It is also, structurally, identical to the one the AI just handed the founder two tabs over.
               </p>
               <p>
-                Here's the part nobody selling these tools wants said out loud: that's not a bug they're racing to fix. It's the business model. A tool that produces the same output for every input scales infinitely. A strategist who produces a different, specific, occasionally uncomfortable answer for every client does not — and was never trying to.
+                Here's the part nobody selling these tools wants said out loud: that's not a bug they're racing to fix. It's the business model. A tool that produces the same output for every input scales infinitely. A strategist who produces a different, specific, occasionally uncomfortable answer for every client does not - and was never trying to.
               </p>
               <blockquote className="border-l-2 border-primary pl-6 font-display text-2xl font-light italic text-primary">
                 "The mechanical middle of brand strategy just became a commodity. What's left was always the actual point."
@@ -682,24 +682,24 @@ const Article = () => {
                 Here's the tell. Ask an AI tool for a brand strategy and it will never ask you an uncomfortable question back. It won't notice that your co-founders each described the company differently just now, that your pricing page contradicts your positioning, or that the story you tell investors and the story you tell customers have quietly drifted apart. A generic five-pillar deck can't catch any of that, because catching it requires having sat in the room, read the tension in the pause before someone answers, and cared enough to push. That's not a workflow gap the next model update closes. It's a different job entirely.
               </p>
               <p>
-                This matters more right now than it would have two years ago, because the founders who most need real strategic thinking are also the ones most likely to reach for the free tool first — not out of laziness, but because it's genuinely hard to tell, from the outside, what you're not getting. The output looks polished. It has the right words on it. It's only six months later, watching a competitor with a sharper, more specific position pull ahead in a category you both entered at the same time, that the gap becomes visible. By then it's an expensive lesson instead of a cheap one.
+                This matters more right now than it would have two years ago, because the founders who most need real strategic thinking are also the ones most likely to reach for the free tool first - not out of laziness, but because it's genuinely hard to tell, from the outside, what you're not getting. The output looks polished. It has the right words on it. It's only six months later, watching a competitor with a sharper, more specific position pull ahead in a category you both entered at the same time, that the gap becomes visible. By then it's an expensive lesson instead of a cheap one.
               </p>
               <p>
-                None of this is an argument against using AI in brand work — we use it constantly, for exactly the acceleration it's good at: faster exploration, more variations, less time on the mechanical stuff. The argument is narrower, and more useful: the tool is only as good as the thinking directing it. Point a generic prompt at a generic model and you get a generic answer, dressed in this season's aesthetic. Point genuine strategic judgment at the same model and it becomes a very fast pair of hands. The difference was never the software.
+                None of this is an argument against using AI in brand work - we use it constantly, for exactly the acceleration it's good at: faster exploration, more variations, less time on the mechanical stuff. The argument is narrower, and more useful: the tool is only as good as the thinking directing it. Point a generic prompt at a generic model and you get a generic answer, dressed in this season's aesthetic. Point genuine strategic judgment at the same model and it becomes a very fast pair of hands. The difference was never the software.
               </p>
               <h2 className="!mt-12 font-display text-3xl font-light text-foreground">Where to <span className="text-primary">from here</span></h2>
               <p>
-                So here's the flag, planted: if your brand strategy could have been generated by typing one sentence into a box, it's not a strategy — it's a placeholder wearing a strategy's clothes, and your competitor typed a similar sentence into the same box last week. The founders who'll be talking about their positioning differently a year from now are the ones treating brand as the thinking, not the artefact.
+                So here's the flag, planted: if your brand strategy could have been generated by typing one sentence into a box, it's not a strategy - it's a placeholder wearing a strategy's clothes, and your competitor typed a similar sentence into the same box last week. The founders who'll be talking about their positioning differently a year from now are the ones treating brand as the thinking, not the artefact.
               </p>
               <p>
-                That's the whole pitch, really. We lead with thinking, not software — because the software was never the hard part.
+                That's the whole pitch, really. We lead with thinking, not software - because the software was never the hard part.
               </p>
             </div>
           ) : (
           <div className="mx-auto max-w-[680px] space-y-6 font-light leading-[1.75] text-foreground/90">
             <p>{a.excerpt}</p>
             <p>
-              Brand work is, more than anything, a discipline of attention. The decisions that matter most are usually the ones nobody notices — the spacing of a wordmark, the cadence of a sentence, the temperature of a colour. Get those right and everything downstream gets easier.
+              Brand work is, more than anything, a discipline of attention. The decisions that matter most are usually the ones nobody notices - the spacing of a wordmark, the cadence of a sentence, the temperature of a colour. Get those right and everything downstream gets easier.
             </p>
             <blockquote className="border-l-2 border-primary pl-6 font-display text-2xl font-light italic text-primary whitespace-pre-line">
               "The best brands aren't louder. {"\n"}They're more deliberate."
@@ -713,7 +713,7 @@ const Article = () => {
             <h2 className="!mt-12 font-display text-3xl font-light text-foreground">Why it's so important to find your <span className="text-primary">unique brand space</span></h2>
             <SpokeWheel className="mb-4 aspect-square w-full overflow-hidden rounded-2xl border border-hairline md:ml-6 md:w-1/2 md:float-right" />
             <p>
-              If we imagine this 360-degree view of brands and their messaging, you'll notice that most brands end up in one area, competing with each other. The winners and the disruptors look at the strategies of those brands — all the other angles available — and find an angle that hasn't been well-trodden yet.
+              If we imagine this 360-degree view of brands and their messaging, you'll notice that most brands end up in one area, competing with each other. The winners and the disruptors look at the strategies of those brands - all the other angles available - and find an angle that hasn't been well-trodden yet.
             </p>
             <p>
               At Elastic Studio, we make this one of our key missions. We find the place that you can own. We make you look different to your competitors so that you don't have to compete in the same head space.
@@ -723,7 +723,7 @@ const Article = () => {
             </p>
             <h2 className="!mt-12 font-display text-3xl font-light text-foreground">Where to from here</h2>
             <p>
-              If there's one thing worth taking from this, it's that the work of brand isn't decoration applied at the end. It's a series of decisions made early — about who you're for, what you stand for, and how you want to be remembered.
+              If there's one thing worth taking from this, it's that the work of brand isn't decoration applied at the end. It's a series of decisions made early - about who you're for, what you stand for, and how you want to be remembered.
             </p>
           </div>
           )}

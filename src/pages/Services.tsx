@@ -10,14 +10,14 @@ import Seo from "@/components/site/Seo";
 const steps = [
   { n: "01", t: "Discovery", d: "A deep-dive into your business, audience, and ambition. We listen first." },
   { n: "02", t: "Strategy", d: "Positioning, voice, and the brief that guides everything that follows." },
-  { n: "03", t: "Design", d: "The visual system, built to last — and to flex as your business grows." },
+  { n: "03", t: "Design", d: "The visual system, built to last - and to flex as your business grows." },
   { n: "04", t: "Launch & Beyond", d: "We don't disappear after launch. We stay close while the brand finds its feet." },
 ];
 
 const Services = () => (
   <>
     <Seo
-      title="Services — Brand Launch, Evolution & Refresh | Elastic Studio"
+      title="Services - Brand Launch, Evolution & Refresh | Elastic Studio"
       description="Three ways we partner with founders and teams: Brand Launch, Brand Evolution, and Brand Refresh. Strategy, identity, voice, and launch-ready systems."
       path="/services"
       jsonLd={services.map((s) => ({

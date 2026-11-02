@@ -12,7 +12,7 @@ const NotFound = () => {
   return (
     <>
       <Seo
-        title="404 — Page not found | Elastic Studio"
+        title="404 - Page not found | Elastic Studio"
         description="This page does not exist."
         path={location.pathname}
         noindex

@@ -6,7 +6,7 @@ type Props = { variant?: "dark" | "light"; className?: string };
 const Logo = ({ variant = "dark", className = "" }: Props) => {
   const wordmarkColor = variant === "dark" ? "text-foreground" : "text-[hsl(var(--light-foreground))]";
   return (
-    <Link to="/" aria-label="Elastic Studio — home" className={`group inline-flex items-center gap-3 ${className}`}>
+    <Link to="/" aria-label="Elastic Studio - home" className={`group inline-flex items-center gap-3 ${className}`}>
       <img
         src={elasticIcon}
         alt="Elastic Studio"

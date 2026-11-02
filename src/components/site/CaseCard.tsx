@@ -33,7 +33,7 @@ const CaseCard = ({ slug, name, industry, outcome, image, large }: Props) => {
         {isEmbed ? (
           <iframe
             src={embedSrc}
-            title={`${name} — ${industry}`}
+            title={`${name} - ${industry}`}
             allow="autoplay; fullscreen; picture-in-picture"
             allowFullScreen
             className="absolute inset-0 h-full w-full border-0 transition-transform duration-700 group-hover:scale-105"
@@ -51,7 +51,7 @@ const CaseCard = ({ slug, name, industry, outcome, image, large }: Props) => {
         ) : (
           <img
             src={media.src}
-            alt={`${name} — ${industry}`}
+            alt={`${name} - ${industry}`}
             loading="lazy"
             className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105"
           />
