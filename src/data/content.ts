@@ -91,21 +91,6 @@ export const cases: CaseItem[] = [
     workImages: [{ type: "video", src: "https://vimeo.com/1221825315", hasAudio: false }, ingeniaAgriculture] 
   },
   { 
-    slug: "client-c", 
-    name: "Dad & Daughter", 
-    industry: "Consumer Brand", 
-    category: "brand design",
-    outcome: "A complete rebrand for a family owned American home services company.",
-    challenge: "The client came to us with a strong challenge: \"I want this to be recognisable from the moon.\" He also wanted to have the feeling of a team, as his aim is to build a business that will help to turn his technicians into wealthy people. We also had two very strong competitors in his service area, and we needed to find a way to be distinct. ",
-    approach: [
-      "We started, as we always do, by listening. Discovery sessions with leadership and the advertising agency. The strategy of the family-owned business was already in place but needed the brand and logo designed to communicate this.",
-      "The Dad & Daughter Garage Door Service brand mark captures the company’s unique story and competitive strength. The illustration of the father and daughter communicates partnership, equality, and shared leadership - honoring his hands-on installation expertise and her university-educated business acumen.",
-      "The badge shape conveys craftsmanship, structure, and reliability, while remaining practical for uniforms, vehicles, and signage. Read the full story."
-    ],
-    image: { type: "video", src: dadDaughterHero }, 
-    workImages: [ddBrandPage, ddVanBack, { type: "image", src: ddPolo, fit: "contain" }, { type: "image", src: ddRamTruck, fit: "contain" }] 
-  },
-  { 
     slug: "client-d", 
     name: "FinalSpark", 
     industry: "Biotech", 
@@ -125,6 +110,21 @@ export const cases: CaseItem[] = [
       { type: "image", src: fsBrand4, fit: "contain" },
     ] 
 
+  },
+  { 
+    slug: "client-c", 
+    name: "Dad & Daughter", 
+    industry: "Consumer Brand", 
+    category: "brand design",
+    outcome: "A complete rebrand for a family owned American home services company.",
+    challenge: "The client came to us with a strong challenge: \"I want this to be recognisable from the moon.\" He also wanted to have the feeling of a team, as his aim is to build a business that will help to turn his technicians into wealthy people. We also had two very strong competitors in his service area, and we needed to find a way to be distinct. ",
+    approach: [
+      "We started, as we always do, by listening. Discovery sessions with leadership and the advertising agency. The strategy of the family-owned business was already in place but needed the brand and logo designed to communicate this.",
+      "The Dad & Daughter Garage Door Service brand mark captures the company’s unique story and competitive strength. The illustration of the father and daughter communicates partnership, equality, and shared leadership - honoring his hands-on installation expertise and her university-educated business acumen.",
+      "The badge shape conveys craftsmanship, structure, and reliability, while remaining practical for uniforms, vehicles, and signage. Read the full story."
+    ],
+    image: { type: "video", src: dadDaughterHero }, 
+    workImages: [ddBrandPage, ddVanBack, { type: "image", src: ddPolo, fit: "contain" }, { type: "image", src: ddRamTruck, fit: "contain" }] 
   },
 ];
 
